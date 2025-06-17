@@ -1,0 +1,4134 @@
+pokemon_name,move_name,method,level_learned
+Bulbasaur,Growl,level,1
+Bulbasaur,Tackle,level,1
+Bulbasaur,Leech Seed,level,7
+Bulbasaur,Vine Whip,level,13
+Bulbasaur,Poison Powder,level,20
+Bulbasaur,Razor Leaf,level,27
+Bulbasaur,Growth,level,34
+Bulbasaur,Sleep Powder,level,41
+Bulbasaur,Solar Beam,level,48
+Bulbasaur,Cut,HM,
+Bulbasaur,Swords Dance,TM,
+Bulbasaur,Toxic,TM,
+Bulbasaur,Body Slam,TM,
+Bulbasaur,Take Down,TM,
+Bulbasaur,Double-Edge,TM,
+Bulbasaur,Rage,TM,
+Bulbasaur,Mega Drain,TM,
+Bulbasaur,Solar Beam,TM,
+Bulbasaur,Mimic,TM,
+Bulbasaur,Double Team,TM,
+Bulbasaur,Reflect,TM,
+Bulbasaur,Bide,TM,
+Bulbasaur,Rest,TM,
+Bulbasaur,Substitute,TM,
+Ivysaur,Growl,level,1
+Ivysaur,Tackle,level,1
+Ivysaur,Leech Seed,level,7
+Ivysaur,Vine Whip,level,13
+Ivysaur,Poison Powder,level,22
+Ivysaur,Razor Leaf,level,30
+Ivysaur,Growth,level,38
+Ivysaur,Sleep Powder,level,46
+Ivysaur,Solar Beam,level,54
+Ivysaur,Cut,HM,
+Ivysaur,Swords Dance,TM,
+Ivysaur,Toxic,TM,
+Ivysaur,Body Slam,TM,
+Ivysaur,Take Down,TM,
+Ivysaur,Double-Edge,TM,
+Ivysaur,Rage,TM,
+Ivysaur,Mega Drain,TM,
+Ivysaur,Solar Beam,TM,
+Ivysaur,Mimic,TM,
+Ivysaur,Double Team,TM,
+Ivysaur,Reflect,TM,
+Ivysaur,Bide,TM,
+Ivysaur,Rest,TM,
+Ivysaur,Substitute,TM,
+Venusaur,Growl,level,1
+Venusaur,Tackle,level,1
+Venusaur,Leech Seed,level,7
+Venusaur,Vine Whip,level,13
+Venusaur,Poison Powder,level,22
+Venusaur,Razor Leaf,level,30
+Venusaur,Growth,level,43
+Venusaur,Sleep Powder,level,55
+Venusaur,Solar Beam,level,65
+Venusaur,Cut,HM,
+Venusaur,Swords Dance,TM,
+Venusaur,Toxic,TM,
+Venusaur,Body Slam,TM,
+Venusaur,Take Down,TM,
+Venusaur,Double-Edge,TM,
+Venusaur,Hyper Beam,TM,
+Venusaur,Rage,TM,
+Venusaur,Mega Drain,TM,
+Venusaur,Solar Beam,TM,
+Venusaur,Mimic,TM,
+Venusaur,Double Team,TM,
+Venusaur,Reflect,TM,
+Venusaur,Bide,TM,
+Venusaur,Rest,TM,
+Venusaur,Substitute,TM,
+Charmander,Growl,level,1
+Charmander,Scratch,level,1
+Charmander,Ember,level,9
+Charmander,Leer,level,15
+Charmander,Rage,level,22
+Charmander,Slash,level,30
+Charmander,Flamethrower,level,38
+Charmander,Fire Spin,level,46
+Charmander,Cut,HM,
+Charmander,Strength,HM,
+Charmander,Mega Punch,TM,
+Charmander,Swords Dance,TM,
+Charmander,Mega Kick,TM,
+Charmander,Toxic,TM,
+Charmander,Body Slam,TM,
+Charmander,Take Down,TM,
+Charmander,Double-Edge,TM,
+Charmander,Submission,TM,
+Charmander,Counter,TM,
+Charmander,Seismic Toss,TM,
+Charmander,Rage,TM,
+Charmander,Dragon Rage,TM,
+Charmander,Dig,TM,
+Charmander,Mimic,TM,
+Charmander,Double Team,TM,
+Charmander,Reflect,TM,
+Charmander,Bide,TM,
+Charmander,Fire Blast,TM,
+Charmander,Swift,TM,
+Charmander,Skull Bash,TM,
+Charmander,Rest,TM,
+Charmander,Substitute,TM,
+Charmeleon,Growl,level,1
+Charmeleon,Scratch,level,1
+Charmeleon,Ember,level,9
+Charmeleon,Leer,level,15
+Charmeleon,Rage,level,24
+Charmeleon,Slash,level,33
+Charmeleon,Flamethrower,level,42
+Charmeleon,Fire Spin,level,56
+Charmeleon,Cut,HM,
+Charmeleon,Strength,HM,
+Charmeleon,Mega Punch,TM,
+Charmeleon,Swords Dance,TM,
+Charmeleon,Mega Kick,TM,
+Charmeleon,Toxic,TM,
+Charmeleon,Body Slam,TM,
+Charmeleon,Take Down,TM,
+Charmeleon,Double-Edge,TM,
+Charmeleon,Submission,TM,
+Charmeleon,Counter,TM,
+Charmeleon,Seismic Toss,TM,
+Charmeleon,Rage,TM,
+Charmeleon,Dragon Rage,TM,
+Charmeleon,Dig,TM,
+Charmeleon,Mimic,TM,
+Charmeleon,Double Team,TM,
+Charmeleon,Reflect,TM,
+Charmeleon,Bide,TM,
+Charmeleon,Fire Blast,TM,
+Charmeleon,Swift,TM,
+Charmeleon,Skull Bash,TM,
+Charmeleon,Rest,TM,
+Charmeleon,Substitute,TM,
+Charizard,Growl,level,1
+Charizard,Scratch,level,1
+Charizard,Ember,level,9
+Charizard,Leer,level,15
+Charizard,Rage,level,24
+Charizard,Slash,level,36
+Charizard,Flamethrower,level,46
+Charizard,Fire Spin,level,55
+Charizard,Cut,HM,
+Charizard,Fly,HM,
+Charizard,Strength,HM,
+Charizard,Mega Punch,TM,
+Charizard,Swords Dance,TM,
+Charizard,Mega Kick,TM,
+Charizard,Toxic,TM,
+Charizard,Body Slam,TM,
+Charizard,Take Down,TM,
+Charizard,Double-Edge,TM,
+Charizard,Hyper Beam,TM,
+Charizard,Submission,TM,
+Charizard,Counter,TM,
+Charizard,Seismic Toss,TM,
+Charizard,Rage,TM,
+Charizard,Dragon Rage,TM,
+Charizard,Earthquake,TM,
+Charizard,Fissure,TM,
+Charizard,Dig,TM,
+Charizard,Mimic,TM,
+Charizard,Double Team,TM,
+Charizard,Reflect,TM,
+Charizard,Bide,TM,
+Charizard,Fire Blast,TM,
+Charizard,Swift,TM,
+Charizard,Skull Bash,TM,
+Charizard,Rest,TM,
+Charizard,Substitute,TM,
+Squirtle,Tackle,level,1
+Squirtle,Tail Whip,level,1
+Squirtle,Bubble,level,8
+Squirtle,Water Gun,level,15
+Squirtle,Bite,level,22
+Squirtle,Withdraw,level,28
+Squirtle,Skull Bash,level,35
+Squirtle,Hydro Pump,level,42
+Squirtle,Surf,HM,
+Squirtle,Strength,HM,
+Squirtle,Mega Punch,TM,
+Squirtle,Mega Kick,TM,
+Squirtle,Toxic,TM,
+Squirtle,Body Slam,TM,
+Squirtle,Take Down,TM,
+Squirtle,Double-Edge,TM,
+Squirtle,Bubble Beam,TM,
+Squirtle,Water Gun,TM,
+Squirtle,Ice Beam,TM,
+Squirtle,Blizzard,TM,
+Squirtle,Submission,TM,
+Squirtle,Counter,TM,
+Squirtle,Seismic Toss,TM,
+Squirtle,Rage,TM,
+Squirtle,Dig,TM,
+Squirtle,Mimic,TM,
+Squirtle,Double Team,TM,
+Squirtle,Reflect,TM,
+Squirtle,Bide,TM,
+Squirtle,Skull Bash,TM,
+Squirtle,Rest,TM,
+Squirtle,Substitute,TM,
+Wartortle,Tackle,level,1
+Wartortle,Tail Whip,level,1
+Wartortle,Bubble,level,8
+Wartortle,Water Gun,level,15
+Wartortle,Bite,level,24
+Wartortle,Withdraw,level,31
+Wartortle,Skull Bash,level,39
+Wartortle,Hydro Pump,level,47
+Wartortle,Surf,HM,
+Wartortle,Strength,HM,
+Wartortle,Mega Punch,TM,
+Wartortle,Mega Kick,TM,
+Wartortle,Toxic,TM,
+Wartortle,Body Slam,TM,
+Wartortle,Take Down,TM,
+Wartortle,Double-Edge,TM,
+Wartortle,Bubble Beam,TM,
+Wartortle,Water Gun,TM,
+Wartortle,Ice Beam,TM,
+Wartortle,Blizzard,TM,
+Wartortle,Submission,TM,
+Wartortle,Counter,TM,
+Wartortle,Seismic Toss,TM,
+Wartortle,Rage,TM,
+Wartortle,Dig,TM,
+Wartortle,Mimic,TM,
+Wartortle,Double Team,TM,
+Wartortle,Reflect,TM,
+Wartortle,Bide,TM,
+Wartortle,Skull Bash,TM,
+Wartortle,Rest,TM,
+Wartortle,Substitute,TM,
+Blastoise,Tackle,level,1
+Blastoise,Tail Whip,level,1
+Blastoise,Bubble,level,8
+Blastoise,Water Gun,level,15
+Blastoise,Bite,level,24
+Blastoise,Withdraw,level,31
+Blastoise,Skull Bash,level,42
+Blastoise,Hydro Pump,level,52
+Blastoise,Surf,HM,
+Blastoise,Strength,HM,
+Blastoise,Mega Punch,TM,
+Blastoise,Mega Kick,TM,
+Blastoise,Toxic,TM,
+Blastoise,Body Slam,TM,
+Blastoise,Take Down,TM,
+Blastoise,Double-Edge,TM,
+Blastoise,Bubble Beam,TM,
+Blastoise,Water Gun,TM,
+Blastoise,Ice Beam,TM,
+Blastoise,Blizzard,TM,
+Blastoise,Hyper Beam,TM,
+Blastoise,Submission,TM,
+Blastoise,Counter,TM,
+Blastoise,Seismic Toss,TM,
+Blastoise,Rage,TM,
+Blastoise,Earthquake,TM,
+Blastoise,Fissure,TM,
+Blastoise,Dig,TM,
+Blastoise,Mimic,TM,
+Blastoise,Double Team,TM,
+Blastoise,Reflect,TM,
+Blastoise,Bide,TM,
+Blastoise,Skull Bash,TM,
+Blastoise,Rest,TM,
+Blastoise,Substitute,TM,
+Caterpie,String Shot,level,1
+Caterpie,Tackle,level,1
+Metapod,String Shot,level,1
+Metapod,Tackle,level,1
+Metapod,Harden,level,7
+Butterfree,String Shot,level,1
+Butterfree,Tackle,level,1
+Butterfree,Harden,level,7
+Butterfree,Confusion,level,10
+Butterfree,Poison Powder,level,13
+Butterfree,Stun Spore,level,14
+Butterfree,Sleep Powder,level,15
+Butterfree,Supersonic,level,18
+Butterfree,Whirlwind,level,23
+Butterfree,Gust,level,28
+Butterfree,Psybeam,level,34
+Butterfree,Flash,HM,
+Butterfree,Razor Wind,TM,
+Butterfree,Whirlwind,TM,
+Butterfree,Toxic,TM,
+Butterfree,Take Down,TM,
+Butterfree,Double-Edge,TM,
+Butterfree,Hyper Beam,TM,
+Butterfree,Rage,TM,
+Butterfree,Mega Drain,TM,
+Butterfree,Solar Beam,TM,
+Butterfree,Psychic,TM,
+Butterfree,Teleport,TM,
+Butterfree,Mimic,TM,
+Butterfree,Double Team,TM,
+Butterfree,Reflect,TM,
+Butterfree,Bide,TM,
+Butterfree,Swift,TM,
+Butterfree,Rest,TM,
+Butterfree,Psywave,TM,
+Butterfree,Substitute,TM,
+Weedle,Poison Sting,level,1
+Weedle,String Shot,level,1
+Kakuna,Poison Sting,level,1
+Kakuna,String Shot,level,1
+Kakuna,Harden,level,7
+Beedrill,Poison Sting,level,1
+Beedrill,String Shot,level,1
+Beedrill,Harden,level,7
+Beedrill,Fury Attack,level,12
+Beedrill,Focus Energy,level,16
+Beedrill,Twineedle,level,20
+Beedrill,Rage,level,25
+Beedrill,Pin Missile,level,30
+Beedrill,Agility,level,35
+Beedrill,Cut,HM,
+Beedrill,Swords Dance,TM,
+Beedrill,Toxic,TM,
+Beedrill,Take Down,TM,
+Beedrill,Double-Edge,TM,
+Beedrill,Hyper Beam,TM,
+Beedrill,Rage,TM,
+Beedrill,Mega Drain,TM,
+Beedrill,Mimic,TM,
+Beedrill,Double Team,TM,
+Beedrill,Reflect,TM,
+Beedrill,Bide,TM,
+Beedrill,Swift,TM,
+Beedrill,Skull Bash,TM,
+Beedrill,Rest,TM,
+Beedrill,Substitute,TM,
+Pidgey,Gust,level,1
+Pidgey,Sand Attack,level,5
+Pidgey,Quick Attack,level,12
+Pidgey,Whirlwind,level,19
+Pidgey,Wing Attack,level,28
+Pidgey,Agility,level,36
+Pidgey,Mirror Move,level,44
+Pidgey,Fly,HM,
+Pidgey,Razor Wind,TM,
+Pidgey,Whirlwind,TM,
+Pidgey,Toxic,TM,
+Pidgey,Take Down,TM,
+Pidgey,Double-Edge,TM,
+Pidgey,Rage,TM,
+Pidgey,Mimic,TM,
+Pidgey,Double Team,TM,
+Pidgey,Reflect,TM,
+Pidgey,Bide,TM,
+Pidgey,Swift,TM,
+Pidgey,Sky Attack,TM,
+Pidgey,Rest,TM,
+Pidgey,Substitute,TM,
+Pidgeotto,Gust,level,1
+Pidgeotto,Sand Attack,level,5
+Pidgeotto,Quick Attack,level,12
+Pidgeotto,Whirlwind,level,21
+Pidgeotto,Wing Attack,level,31
+Pidgeotto,Agility,level,40
+Pidgeotto,Mirror Move,level,49
+Pidgeotto,Fly,HM,
+Pidgeotto,Razor Wind,TM,
+Pidgeotto,Whirlwind,TM,
+Pidgeotto,Toxic,TM,
+Pidgeotto,Take Down,TM,
+Pidgeotto,Double-Edge,TM,
+Pidgeotto,Rage,TM,
+Pidgeotto,Mimic,TM,
+Pidgeotto,Double Team,TM,
+Pidgeotto,Reflect,TM,
+Pidgeotto,Bide,TM,
+Pidgeotto,Swift,TM,
+Pidgeotto,Sky Attack,TM,
+Pidgeotto,Rest,TM,
+Pidgeotto,Substitute,TM,
+Pidgeot,Gust,level,1
+Pidgeot,Sand Attack,level,5
+Pidgeot,Quick Attack,level,12
+Pidgeot,Whirlwind,level,21
+Pidgeot,Wing Attack,level,31
+Pidgeot,Agility,level,44
+Pidgeot,Mirror Move,level,54
+Pidgeot,Fly,HM,
+Pidgeot,Razor Wind,TM,
+Pidgeot,Whirlwind,TM,
+Pidgeot,Toxic,TM,
+Pidgeot,Take Down,TM,
+Pidgeot,Double-Edge,TM,
+Pidgeot,Hyper Beam,TM,
+Pidgeot,Rage,TM,
+Pidgeot,Mimic,TM,
+Pidgeot,Double Team,TM,
+Pidgeot,Reflect,TM,
+Pidgeot,Bide,TM,
+Pidgeot,Swift,TM,
+Pidgeot,Sky Attack,TM,
+Pidgeot,Rest,TM,
+Pidgeot,Substitute,TM,
+Rattata,Tackle,level,1
+Rattata,Tail Whip,level,1
+Rattata,Quick Attack,level,7
+Rattata,Hyper Fang,level,14
+Rattata,Focus Energy,level,23
+Rattata,Super Fang,level,34
+Rattata,Toxic,TM,
+Rattata,Body Slam,TM,
+Rattata,Take Down,TM,
+Rattata,Double-Edge,TM,
+Rattata,Bubble Beam,TM,
+Rattata,Water Gun,TM,
+Rattata,Blizzard,TM,
+Rattata,Rage,TM,
+Rattata,Thunderbolt,TM,
+Rattata,Thunder,TM,
+Rattata,Dig,TM,
+Rattata,Mimic,TM,
+Rattata,Double Team,TM,
+Rattata,Bide,TM,
+Rattata,Swift,TM,
+Rattata,Skull Bash,TM,
+Rattata,Rest,TM,
+Rattata,Substitute,TM,
+Raticate,Tackle,level,1
+Raticate,Tail Whip,level,1
+Raticate,Quick Attack,level,7
+Raticate,Hyper Fang,level,14
+Raticate,Focus Energy,level,27
+Raticate,Super Fang,level,41
+Raticate,Toxic,TM,
+Raticate,Body Slam,TM,
+Raticate,Take Down,TM,
+Raticate,Double-Edge,TM,
+Raticate,Bubble Beam,TM,
+Raticate,Water Gun,TM,
+Raticate,Ice Beam,TM,
+Raticate,Blizzard,TM,
+Raticate,Hyper Beam,TM,
+Raticate,Rage,TM,
+Raticate,Thunderbolt,TM,
+Raticate,Thunder,TM,
+Raticate,Dig,TM,
+Raticate,Mimic,TM,
+Raticate,Double Team,TM,
+Raticate,Bide,TM,
+Raticate,Swift,TM,
+Raticate,Skull Bash,TM,
+Raticate,Rest,TM,
+Raticate,Substitute,TM,
+Spearow,Growl,level,1
+Spearow,Peck,level,1
+Spearow,Leer,level,9
+Spearow,Fury Attack,level,15
+Spearow,Mirror Move,level,22
+Spearow,Drill Peck,level,29
+Spearow,Agility,level,36
+Spearow,Fly,HM,
+Spearow,Razor Wind,TM,
+Spearow,Whirlwind,TM,
+Spearow,Toxic,TM,
+Spearow,Take Down,TM,
+Spearow,Double-Edge,TM,
+Spearow,Rage,TM,
+Spearow,Mimic,TM,
+Spearow,Double Team,TM,
+Spearow,Bide,TM,
+Spearow,Swift,TM,
+Spearow,Sky Attack,TM,
+Spearow,Rest,TM,
+Spearow,Substitute,TM,
+Fearow,Growl,level,1
+Fearow,Peck,level,1
+Fearow,Leer,level,9
+Fearow,Fury Attack,level,15
+Fearow,Mirror Move,level,25
+Fearow,Drill Peck,level,34
+Fearow,Agility,level,43
+Fearow,Fly,HM,
+Fearow,Razor Wind,TM,
+Fearow,Whirlwind,TM,
+Fearow,Toxic,TM,
+Fearow,Take Down,TM,
+Fearow,Double-Edge,TM,
+Fearow,Hyper Beam,TM,
+Fearow,Rage,TM,
+Fearow,Mimic,TM,
+Fearow,Double Team,TM,
+Fearow,Bide,TM,
+Fearow,Swift,TM,
+Fearow,Sky Attack,TM,
+Fearow,Rest,TM,
+Fearow,Substitute,TM,
+Ekans,Leer,level,1
+Ekans,Wrap,level,1
+Ekans,Poison Sting,level,10
+Ekans,Bite,level,17
+Ekans,Glare,level,24
+Ekans,Screech,level,31
+Ekans,Acid,level,38
+Ekans,Strength,HM,
+Ekans,Toxic,TM,
+Ekans,Body Slam,TM,
+Ekans,Take Down,TM,
+Ekans,Double-Edge,TM,
+Ekans,Rage,TM,
+Ekans,Mega Drain,TM,
+Ekans,Earthquake,TM,
+Ekans,Fissure,TM,
+Ekans,Dig,TM,
+Ekans,Mimic,TM,
+Ekans,Double Team,TM,
+Ekans,Bide,TM,
+Ekans,Skull Bash,TM,
+Ekans,Rest,TM,
+Ekans,Rock Slide,TM,
+Ekans,Substitute,TM,
+Arbok,Leer,level,1
+Arbok,Wrap,level,1
+Arbok,Poison Sting,level,10
+Arbok,Bite,level,17
+Arbok,Glare,level,27
+Arbok,Screech,level,36
+Arbok,Acid,level,47
+Arbok,Strength,HM,
+Arbok,Toxic,TM,
+Arbok,Body Slam,TM,
+Arbok,Take Down,TM,
+Arbok,Double-Edge,TM,
+Arbok,Hyper Beam,TM,
+Arbok,Rage,TM,
+Arbok,Mega Drain,TM,
+Arbok,Earthquake,TM,
+Arbok,Fissure,TM,
+Arbok,Dig,TM,
+Arbok,Mimic,TM,
+Arbok,Double Team,TM,
+Arbok,Bide,TM,
+Arbok,Skull Bash,TM,
+Arbok,Rest,TM,
+Arbok,Rock Slide,TM,
+Arbok,Substitute,TM,
+Pikachu,Growl,level,1
+Pikachu,Thunder Shock,level,1
+Pikachu,Tail Whip,level,6
+Pikachu,Thunder Wave,level,8
+Pikachu,Quick Attack,level,11
+Pikachu,Double Team,level,15
+Pikachu,Slam,level,20
+Pikachu,Thunderbolt,level,26
+Pikachu,Agility,level,33
+Pikachu,Thunder,level,41
+Pikachu,Light Screen,level,50
+Pikachu,Flash,HM,
+Pikachu,Mega Punch,TM,
+Pikachu,Mega Kick,TM,
+Pikachu,Toxic,TM,
+Pikachu,Body Slam,TM,
+Pikachu,Take Down,TM,
+Pikachu,Double-Edge,TM,
+Pikachu,Pay Day,TM,
+Pikachu,Submission,TM,
+Pikachu,Seismic Toss,TM,
+Pikachu,Rage,TM,
+Pikachu,Thunderbolt,TM,
+Pikachu,Thunder,TM,
+Pikachu,Mimic,TM,
+Pikachu,Double Team,TM,
+Pikachu,Reflect,TM,
+Pikachu,Bide,TM,
+Pikachu,Swift,TM,
+Pikachu,Skull Bash,TM,
+Pikachu,Rest,TM,
+Pikachu,Thunder Wave,TM,
+Pikachu,Substitute,TM,
+Raichu,Growl,level,1
+Raichu,Thunder Shock,level,1
+Raichu,Tail Whip,level,6
+Raichu,Thunder Wave,level,8
+Raichu,Quick Attack,level,11
+Raichu,Double Team,level,15
+Raichu,Slam,level,20
+Raichu,Thunderbolt,level,26
+Raichu,Agility,level,33
+Raichu,Thunder,level,41
+Raichu,Light Screen,level,50
+Raichu,Flash,HM,
+Raichu,Mega Punch,TM,
+Raichu,Mega Kick,TM,
+Raichu,Toxic,TM,
+Raichu,Body Slam,TM,
+Raichu,Take Down,TM,
+Raichu,Double-Edge,TM,
+Raichu,Hyper Beam,TM,
+Raichu,Pay Day,TM,
+Raichu,Submission,TM,
+Raichu,Seismic Toss,TM,
+Raichu,Rage,TM,
+Raichu,Thunderbolt,TM,
+Raichu,Thunder,TM,
+Raichu,Mimic,TM,
+Raichu,Double Team,TM,
+Raichu,Reflect,TM,
+Raichu,Bide,TM,
+Raichu,Swift,TM,
+Raichu,Skull Bash,TM,
+Raichu,Rest,TM,
+Raichu,Thunder Wave,TM,
+Raichu,Substitute,TM,
+Sandshrew,Scratch,level,1
+Sandshrew,Sand Attack,level,10
+Sandshrew,Slash,level,17
+Sandshrew,Poison Sting,level,24
+Sandshrew,Swift,level,31
+Sandshrew,Fury Swipes,level,38
+Sandshrew,Cut,HM,
+Sandshrew,Strength,HM,
+Sandshrew,Swords Dance,TM,
+Sandshrew,Toxic,TM,
+Sandshrew,Body Slam,TM,
+Sandshrew,Take Down,TM,
+Sandshrew,Double-Edge,TM,
+Sandshrew,Submission,TM,
+Sandshrew,Seismic Toss,TM,
+Sandshrew,Rage,TM,
+Sandshrew,Earthquake,TM,
+Sandshrew,Fissure,TM,
+Sandshrew,Dig,TM,
+Sandshrew,Mimic,TM,
+Sandshrew,Double Team,TM,
+Sandshrew,Bide,TM,
+Sandshrew,Swift,TM,
+Sandshrew,Skull Bash,TM,
+Sandshrew,Rest,TM,
+Sandshrew,Rock Slide,TM,
+Sandshrew,Substitute,TM,
+Sandslash,Scratch,level,1
+Sandslash,Sand Attack,level,10
+Sandslash,Slash,level,17
+Sandslash,Poison Sting,level,27
+Sandslash,Swift,level,36
+Sandslash,Fury Swipes,level,47
+Sandslash,Cut,HM,
+Sandslash,Strength,HM,
+Sandslash,Swords Dance,TM,
+Sandslash,Toxic,TM,
+Sandslash,Body Slam,TM,
+Sandslash,Take Down,TM,
+Sandslash,Double-Edge,TM,
+Sandslash,Hyper Beam,TM,
+Sandslash,Submission,TM,
+Sandslash,Seismic Toss,TM,
+Sandslash,Rage,TM,
+Sandslash,Earthquake,TM,
+Sandslash,Fissure,TM,
+Sandslash,Dig,TM,
+Sandslash,Mimic,TM,
+Sandslash,Double Team,TM,
+Sandslash,Bide,TM,
+Sandslash,Swift,TM,
+Sandslash,Skull Bash,TM,
+Sandslash,Rest,TM,
+Sandslash,Rock Slide,TM,
+Sandslash,Substitute,TM,
+Nidoran♀,Growl,level,1
+Nidoran♀,Tackle,level,1
+Nidoran♀,Scratch,level,8
+Nidoran♀,Double Kick,level,12
+Nidoran♀,Poison Sting,level,17
+Nidoran♀,Tail Whip,level,23
+Nidoran♀,Bite,level,30
+Nidoran♀,Fury Swipes,level,38
+Nidoran♀,Toxic,TM,
+Nidoran♀,Body Slam,TM,
+Nidoran♀,Take Down,TM,
+Nidoran♀,Double-Edge,TM,
+Nidoran♀,Blizzard,TM,
+Nidoran♀,Rage,TM,
+Nidoran♀,Thunderbolt,TM,
+Nidoran♀,Thunder,TM,
+Nidoran♀,Mimic,TM,
+Nidoran♀,Double Team,TM,
+Nidoran♀,Reflect,TM,
+Nidoran♀,Bide,TM,
+Nidoran♀,Skull Bash,TM,
+Nidoran♀,Rest,TM,
+Nidoran♀,Substitute,TM,
+Nidorina,Growl,level,1
+Nidorina,Tackle,level,1
+Nidorina,Scratch,level,8
+Nidorina,Double Kick,level,12
+Nidorina,Poison Sting,level,19
+Nidorina,Tail Whip,level,27
+Nidorina,Bite,level,36
+Nidorina,Fury Swipes,level,46
+Nidorina,Toxic,TM,
+Nidorina,Horn Drill,TM,
+Nidorina,Body Slam,TM,
+Nidorina,Take Down,TM,
+Nidorina,Double-Edge,TM,
+Nidorina,Bubble Beam,TM,
+Nidorina,Water Gun,TM,
+Nidorina,Ice Beam,TM,
+Nidorina,Blizzard,TM,
+Nidorina,Rage,TM,
+Nidorina,Thunderbolt,TM,
+Nidorina,Thunder,TM,
+Nidorina,Mimic,TM,
+Nidorina,Double Team,TM,
+Nidorina,Reflect,TM,
+Nidorina,Bide,TM,
+Nidorina,Skull Bash,TM,
+Nidorina,Rest,TM,
+Nidorina,Substitute,TM,
+Nidoqueen,Scratch,level,1
+Nidoqueen,Tackle,level,1
+Nidoqueen,Tail Whip,level,1
+Nidoqueen,Scratch,level,8
+Nidoqueen,Double Kick,level,12
+Nidoqueen,Poison Sting,level,19
+Nidoqueen,Body Slam,level,23
+Nidoqueen,Tail Whip,level,27
+Nidoqueen,Bite,level,36
+Nidoqueen,Fury Swipes,level,46
+Nidoqueen,Surf,HM,
+Nidoqueen,Strength,HM,
+Nidoqueen,Mega Punch,TM,
+Nidoqueen,Mega Kick,TM,
+Nidoqueen,Toxic,TM,
+Nidoqueen,Horn Drill,TM,
+Nidoqueen,Body Slam,TM,
+Nidoqueen,Take Down,TM,
+Nidoqueen,Double-Edge,TM,
+Nidoqueen,Bubble Beam,TM,
+Nidoqueen,Water Gun,TM,
+Nidoqueen,Ice Beam,TM,
+Nidoqueen,Blizzard,TM,
+Nidoqueen,Hyper Beam,TM,
+Nidoqueen,Pay Day,TM,
+Nidoqueen,Submission,TM,
+Nidoqueen,Counter,TM,
+Nidoqueen,Seismic Toss,TM,
+Nidoqueen,Rage,TM,
+Nidoqueen,Thunderbolt,TM,
+Nidoqueen,Thunder,TM,
+Nidoqueen,Earthquake,TM,
+Nidoqueen,Fissure,TM,
+Nidoqueen,Mimic,TM,
+Nidoqueen,Double Team,TM,
+Nidoqueen,Reflect,TM,
+Nidoqueen,Bide,TM,
+Nidoqueen,Fire Blast,TM,
+Nidoqueen,Skull Bash,TM,
+Nidoqueen,Rest,TM,
+Nidoqueen,Rock Slide,TM,
+Nidoqueen,Substitute,TM,
+Nidoran♂,Leer,level,1
+Nidoran♂,Tackle,level,1
+Nidoran♂,Horn Attack,level,8
+Nidoran♂,Double Kick,level,12
+Nidoran♂,Poison Sting,level,17
+Nidoran♂,Focus Energy,level,23
+Nidoran♂,Fury Attack,level,30
+Nidoran♂,Horn Drill,level,38
+Nidoran♂,Toxic,TM,
+Nidoran♂,Horn Drill,TM,
+Nidoran♂,Body Slam,TM,
+Nidoran♂,Take Down,TM,
+Nidoran♂,Double-Edge,TM,
+Nidoran♂,Blizzard,TM,
+Nidoran♂,Rage,TM,
+Nidoran♂,Thunderbolt,TM,
+Nidoran♂,Thunder,TM,
+Nidoran♂,Mimic,TM,
+Nidoran♂,Double Team,TM,
+Nidoran♂,Reflect,TM,
+Nidoran♂,Bide,TM,
+Nidoran♂,Skull Bash,TM,
+Nidoran♂,Rest,TM,
+Nidoran♂,Substitute,TM,
+Nidorino,Leer,level,1
+Nidorino,Tackle,level,1
+Nidorino,Horn Attack,level,8
+Nidorino,Double Kick,level,12
+Nidorino,Poison Sting,level,19
+Nidorino,Focus Energy,level,27
+Nidorino,Fury Attack,level,36
+Nidorino,Horn Drill,level,46
+Nidorino,Toxic,TM,
+Nidorino,Horn Drill,TM,
+Nidorino,Body Slam,TM,
+Nidorino,Take Down,TM,
+Nidorino,Double-Edge,TM,
+Nidorino,Bubble Beam,TM,
+Nidorino,Water Gun,TM,
+Nidorino,Ice Beam,TM,
+Nidorino,Blizzard,TM,
+Nidorino,Rage,TM,
+Nidorino,Thunderbolt,TM,
+Nidorino,Thunder,TM,
+Nidorino,Mimic,TM,
+Nidorino,Double Team,TM,
+Nidorino,Reflect,TM,
+Nidorino,Bide,TM,
+Nidorino,Skull Bash,TM,
+Nidorino,Rest,TM,
+Nidorino,Substitute,TM,
+Nidoking,Leer,level,1
+Nidoking,Tackle,level,1
+Nidoking,Horn Attack,level,8
+Nidoking,Double Kick,level,12
+Nidoking,Poison Sting,level,19
+Nidoking,Thrash,level,23
+Nidoking,Focus Energy,level,27
+Nidoking,Fury Attack,level,36
+Nidoking,Horn Drill,level,46
+Nidoking,Surf,HM,
+Nidoking,Strength,HM,
+Nidoking,Mega Punch,TM,
+Nidoking,Mega Kick,TM,
+Nidoking,Toxic,TM,
+Nidoking,Horn Drill,TM,
+Nidoking,Body Slam,TM,
+Nidoking,Take Down,TM,
+Nidoking,Double-Edge,TM,
+Nidoking,Bubble Beam,TM,
+Nidoking,Water Gun,TM,
+Nidoking,Ice Beam,TM,
+Nidoking,Blizzard,TM,
+Nidoking,Hyper Beam,TM,
+Nidoking,Pay Day,TM,
+Nidoking,Submission,TM,
+Nidoking,Counter,TM,
+Nidoking,Seismic Toss,TM,
+Nidoking,Rage,TM,
+Nidoking,Thunderbolt,TM,
+Nidoking,Thunder,TM,
+Nidoking,Earthquake,TM,
+Nidoking,Fissure,TM,
+Nidoking,Mimic,TM,
+Nidoking,Double Team,TM,
+Nidoking,Reflect,TM,
+Nidoking,Bide,TM,
+Nidoking,Fire Blast,TM,
+Nidoking,Skull Bash,TM,
+Nidoking,Rest,TM,
+Nidoking,Rock Slide,TM,
+Nidoking,Substitute,TM,
+Clefairy,Growl,level,1
+Clefairy,Pound,level,1
+Clefairy,Sing,level,13
+Clefairy,Double Slap,level,18
+Clefairy,Minimize,level,24
+Clefairy,Metronome,level,31
+Clefairy,Defense Curl,level,39
+Clefairy,Light Screen,level,48
+Clefairy,Strength,HM,
+Clefairy,Flash,HM,
+Clefairy,Mega Punch,TM,
+Clefairy,Mega Kick,TM,
+Clefairy,Toxic,TM,
+Clefairy,Body Slam,TM,
+Clefairy,Take Down,TM,
+Clefairy,Double-Edge,TM,
+Clefairy,Bubble Beam,TM,
+Clefairy,Water Gun,TM,
+Clefairy,Ice Beam,TM,
+Clefairy,Blizzard,TM,
+Clefairy,Submission,TM,
+Clefairy,Counter,TM,
+Clefairy,Seismic Toss,TM,
+Clefairy,Rage,TM,
+Clefairy,Solar Beam,TM,
+Clefairy,Thunderbolt,TM,
+Clefairy,Thunder,TM,
+Clefairy,Psychic,TM,
+Clefairy,Teleport,TM,
+Clefairy,Mimic,TM,
+Clefairy,Double Team,TM,
+Clefairy,Reflect,TM,
+Clefairy,Bide,TM,
+Clefairy,Metronome,TM,
+Clefairy,Fire Blast,TM,
+Clefairy,Skull Bash,TM,
+Clefairy,Rest,TM,
+Clefairy,Thunder Wave,TM,
+Clefairy,Psywave,TM,
+Clefairy,Tri Attack,TM,
+Clefairy,Substitute,TM,
+Clefable,Growl,level,1
+Clefable,Pound,level,1
+Clefable,Sing,level,13
+Clefable,Double Slap,level,18
+Clefable,Minimize,level,24
+Clefable,Metronome,level,31
+Clefable,Defense Curl,level,39
+Clefable,Light Screen,level,48
+Clefable,Strength,HM,
+Clefable,Flash,HM,
+Clefable,Mega Punch,TM,
+Clefable,Mega Kick,TM,
+Clefable,Toxic,TM,
+Clefable,Body Slam,TM,
+Clefable,Take Down,TM,
+Clefable,Double-Edge,TM,
+Clefable,Bubble Beam,TM,
+Clefable,Water Gun,TM,
+Clefable,Ice Beam,TM,
+Clefable,Blizzard,TM,
+Clefable,Hyper Beam,TM,
+Clefable,Submission,TM,
+Clefable,Counter,TM,
+Clefable,Seismic Toss,TM,
+Clefable,Rage,TM,
+Clefable,Solar Beam,TM,
+Clefable,Thunderbolt,TM,
+Clefable,Thunder,TM,
+Clefable,Psychic,TM,
+Clefable,Teleport,TM,
+Clefable,Mimic,TM,
+Clefable,Double Team,TM,
+Clefable,Reflect,TM,
+Clefable,Bide,TM,
+Clefable,Metronome,TM,
+Clefable,Fire Blast,TM,
+Clefable,Skull Bash,TM,
+Clefable,Rest,TM,
+Clefable,Thunder Wave,TM,
+Clefable,Psywave,TM,
+Clefable,Tri Attack,TM,
+Clefable,Substitute,TM,
+Vulpix,Ember,level,1
+Vulpix,Tail Whip,level,1
+Vulpix,Quick Attack,level,16
+Vulpix,Roar,level,21
+Vulpix,Confuse Ray,level,28
+Vulpix,Flamethrower,level,35
+Vulpix,Fire Spin,level,42
+Vulpix,Toxic,TM,
+Vulpix,Body Slam,TM,
+Vulpix,Take Down,TM,
+Vulpix,Double-Edge,TM,
+Vulpix,Rage,TM,
+Vulpix,Dig,TM,
+Vulpix,Mimic,TM,
+Vulpix,Double Team,TM,
+Vulpix,Reflect,TM,
+Vulpix,Bide,TM,
+Vulpix,Fire Blast,TM,
+Vulpix,Swift,TM,
+Vulpix,Skull Bash,TM,
+Vulpix,Rest,TM,
+Vulpix,Substitute,TM,
+Ninetales,Ember,level,1
+Ninetales,Tail Whip,level,1
+Ninetales,Quick Attack,level,16
+Ninetales,Roar,level,21
+Ninetales,Confuse Ray,level,28
+Ninetales,Flamethrower,level,35
+Ninetales,Fire Spin,level,42
+Ninetales,Toxic,TM,
+Ninetales,Body Slam,TM,
+Ninetales,Take Down,TM,
+Ninetales,Double-Edge,TM,
+Ninetales,Hyper Beam,TM,
+Ninetales,Rage,TM,
+Ninetales,Dig,TM,
+Ninetales,Mimic,TM,
+Ninetales,Double Team,TM,
+Ninetales,Reflect,TM,
+Ninetales,Bide,TM,
+Ninetales,Fire Blast,TM,
+Ninetales,Swift,TM,
+Ninetales,Skull Bash,TM,
+Ninetales,Rest,TM,
+Ninetales,Substitute,TM,
+Jigglypuff,Sing,level,1
+Jigglypuff,Pound,level,9
+Jigglypuff,Disable,level,14
+Jigglypuff,Defense Curl,level,19
+Jigglypuff,Double Slap,level,24
+Jigglypuff,Rest,level,29
+Jigglypuff,Body Slam,level,34
+Jigglypuff,Double-Edge,level,39
+Jigglypuff,Strength,HM,
+Jigglypuff,Flash,HM,
+Jigglypuff,Mega Punch,TM,
+Jigglypuff,Mega Kick,TM,
+Jigglypuff,Toxic,TM,
+Jigglypuff,Body Slam,TM,
+Jigglypuff,Take Down,TM,
+Jigglypuff,Double-Edge,TM,
+Jigglypuff,Bubble Beam,TM,
+Jigglypuff,Water Gun,TM,
+Jigglypuff,Ice Beam,TM,
+Jigglypuff,Blizzard,TM,
+Jigglypuff,Submission,TM,
+Jigglypuff,Counter,TM,
+Jigglypuff,Seismic Toss,TM,
+Jigglypuff,Rage,TM,
+Jigglypuff,Solar Beam,TM,
+Jigglypuff,Thunderbolt,TM,
+Jigglypuff,Thunder,TM,
+Jigglypuff,Psychic,TM,
+Jigglypuff,Teleport,TM,
+Jigglypuff,Mimic,TM,
+Jigglypuff,Double Team,TM,
+Jigglypuff,Reflect,TM,
+Jigglypuff,Bide,TM,
+Jigglypuff,Fire Blast,TM,
+Jigglypuff,Skull Bash,TM,
+Jigglypuff,Rest,TM,
+Jigglypuff,Thunder Wave,TM,
+Jigglypuff,Psywave,TM,
+Jigglypuff,Tri Attack,TM,
+Jigglypuff,Substitute,TM,
+Wigglytuff,Sing,level,1
+Wigglytuff,Pound,level,9
+Wigglytuff,Disable,level,14
+Wigglytuff,Defense Curl,level,19
+Wigglytuff,Double Slap,level,24
+Wigglytuff,Rest,level,29
+Wigglytuff,Body Slam,level,34
+Wigglytuff,Double-Edge,level,39
+Wigglytuff,Strength,HM,
+Wigglytuff,Flash,HM,
+Wigglytuff,Mega Punch,TM,
+Wigglytuff,Mega Kick,TM,
+Wigglytuff,Toxic,TM,
+Wigglytuff,Body Slam,TM,
+Wigglytuff,Take Down,TM,
+Wigglytuff,Double-Edge,TM,
+Wigglytuff,Bubble Beam,TM,
+Wigglytuff,Water Gun,TM,
+Wigglytuff,Ice Beam,TM,
+Wigglytuff,Blizzard,TM,
+Wigglytuff,Hyper Beam,TM,
+Wigglytuff,Submission,TM,
+Wigglytuff,Counter,TM,
+Wigglytuff,Seismic Toss,TM,
+Wigglytuff,Rage,TM,
+Wigglytuff,Solar Beam,TM,
+Wigglytuff,Thunderbolt,TM,
+Wigglytuff,Thunder,TM,
+Wigglytuff,Psychic,TM,
+Wigglytuff,Teleport,TM,
+Wigglytuff,Mimic,TM,
+Wigglytuff,Double Team,TM,
+Wigglytuff,Reflect,TM,
+Wigglytuff,Bide,TM,
+Wigglytuff,Fire Blast,TM,
+Wigglytuff,Skull Bash,TM,
+Wigglytuff,Rest,TM,
+Wigglytuff,Thunder Wave,TM,
+Wigglytuff,Psywave,TM,
+Wigglytuff,Tri Attack,TM,
+Wigglytuff,Substitute,TM,
+Zubat,Leech Life,level,1
+Zubat,Supersonic,level,10
+Zubat,Bite,level,15
+Zubat,Confuse Ray,level,21
+Zubat,Wing Attack,level,28
+Zubat,Haze,level,36
+Zubat,Razor Wind,TM,
+Zubat,Whirlwind,TM,
+Zubat,Toxic,TM,
+Zubat,Take Down,TM,
+Zubat,Double-Edge,TM,
+Zubat,Rage,TM,
+Zubat,Mega Drain,TM,
+Zubat,Mimic,TM,
+Zubat,Double Team,TM,
+Zubat,Bide,TM,
+Zubat,Swift,TM,
+Zubat,Rest,TM,
+Zubat,Substitute,TM,
+Golbat,Leech Life,level,1
+Golbat,Screech,level,1
+Golbat,Supersonic,level,10
+Golbat,Bite,level,15
+Golbat,Confuse Ray,level,21
+Golbat,Wing Attack,level,32
+Golbat,Haze,level,43
+Golbat,Razor Wind,TM,
+Golbat,Whirlwind,TM,
+Golbat,Toxic,TM,
+Golbat,Take Down,TM,
+Golbat,Double-Edge,TM,
+Golbat,Hyper Beam,TM,
+Golbat,Rage,TM,
+Golbat,Mega Drain,TM,
+Golbat,Mimic,TM,
+Golbat,Double Team,TM,
+Golbat,Bide,TM,
+Golbat,Swift,TM,
+Golbat,Rest,TM,
+Golbat,Substitute,TM,
+Oddish,Absorb,level,1
+Oddish,Poison Powder,level,15
+Oddish,Stun Spore,level,17
+Oddish,Sleep Powder,level,19
+Oddish,Acid,level,24
+Oddish,Petal Dance,level,33
+Oddish,Solar Beam,level,46
+Oddish,Cut,HM,
+Oddish,Swords Dance,TM,
+Oddish,Toxic,TM,
+Oddish,Take Down,TM,
+Oddish,Double-Edge,TM,
+Oddish,Rage,TM,
+Oddish,Mega Drain,TM,
+Oddish,Solar Beam,TM,
+Oddish,Mimic,TM,
+Oddish,Double Team,TM,
+Oddish,Reflect,TM,
+Oddish,Bide,TM,
+Oddish,Rest,TM,
+Oddish,Substitute,TM,
+Gloom,Absorb,level,1
+Gloom,Poison Powder,level,15
+Gloom,Stun Spore,level,17
+Gloom,Sleep Powder,level,19
+Gloom,Acid,level,28
+Gloom,Petal Dance,level,38
+Gloom,Solar Beam,level,52
+Gloom,Cut,HM,
+Gloom,Swords Dance,TM,
+Gloom,Toxic,TM,
+Gloom,Take Down,TM,
+Gloom,Double-Edge,TM,
+Gloom,Rage,TM,
+Gloom,Mega Drain,TM,
+Gloom,Solar Beam,TM,
+Gloom,Mimic,TM,
+Gloom,Double Team,TM,
+Gloom,Reflect,TM,
+Gloom,Bide,TM,
+Gloom,Rest,TM,
+Gloom,Substitute,TM,
+Vileplume,Absorb,level,1
+Vileplume,Poison Powder,level,15
+Vileplume,Stun Spore,level,17
+Vileplume,Sleep Powder,level,19
+Vileplume,Acid,level,28
+Vileplume,Petal Dance,level,38
+Vileplume,Solar Beam,level,52
+Vileplume,Cut,HM,
+Vileplume,Swords Dance,TM,
+Vileplume,Toxic,TM,
+Vileplume,Body Slam,TM,
+Vileplume,Take Down,TM,
+Vileplume,Double-Edge,TM,
+Vileplume,Hyper Beam,TM,
+Vileplume,Rage,TM,
+Vileplume,Mega Drain,TM,
+Vileplume,Solar Beam,TM,
+Vileplume,Mimic,TM,
+Vileplume,Double Team,TM,
+Vileplume,Reflect,TM,
+Vileplume,Bide,TM,
+Vileplume,Rest,TM,
+Vileplume,Substitute,TM,
+Paras,Scratch,level,1
+Paras,Stun Spore,level,13
+Paras,Leech Life,level,20
+Paras,Spore,level,27
+Paras,Slash,level,34
+Paras,Growth,level,41
+Paras,Cut,HM,
+Paras,Swords Dance,TM,
+Paras,Toxic,TM,
+Paras,Body Slam,TM,
+Paras,Take Down,TM,
+Paras,Double-Edge,TM,
+Paras,Rage,TM,
+Paras,Mega Drain,TM,
+Paras,Solar Beam,TM,
+Paras,Dig,TM,
+Paras,Mimic,TM,
+Paras,Double Team,TM,
+Paras,Reflect,TM,
+Paras,Bide,TM,
+Paras,Skull Bash,TM,
+Paras,Rest,TM,
+Paras,Substitute,TM,
+Parasect,Scratch,level,1
+Parasect,Stun Spore,level,13
+Parasect,Leech Life,level,20
+Parasect,Spore,level,30
+Parasect,Slash,level,39
+Parasect,Growth,level,48
+Parasect,Cut,HM,
+Parasect,Swords Dance,TM,
+Parasect,Toxic,TM,
+Parasect,Body Slam,TM,
+Parasect,Take Down,TM,
+Parasect,Double-Edge,TM,
+Parasect,Hyper Beam,TM,
+Parasect,Rage,TM,
+Parasect,Mega Drain,TM,
+Parasect,Solar Beam,TM,
+Parasect,Dig,TM,
+Parasect,Mimic,TM,
+Parasect,Double Team,TM,
+Parasect,Reflect,TM,
+Parasect,Bide,TM,
+Parasect,Skull Bash,TM,
+Parasect,Rest,TM,
+Parasect,Substitute,TM,
+Venonat,Disable,level,1
+Venonat,Tackle,level,1
+Venonat,Supersonic,level,11
+Venonat,Confusion,level,19
+Venonat,Poison Powder,level,22
+Venonat,Leech Life,level,27
+Venonat,Stun Spore,level,30
+Venonat,Psybeam,level,35
+Venonat,Sleep Powder,level,38
+Venonat,Psychic,level,43
+Venonat,Flash,HM,
+Venonat,Toxic,TM,
+Venonat,Take Down,TM,
+Venonat,Double-Edge,TM,
+Venonat,Rage,TM,
+Venonat,Mega Drain,TM,
+Venonat,Solar Beam,TM,
+Venonat,Psychic,TM,
+Venonat,Mimic,TM,
+Venonat,Double Team,TM,
+Venonat,Reflect,TM,
+Venonat,Bide,TM,
+Venonat,Rest,TM,
+Venonat,Psywave,TM,
+Venonat,Substitute,TM,
+Venomoth,Disable,level,1
+Venomoth,Tackle,level,1
+Venomoth,Supersonic,level,11
+Venomoth,Confusion,level,19
+Venomoth,Poison Powder,level,22
+Venomoth,Leech Life,level,27
+Venomoth,Stun Spore,level,30
+Venomoth,Psybeam,level,38
+Venomoth,Sleep Powder,level,43
+Venomoth,Psychic,level,50
+Venomoth,Flash,HM,
+Venomoth,Razor Wind,TM,
+Venomoth,Whirlwind,TM,
+Venomoth,Toxic,TM,
+Venomoth,Take Down,TM,
+Venomoth,Double-Edge,TM,
+Venomoth,Hyper Beam,TM,
+Venomoth,Rage,TM,
+Venomoth,Mega Drain,TM,
+Venomoth,Solar Beam,TM,
+Venomoth,Psychic,TM,
+Venomoth,Teleport,TM,
+Venomoth,Mimic,TM,
+Venomoth,Double Team,TM,
+Venomoth,Reflect,TM,
+Venomoth,Bide,TM,
+Venomoth,Swift,TM,
+Venomoth,Rest,TM,
+Venomoth,Psywave,TM,
+Venomoth,Substitute,TM,
+Diglett,Scratch,level,1
+Diglett,Growl,level,15
+Diglett,Dig,level,19
+Diglett,Sand Attack,level,24
+Diglett,Slash,level,31
+Diglett,Earthquake,level,40
+Diglett,Cut,HM,
+Diglett,Toxic,TM,
+Diglett,Body Slam,TM,
+Diglett,Take Down,TM,
+Diglett,Double-Edge,TM,
+Diglett,Rage,TM,
+Diglett,Earthquake,TM,
+Diglett,Fissure,TM,
+Diglett,Dig,TM,
+Diglett,Mimic,TM,
+Diglett,Double Team,TM,
+Diglett,Bide,TM,
+Diglett,Rest,TM,
+Diglett,Rock Slide,TM,
+Diglett,Substitute,TM,
+Dugtrio,Scratch,level,1
+Dugtrio,Growl,level,15
+Dugtrio,Dig,level,19
+Dugtrio,Sand Attack,level,24
+Dugtrio,Slash,level,35
+Dugtrio,Earthquake,level,47
+Dugtrio,Cut,HM,
+Dugtrio,Toxic,TM,
+Dugtrio,Body Slam,TM,
+Dugtrio,Take Down,TM,
+Dugtrio,Double-Edge,TM,
+Dugtrio,Hyper Beam,TM,
+Dugtrio,Rage,TM,
+Dugtrio,Earthquake,TM,
+Dugtrio,Fissure,TM,
+Dugtrio,Dig,TM,
+Dugtrio,Mimic,TM,
+Dugtrio,Double Team,TM,
+Dugtrio,Bide,TM,
+Dugtrio,Rest,TM,
+Dugtrio,Rock Slide,TM,
+Dugtrio,Substitute,TM,
+Meowth,Growl,level,1
+Meowth,Scratch,level,1
+Meowth,Bite,level,12
+Meowth,Pay Day,level,17
+Meowth,Screech,level,24
+Meowth,Fury Swipes,level,33
+Meowth,Slash,level,44
+Meowth,Toxic,TM,
+Meowth,Body Slam,TM,
+Meowth,Take Down,TM,
+Meowth,Double-Edge,TM,
+Meowth,Bubble Beam,TM,
+Meowth,Water Gun,TM,
+Meowth,Pay Day,TM,
+Meowth,Rage,TM,
+Meowth,Thunderbolt,TM,
+Meowth,Thunder,TM,
+Meowth,Mimic,TM,
+Meowth,Double Team,TM,
+Meowth,Bide,TM,
+Meowth,Swift,TM,
+Meowth,Skull Bash,TM,
+Meowth,Rest,TM,
+Meowth,Substitute,TM,
+Persian,Growl,level,1
+Persian,Scratch,level,1
+Persian,Bite,level,12
+Persian,Pay Day,level,17
+Persian,Screech,level,24
+Persian,Fury Swipes,level,37
+Persian,Slash,level,51
+Persian,Toxic,TM,
+Persian,Body Slam,TM,
+Persian,Take Down,TM,
+Persian,Double-Edge,TM,
+Persian,Bubble Beam,TM,
+Persian,Water Gun,TM,
+Persian,Hyper Beam,TM,
+Persian,Pay Day,TM,
+Persian,Rage,TM,
+Persian,Thunderbolt,TM,
+Persian,Thunder,TM,
+Persian,Mimic,TM,
+Persian,Double Team,TM,
+Persian,Bide,TM,
+Persian,Swift,TM,
+Persian,Skull Bash,TM,
+Persian,Rest,TM,
+Persian,Substitute,TM,
+Psyduck,Scratch,level,1
+Psyduck,Tail Whip,level,28
+Psyduck,Disable,level,31
+Psyduck,Confusion,level,36
+Psyduck,Fury Swipes,level,43
+Psyduck,Hydro Pump,level,52
+Psyduck,Surf,HM,
+Psyduck,Strength,HM,
+Psyduck,Mega Punch,TM,
+Psyduck,Mega Kick,TM,
+Psyduck,Toxic,TM,
+Psyduck,Body Slam,TM,
+Psyduck,Take Down,TM,
+Psyduck,Double-Edge,TM,
+Psyduck,Bubble Beam,TM,
+Psyduck,Water Gun,TM,
+Psyduck,Ice Beam,TM,
+Psyduck,Blizzard,TM,
+Psyduck,Pay Day,TM,
+Psyduck,Submission,TM,
+Psyduck,Counter,TM,
+Psyduck,Seismic Toss,TM,
+Psyduck,Rage,TM,
+Psyduck,Dig,TM,
+Psyduck,Mimic,TM,
+Psyduck,Double Team,TM,
+Psyduck,Bide,TM,
+Psyduck,Swift,TM,
+Psyduck,Skull Bash,TM,
+Psyduck,Rest,TM,
+Psyduck,Substitute,TM,
+Golduck,Scratch,level,1
+Golduck,Tail Whip,level,28
+Golduck,Disable,level,31
+Golduck,Confusion,level,39
+Golduck,Fury Swipes,level,48
+Golduck,Hydro Pump,level,59
+Golduck,Surf,HM,
+Golduck,Strength,HM,
+Golduck,Mega Punch,TM,
+Golduck,Mega Kick,TM,
+Golduck,Toxic,TM,
+Golduck,Body Slam,TM,
+Golduck,Take Down,TM,
+Golduck,Double-Edge,TM,
+Golduck,Bubble Beam,TM,
+Golduck,Water Gun,TM,
+Golduck,Ice Beam,TM,
+Golduck,Blizzard,TM,
+Golduck,Hyper Beam,TM,
+Golduck,Pay Day,TM,
+Golduck,Submission,TM,
+Golduck,Counter,TM,
+Golduck,Seismic Toss,TM,
+Golduck,Rage,TM,
+Golduck,Dig,TM,
+Golduck,Mimic,TM,
+Golduck,Double Team,TM,
+Golduck,Bide,TM,
+Golduck,Swift,TM,
+Golduck,Skull Bash,TM,
+Golduck,Rest,TM,
+Golduck,Substitute,TM,
+Mankey,Leer,level,1
+Mankey,Scratch,level,1
+Mankey,Low Kick,level,9
+Mankey,Karate Chop,level,15
+Mankey,Fury Swipes,level,21
+Mankey,Focus Energy,level,27
+Mankey,Seismic Toss,level,33
+Mankey,Thrash,level,39
+Mankey,Screech,level,45
+Mankey,Strength,HM,
+Mankey,Mega Punch,TM,
+Mankey,Mega Kick,TM,
+Mankey,Toxic,TM,
+Mankey,Body Slam,TM,
+Mankey,Take Down,TM,
+Mankey,Double-Edge,TM,
+Mankey,Pay Day,TM,
+Mankey,Submission,TM,
+Mankey,Counter,TM,
+Mankey,Seismic Toss,TM,
+Mankey,Rage,TM,
+Mankey,Thunderbolt,TM,
+Mankey,Thunder,TM,
+Mankey,Dig,TM,
+Mankey,Mimic,TM,
+Mankey,Double Team,TM,
+Mankey,Bide,TM,
+Mankey,Metronome,TM,
+Mankey,Swift,TM,
+Mankey,Skull Bash,TM,
+Mankey,Rest,TM,
+Mankey,Rock Slide,TM,
+Mankey,Substitute,TM,
+Primeape,Leer,level,1
+Primeape,Scratch,level,1
+Primeape,Low Kick,level,9
+Primeape,Karate Chop,level,15
+Primeape,Fury Swipes,level,21
+Primeape,Focus Energy,level,27
+Primeape,Rage,level,28
+Primeape,Seismic Toss,level,37
+Primeape,Screech,level,45
+Primeape,Thrash,level,46
+Primeape,Strength,HM,
+Primeape,Mega Punch,TM,
+Primeape,Mega Kick,TM,
+Primeape,Toxic,TM,
+Primeape,Body Slam,TM,
+Primeape,Take Down,TM,
+Primeape,Double-Edge,TM,
+Primeape,Hyper Beam,TM,
+Primeape,Pay Day,TM,
+Primeape,Submission,TM,
+Primeape,Counter,TM,
+Primeape,Seismic Toss,TM,
+Primeape,Rage,TM,
+Primeape,Thunderbolt,TM,
+Primeape,Thunder,TM,
+Primeape,Dig,TM,
+Primeape,Mimic,TM,
+Primeape,Double Team,TM,
+Primeape,Bide,TM,
+Primeape,Metronome,TM,
+Primeape,Swift,TM,
+Primeape,Skull Bash,TM,
+Primeape,Rest,TM,
+Primeape,Rock Slide,TM,
+Primeape,Substitute,TM,
+Growlithe,Bite,level,1
+Growlithe,Roar,level,1
+Growlithe,Ember,level,18
+Growlithe,Leer,level,23
+Growlithe,Take Down,level,30
+Growlithe,Agility,level,39
+Growlithe,Flamethrower,level,50
+Growlithe,Toxic,TM,
+Growlithe,Body Slam,TM,
+Growlithe,Take Down,TM,
+Growlithe,Double-Edge,TM,
+Growlithe,Rage,TM,
+Growlithe,Dragon Rage,TM,
+Growlithe,Dig,TM,
+Growlithe,Mimic,TM,
+Growlithe,Double Team,TM,
+Growlithe,Reflect,TM,
+Growlithe,Bide,TM,
+Growlithe,Fire Blast,TM,
+Growlithe,Swift,TM,
+Growlithe,Skull Bash,TM,
+Growlithe,Rest,TM,
+Growlithe,Substitute,TM,
+Arcanine,Bite,level,1
+Arcanine,Roar,level,1
+Arcanine,Ember,level,18
+Arcanine,Leer,level,23
+Arcanine,Take Down,level,30
+Arcanine,Agility,level,39
+Arcanine,Flamethrower,level,50
+Arcanine,Toxic,TM,
+Arcanine,Body Slam,TM,
+Arcanine,Take Down,TM,
+Arcanine,Double-Edge,TM,
+Arcanine,Hyper Beam,TM,
+Arcanine,Rage,TM,
+Arcanine,Dragon Rage,TM,
+Arcanine,Dig,TM,
+Arcanine,Teleport,TM,
+Arcanine,Mimic,TM,
+Arcanine,Double Team,TM,
+Arcanine,Reflect,TM,
+Arcanine,Bide,TM,
+Arcanine,Fire Blast,TM,
+Arcanine,Swift,TM,
+Arcanine,Skull Bash,TM,
+Arcanine,Rest,TM,
+Arcanine,Substitute,TM,
+Poliwag,Bubble,level,1
+Poliwag,Hypnosis,level,16
+Poliwag,Water Gun,level,19
+Poliwag,Double Slap,level,25
+Poliwag,Body Slam,level,31
+Poliwag,Amnesia,level,38
+Poliwag,Hydro Pump,level,45
+Poliwag,Surf,HM,
+Poliwag,Toxic,TM,
+Poliwag,Body Slam,TM,
+Poliwag,Take Down,TM,
+Poliwag,Double-Edge,TM,
+Poliwag,Bubble Beam,TM,
+Poliwag,Water Gun,TM,
+Poliwag,Ice Beam,TM,
+Poliwag,Blizzard,TM,
+Poliwag,Rage,TM,
+Poliwag,Psychic,TM,
+Poliwag,Mimic,TM,
+Poliwag,Double Team,TM,
+Poliwag,Bide,TM,
+Poliwag,Skull Bash,TM,
+Poliwag,Rest,TM,
+Poliwag,Psywave,TM,
+Poliwag,Substitute,TM,
+Poliwhirl,Bubble,level,1
+Poliwhirl,Hypnosis,level,16
+Poliwhirl,Water Gun,level,19
+Poliwhirl,Double Slap,level,26
+Poliwhirl,Body Slam,level,33
+Poliwhirl,Amnesia,level,41
+Poliwhirl,Hydro Pump,level,49
+Poliwhirl,Surf,HM,
+Poliwhirl,Strength,HM,
+Poliwhirl,Mega Punch,TM,
+Poliwhirl,Mega Kick,TM,
+Poliwhirl,Toxic,TM,
+Poliwhirl,Body Slam,TM,
+Poliwhirl,Take Down,TM,
+Poliwhirl,Double-Edge,TM,
+Poliwhirl,Bubble Beam,TM,
+Poliwhirl,Water Gun,TM,
+Poliwhirl,Ice Beam,TM,
+Poliwhirl,Blizzard,TM,
+Poliwhirl,Submission,TM,
+Poliwhirl,Counter,TM,
+Poliwhirl,Seismic Toss,TM,
+Poliwhirl,Rage,TM,
+Poliwhirl,Earthquake,TM,
+Poliwhirl,Fissure,TM,
+Poliwhirl,Psychic,TM,
+Poliwhirl,Mimic,TM,
+Poliwhirl,Double Team,TM,
+Poliwhirl,Bide,TM,
+Poliwhirl,Metronome,TM,
+Poliwhirl,Skull Bash,TM,
+Poliwhirl,Rest,TM,
+Poliwhirl,Psywave,TM,
+Poliwhirl,Substitute,TM,
+Poliwrath,Bubble,level,1
+Poliwrath,Hypnosis,level,16
+Poliwrath,Water Gun,level,19
+Poliwrath,Double Slap,level,26
+Poliwrath,Body Slam,level,33
+Poliwrath,Amnesia,level,41
+Poliwrath,Hydro Pump,level,49
+Poliwrath,Surf,HM,
+Poliwrath,Strength,HM,
+Poliwrath,Mega Punch,TM,
+Poliwrath,Mega Kick,TM,
+Poliwrath,Toxic,TM,
+Poliwrath,Body Slam,TM,
+Poliwrath,Take Down,TM,
+Poliwrath,Double-Edge,TM,
+Poliwrath,Bubble Beam,TM,
+Poliwrath,Water Gun,TM,
+Poliwrath,Ice Beam,TM,
+Poliwrath,Blizzard,TM,
+Poliwrath,Hyper Beam,TM,
+Poliwrath,Submission,TM,
+Poliwrath,Counter,TM,
+Poliwrath,Seismic Toss,TM,
+Poliwrath,Rage,TM,
+Poliwrath,Earthquake,TM,
+Poliwrath,Fissure,TM,
+Poliwrath,Psychic,TM,
+Poliwrath,Mimic,TM,
+Poliwrath,Double Team,TM,
+Poliwrath,Bide,TM,
+Poliwrath,Metronome,TM,
+Poliwrath,Skull Bash,TM,
+Poliwrath,Rest,TM,
+Poliwrath,Psywave,TM,
+Poliwrath,Substitute,TM,
+Abra,Teleport,level,1
+Abra,Flash,HM,
+Abra,Mega Punch,TM,
+Abra,Mega Kick,TM,
+Abra,Toxic,TM,
+Abra,Body Slam,TM,
+Abra,Take Down,TM,
+Abra,Double-Edge,TM,
+Abra,Submission,TM,
+Abra,Counter,TM,
+Abra,Seismic Toss,TM,
+Abra,Rage,TM,
+Abra,Psychic,TM,
+Abra,Teleport,TM,
+Abra,Mimic,TM,
+Abra,Double Team,TM,
+Abra,Reflect,TM,
+Abra,Bide,TM,
+Abra,Metronome,TM,
+Abra,Skull Bash,TM,
+Abra,Rest,TM,
+Abra,Thunder Wave,TM,
+Abra,Psywave,TM,
+Abra,Tri Attack,TM,
+Abra,Substitute,TM,
+Kadabra,Teleport,level,1
+Kadabra,Confusion,level,16
+Kadabra,Disable,level,20
+Kadabra,Psybeam,level,27
+Kadabra,Recover,level,31
+Kadabra,Psychic,level,38
+Kadabra,Reflect,level,42
+Kadabra,Flash,HM,
+Kadabra,Mega Punch,TM,
+Kadabra,Mega Kick,TM,
+Kadabra,Toxic,TM,
+Kadabra,Body Slam,TM,
+Kadabra,Take Down,TM,
+Kadabra,Double-Edge,TM,
+Kadabra,Submission,TM,
+Kadabra,Counter,TM,
+Kadabra,Seismic Toss,TM,
+Kadabra,Rage,TM,
+Kadabra,Dig,TM,
+Kadabra,Psychic,TM,
+Kadabra,Teleport,TM,
+Kadabra,Mimic,TM,
+Kadabra,Double Team,TM,
+Kadabra,Reflect,TM,
+Kadabra,Bide,TM,
+Kadabra,Metronome,TM,
+Kadabra,Skull Bash,TM,
+Kadabra,Rest,TM,
+Kadabra,Thunder Wave,TM,
+Kadabra,Psywave,TM,
+Kadabra,Tri Attack,TM,
+Kadabra,Substitute,TM,
+Alakazam,Teleport,level,1
+Alakazam,Confusion,level,16
+Alakazam,Disable,level,20
+Alakazam,Psybeam,level,27
+Alakazam,Recover,level,31
+Alakazam,Psychic,level,38
+Alakazam,Reflect,level,42
+Alakazam,Flash,HM,
+Alakazam,Mega Punch,TM,
+Alakazam,Mega Kick,TM,
+Alakazam,Toxic,TM,
+Alakazam,Body Slam,TM,
+Alakazam,Take Down,TM,
+Alakazam,Double-Edge,TM,
+Alakazam,Hyper Beam,TM,
+Alakazam,Submission,TM,
+Alakazam,Counter,TM,
+Alakazam,Seismic Toss,TM,
+Alakazam,Rage,TM,
+Alakazam,Dig,TM,
+Alakazam,Psychic,TM,
+Alakazam,Teleport,TM,
+Alakazam,Mimic,TM,
+Alakazam,Double Team,TM,
+Alakazam,Reflect,TM,
+Alakazam,Bide,TM,
+Alakazam,Metronome,TM,
+Alakazam,Skull Bash,TM,
+Alakazam,Rest,TM,
+Alakazam,Thunder Wave,TM,
+Alakazam,Psywave,TM,
+Alakazam,Tri Attack,TM,
+Alakazam,Substitute,TM,
+Machop,Karate Chop,level,1
+Machop,Low Kick,level,20
+Machop,Leer,level,25
+Machop,Focus Energy,level,32
+Machop,Seismic Toss,level,39
+Machop,Submission,level,46
+Machop,Strength,HM,
+Machop,Mega Punch,TM,
+Machop,Mega Kick,TM,
+Machop,Toxic,TM,
+Machop,Body Slam,TM,
+Machop,Take Down,TM,
+Machop,Double-Edge,TM,
+Machop,Submission,TM,
+Machop,Counter,TM,
+Machop,Seismic Toss,TM,
+Machop,Rage,TM,
+Machop,Earthquake,TM,
+Machop,Fissure,TM,
+Machop,Dig,TM,
+Machop,Mimic,TM,
+Machop,Double Team,TM,
+Machop,Bide,TM,
+Machop,Metronome,TM,
+Machop,Fire Blast,TM,
+Machop,Skull Bash,TM,
+Machop,Rest,TM,
+Machop,Rock Slide,TM,
+Machop,Substitute,TM,
+Machoke,Karate Chop,level,1
+Machoke,Low Kick,level,20
+Machoke,Leer,level,25
+Machoke,Focus Energy,level,36
+Machoke,Seismic Toss,level,44
+Machoke,Submission,level,52
+Machoke,Strength,HM,
+Machoke,Mega Punch,TM,
+Machoke,Mega Kick,TM,
+Machoke,Toxic,TM,
+Machoke,Body Slam,TM,
+Machoke,Take Down,TM,
+Machoke,Double-Edge,TM,
+Machoke,Submission,TM,
+Machoke,Counter,TM,
+Machoke,Seismic Toss,TM,
+Machoke,Rage,TM,
+Machoke,Earthquake,TM,
+Machoke,Fissure,TM,
+Machoke,Dig,TM,
+Machoke,Mimic,TM,
+Machoke,Double Team,TM,
+Machoke,Bide,TM,
+Machoke,Metronome,TM,
+Machoke,Fire Blast,TM,
+Machoke,Skull Bash,TM,
+Machoke,Rest,TM,
+Machoke,Rock Slide,TM,
+Machoke,Substitute,TM,
+Machamp,Karate Chop,level,1
+Machamp,Low Kick,level,20
+Machamp,Leer,level,25
+Machamp,Focus Energy,level,36
+Machamp,Seismic Toss,level,44
+Machamp,Submission,level,52
+Machamp,Strength,HM,
+Machamp,Mega Punch,TM,
+Machamp,Mega Kick,TM,
+Machamp,Toxic,TM,
+Machamp,Body Slam,TM,
+Machamp,Take Down,TM,
+Machamp,Double-Edge,TM,
+Machamp,Hyper Beam,TM,
+Machamp,Submission,TM,
+Machamp,Counter,TM,
+Machamp,Seismic Toss,TM,
+Machamp,Rage,TM,
+Machamp,Earthquake,TM,
+Machamp,Fissure,TM,
+Machamp,Dig,TM,
+Machamp,Mimic,TM,
+Machamp,Double Team,TM,
+Machamp,Bide,TM,
+Machamp,Metronome,TM,
+Machamp,Fire Blast,TM,
+Machamp,Skull Bash,TM,
+Machamp,Rest,TM,
+Machamp,Rock Slide,TM,
+Machamp,Substitute,TM,
+Bellsprout,Growth,level,1
+Bellsprout,Vine Whip,level,1
+Bellsprout,Wrap,level,13
+Bellsprout,Poison Powder,level,15
+Bellsprout,Sleep Powder,level,18
+Bellsprout,Stun Spore,level,21
+Bellsprout,Acid,level,26
+Bellsprout,Razor Leaf,level,33
+Bellsprout,Slam,level,42
+Bellsprout,Cut,HM,
+Bellsprout,Swords Dance,TM,
+Bellsprout,Toxic,TM,
+Bellsprout,Take Down,TM,
+Bellsprout,Double-Edge,TM,
+Bellsprout,Rage,TM,
+Bellsprout,Mega Drain,TM,
+Bellsprout,Solar Beam,TM,
+Bellsprout,Mimic,TM,
+Bellsprout,Double Team,TM,
+Bellsprout,Reflect,TM,
+Bellsprout,Bide,TM,
+Bellsprout,Rest,TM,
+Bellsprout,Substitute,TM,
+Weepinbell,Growth,level,1
+Weepinbell,Vine Whip,level,1
+Weepinbell,Wrap,level,13
+Weepinbell,Poison Powder,level,15
+Weepinbell,Sleep Powder,level,18
+Weepinbell,Stun Spore,level,23
+Weepinbell,Acid,level,29
+Weepinbell,Razor Leaf,level,38
+Weepinbell,Slam,level,49
+Weepinbell,Cut,HM,
+Weepinbell,Swords Dance,TM,
+Weepinbell,Toxic,TM,
+Weepinbell,Take Down,TM,
+Weepinbell,Double-Edge,TM,
+Weepinbell,Rage,TM,
+Weepinbell,Mega Drain,TM,
+Weepinbell,Solar Beam,TM,
+Weepinbell,Mimic,TM,
+Weepinbell,Double Team,TM,
+Weepinbell,Reflect,TM,
+Weepinbell,Bide,TM,
+Weepinbell,Rest,TM,
+Weepinbell,Substitute,TM,
+Victreebel,Growth,level,1
+Victreebel,Vine Whip,level,1
+Victreebel,Wrap,level,13
+Victreebel,Poison Powder,level,15
+Victreebel,Sleep Powder,level,18
+Victreebel,Stun Spore,level,23
+Victreebel,Acid,level,29
+Victreebel,Razor Leaf,level,38
+Victreebel,Slam,level,49
+Victreebel,Cut,HM,
+Victreebel,Swords Dance,TM,
+Victreebel,Toxic,TM,
+Victreebel,Body Slam,TM,
+Victreebel,Take Down,TM,
+Victreebel,Double-Edge,TM,
+Victreebel,Hyper Beam,TM,
+Victreebel,Rage,TM,
+Victreebel,Mega Drain,TM,
+Victreebel,Solar Beam,TM,
+Victreebel,Mimic,TM,
+Victreebel,Double Team,TM,
+Victreebel,Reflect,TM,
+Victreebel,Bide,TM,
+Victreebel,Rest,TM,
+Victreebel,Substitute,TM,
+Tentacool,Acid,level,1
+Tentacool,Supersonic,level,7
+Tentacool,Wrap,level,13
+Tentacool,Poison Sting,level,18
+Tentacool,Water Gun,level,22
+Tentacool,Constrict,level,27
+Tentacool,Barrier,level,33
+Tentacool,Screech,level,40
+Tentacool,Hydro Pump,level,48
+Tentacool,Cut,HM,
+Tentacool,Surf,HM,
+Tentacool,Swords Dance,TM,
+Tentacool,Toxic,TM,
+Tentacool,Take Down,TM,
+Tentacool,Double-Edge,TM,
+Tentacool,Bubble Beam,TM,
+Tentacool,Water Gun,TM,
+Tentacool,Ice Beam,TM,
+Tentacool,Blizzard,TM,
+Tentacool,Rage,TM,
+Tentacool,Mega Drain,TM,
+Tentacool,Mimic,TM,
+Tentacool,Double Team,TM,
+Tentacool,Reflect,TM,
+Tentacool,Bide,TM,
+Tentacool,Skull Bash,TM,
+Tentacool,Rest,TM,
+Tentacool,Substitute,TM,
+Tentacruel,Acid,level,1
+Tentacruel,Supersonic,level,7
+Tentacruel,Wrap,level,13
+Tentacruel,Poison Sting,level,18
+Tentacruel,Water Gun,level,22
+Tentacruel,Constrict,level,27
+Tentacruel,Barrier,level,35
+Tentacruel,Screech,level,43
+Tentacruel,Hydro Pump,level,50
+Tentacruel,Cut,HM,
+Tentacruel,Surf,HM,
+Tentacruel,Swords Dance,TM,
+Tentacruel,Toxic,TM,
+Tentacruel,Take Down,TM,
+Tentacruel,Double-Edge,TM,
+Tentacruel,Bubble Beam,TM,
+Tentacruel,Water Gun,TM,
+Tentacruel,Ice Beam,TM,
+Tentacruel,Blizzard,TM,
+Tentacruel,Hyper Beam,TM,
+Tentacruel,Rage,TM,
+Tentacruel,Mega Drain,TM,
+Tentacruel,Mimic,TM,
+Tentacruel,Double Team,TM,
+Tentacruel,Reflect,TM,
+Tentacruel,Bide,TM,
+Tentacruel,Skull Bash,TM,
+Tentacruel,Rest,TM,
+Tentacruel,Substitute,TM,
+Geodude,Tackle,level,1
+Geodude,Defense Curl,level,11
+Geodude,Rock Throw,level,16
+Geodude,Selfdestruct,level,21
+Geodude,Harden,level,26
+Geodude,Earthquake,level,31
+Geodude,Explosion,level,36
+Geodude,Strength,HM,
+Geodude,Mega Punch,TM,
+Geodude,Toxic,TM,
+Geodude,Body Slam,TM,
+Geodude,Take Down,TM,
+Geodude,Double-Edge,TM,
+Geodude,Submission,TM,
+Geodude,Counter,TM,
+Geodude,Seismic Toss,TM,
+Geodude,Rage,TM,
+Geodude,Earthquake,TM,
+Geodude,Fissure,TM,
+Geodude,Dig,TM,
+Geodude,Mimic,TM,
+Geodude,Double Team,TM,
+Geodude,Bide,TM,
+Geodude,Metronome,TM,
+Geodude,Selfdestruct,TM,
+Geodude,Fire Blast,TM,
+Geodude,Rest,TM,
+Geodude,Explosion,TM,
+Geodude,Rock Slide,TM,
+Geodude,Substitute,TM,
+Graveler,Tackle,level,1
+Graveler,Defense Curl,level,11
+Graveler,Rock Throw,level,16
+Graveler,Selfdestruct,level,21
+Graveler,Harden,level,29
+Graveler,Earthquake,level,36
+Graveler,Explosion,level,43
+Graveler,Strength,HM,
+Graveler,Mega Punch,TM,
+Graveler,Toxic,TM,
+Graveler,Body Slam,TM,
+Graveler,Take Down,TM,
+Graveler,Double-Edge,TM,
+Graveler,Submission,TM,
+Graveler,Counter,TM,
+Graveler,Seismic Toss,TM,
+Graveler,Rage,TM,
+Graveler,Earthquake,TM,
+Graveler,Fissure,TM,
+Graveler,Dig,TM,
+Graveler,Mimic,TM,
+Graveler,Double Team,TM,
+Graveler,Bide,TM,
+Graveler,Metronome,TM,
+Graveler,Selfdestruct,TM,
+Graveler,Fire Blast,TM,
+Graveler,Rest,TM,
+Graveler,Explosion,TM,
+Graveler,Rock Slide,TM,
+Graveler,Substitute,TM,
+Golem,Tackle,level,1
+Golem,Defense Curl,level,11
+Golem,Rock Throw,level,16
+Golem,Selfdestruct,level,21
+Golem,Harden,level,29
+Golem,Earthquake,level,36
+Golem,Explosion,level,43
+Golem,Strength,HM,
+Golem,Mega Punch,TM,
+Golem,Mega Kick,TM,
+Golem,Toxic,TM,
+Golem,Body Slam,TM,
+Golem,Take Down,TM,
+Golem,Double-Edge,TM,
+Golem,Hyper Beam,TM,
+Golem,Submission,TM,
+Golem,Counter,TM,
+Golem,Seismic Toss,TM,
+Golem,Rage,TM,
+Golem,Earthquake,TM,
+Golem,Fissure,TM,
+Golem,Dig,TM,
+Golem,Mimic,TM,
+Golem,Double Team,TM,
+Golem,Bide,TM,
+Golem,Metronome,TM,
+Golem,Selfdestruct,TM,
+Golem,Fire Blast,TM,
+Golem,Rest,TM,
+Golem,Explosion,TM,
+Golem,Rock Slide,TM,
+Golem,Substitute,TM,
+Ponyta,Ember,level,1
+Ponyta,Tail Whip,level,30
+Ponyta,Stomp,level,32
+Ponyta,Growl,level,35
+Ponyta,Fire Spin,level,39
+Ponyta,Take Down,level,43
+Ponyta,Agility,level,48
+Ponyta,Toxic,TM,
+Ponyta,Horn Drill,TM,
+Ponyta,Body Slam,TM,
+Ponyta,Take Down,TM,
+Ponyta,Double-Edge,TM,
+Ponyta,Rage,TM,
+Ponyta,Mimic,TM,
+Ponyta,Double Team,TM,
+Ponyta,Reflect,TM,
+Ponyta,Bide,TM,
+Ponyta,Fire Blast,TM,
+Ponyta,Swift,TM,
+Ponyta,Skull Bash,TM,
+Ponyta,Rest,TM,
+Ponyta,Substitute,TM,
+Rapidash,Ember,level,1
+Rapidash,Tail Whip,level,30
+Rapidash,Stomp,level,32
+Rapidash,Growl,level,35
+Rapidash,Fire Spin,level,39
+Rapidash,Take Down,level,47
+Rapidash,Agility,level,55
+Rapidash,Toxic,TM,
+Rapidash,Horn Drill,TM,
+Rapidash,Body Slam,TM,
+Rapidash,Take Down,TM,
+Rapidash,Double-Edge,TM,
+Rapidash,Hyper Beam,TM,
+Rapidash,Rage,TM,
+Rapidash,Mimic,TM,
+Rapidash,Double Team,TM,
+Rapidash,Reflect,TM,
+Rapidash,Bide,TM,
+Rapidash,Fire Blast,TM,
+Rapidash,Swift,TM,
+Rapidash,Skull Bash,TM,
+Rapidash,Rest,TM,
+Rapidash,Substitute,TM,
+Slowpoke,Confusion,level,1
+Slowpoke,Disable,level,18
+Slowpoke,Headbutt,level,22
+Slowpoke,Growl,level,27
+Slowpoke,Water Gun,level,33
+Slowpoke,Amnesia,level,40
+Slowpoke,Psychic,level,48
+Slowpoke,Surf,HM,
+Slowpoke,Strength,HM,
+Slowpoke,Flash,HM,
+Slowpoke,Toxic,TM,
+Slowpoke,Body Slam,TM,
+Slowpoke,Take Down,TM,
+Slowpoke,Double-Edge,TM,
+Slowpoke,Bubble Beam,TM,
+Slowpoke,Water Gun,TM,
+Slowpoke,Ice Beam,TM,
+Slowpoke,Blizzard,TM,
+Slowpoke,Pay Day,TM,
+Slowpoke,Rage,TM,
+Slowpoke,Earthquake,TM,
+Slowpoke,Fissure,TM,
+Slowpoke,Dig,TM,
+Slowpoke,Psychic,TM,
+Slowpoke,Teleport,TM,
+Slowpoke,Mimic,TM,
+Slowpoke,Double Team,TM,
+Slowpoke,Reflect,TM,
+Slowpoke,Bide,TM,
+Slowpoke,Fire Blast,TM,
+Slowpoke,Swift,TM,
+Slowpoke,Skull Bash,TM,
+Slowpoke,Rest,TM,
+Slowpoke,Thunder Wave,TM,
+Slowpoke,Psywave,TM,
+Slowpoke,Tri Attack,TM,
+Slowpoke,Substitute,TM,
+Slowbro,Confusion,level,1
+Slowbro,Disable,level,18
+Slowbro,Headbutt,level,22
+Slowbro,Growl,level,27
+Slowbro,Water Gun,level,33
+Slowbro,Withdraw,level,37
+Slowbro,Amnesia,level,44
+Slowbro,Psychic,level,55
+Slowbro,Surf,HM,
+Slowbro,Strength,HM,
+Slowbro,Flash,HM,
+Slowbro,Mega Punch,TM,
+Slowbro,Mega Kick,TM,
+Slowbro,Toxic,TM,
+Slowbro,Body Slam,TM,
+Slowbro,Take Down,TM,
+Slowbro,Double-Edge,TM,
+Slowbro,Bubble Beam,TM,
+Slowbro,Water Gun,TM,
+Slowbro,Ice Beam,TM,
+Slowbro,Blizzard,TM,
+Slowbro,Hyper Beam,TM,
+Slowbro,Pay Day,TM,
+Slowbro,Submission,TM,
+Slowbro,Counter,TM,
+Slowbro,Seismic Toss,TM,
+Slowbro,Rage,TM,
+Slowbro,Earthquake,TM,
+Slowbro,Fissure,TM,
+Slowbro,Dig,TM,
+Slowbro,Psychic,TM,
+Slowbro,Teleport,TM,
+Slowbro,Mimic,TM,
+Slowbro,Double Team,TM,
+Slowbro,Reflect,TM,
+Slowbro,Bide,TM,
+Slowbro,Fire Blast,TM,
+Slowbro,Swift,TM,
+Slowbro,Skull Bash,TM,
+Slowbro,Rest,TM,
+Slowbro,Thunder Wave,TM,
+Slowbro,Psywave,TM,
+Slowbro,Tri Attack,TM,
+Slowbro,Substitute,TM,
+Magnemite,Tackle,level,1
+Magnemite,Sonic Boom,level,21
+Magnemite,Thunder Shock,level,25
+Magnemite,Supersonic,level,29
+Magnemite,Thunder Wave,level,35
+Magnemite,Swift,level,41
+Magnemite,Screech,level,47
+Magnemite,Flash,HM,
+Magnemite,Toxic,TM,
+Magnemite,Take Down,TM,
+Magnemite,Double-Edge,TM,
+Magnemite,Rage,TM,
+Magnemite,Thunderbolt,TM,
+Magnemite,Thunder,TM,
+Magnemite,Teleport,TM,
+Magnemite,Mimic,TM,
+Magnemite,Double Team,TM,
+Magnemite,Reflect,TM,
+Magnemite,Bide,TM,
+Magnemite,Swift,TM,
+Magnemite,Rest,TM,
+Magnemite,Thunder Wave,TM,
+Magnemite,Substitute,TM,
+Magneton,Tackle,level,1
+Magneton,Sonic Boom,level,21
+Magneton,Thunder Shock,level,25
+Magneton,Supersonic,level,29
+Magneton,Thunder Wave,level,38
+Magneton,Swift,level,46
+Magneton,Screech,level,54
+Magneton,Flash,HM,
+Magneton,Toxic,TM,
+Magneton,Take Down,TM,
+Magneton,Double-Edge,TM,
+Magneton,Hyper Beam,TM,
+Magneton,Rage,TM,
+Magneton,Thunderbolt,TM,
+Magneton,Thunder,TM,
+Magneton,Teleport,TM,
+Magneton,Mimic,TM,
+Magneton,Double Team,TM,
+Magneton,Reflect,TM,
+Magneton,Bide,TM,
+Magneton,Swift,TM,
+Magneton,Rest,TM,
+Magneton,Thunder Wave,TM,
+Magneton,Substitute,TM,
+Farfetch’d,Peck,level,1
+Farfetch’d,Sand Attack,level,1
+Farfetch’d,Leer,level,7
+Farfetch’d,Fury Attack,level,15
+Farfetch’d,Swords Dance,level,23
+Farfetch’d,Agility,level,31
+Farfetch’d,Slash,level,39
+Farfetch’d,Cut,HM,
+Farfetch’d,Fly,HM,
+Farfetch’d,Razor Wind,TM,
+Farfetch’d,Swords Dance,TM,
+Farfetch’d,Whirlwind,TM,
+Farfetch’d,Toxic,TM,
+Farfetch’d,Body Slam,TM,
+Farfetch’d,Take Down,TM,
+Farfetch’d,Double-Edge,TM,
+Farfetch’d,Rage,TM,
+Farfetch’d,Mimic,TM,
+Farfetch’d,Double Team,TM,
+Farfetch’d,Reflect,TM,
+Farfetch’d,Bide,TM,
+Farfetch’d,Swift,TM,
+Farfetch’d,Skull Bash,TM,
+Farfetch’d,Rest,TM,
+Farfetch’d,Substitute,TM,
+Doduo,Peck,level,1
+Doduo,Growl,level,20
+Doduo,Fury Attack,level,24
+Doduo,Drill Peck,level,30
+Doduo,Rage,level,36
+Doduo,Tri Attack,level,40
+Doduo,Agility,level,44
+Doduo,Fly,HM,
+Doduo,Whirlwind,TM,
+Doduo,Toxic,TM,
+Doduo,Body Slam,TM,
+Doduo,Take Down,TM,
+Doduo,Double-Edge,TM,
+Doduo,Rage,TM,
+Doduo,Mimic,TM,
+Doduo,Double Team,TM,
+Doduo,Reflect,TM,
+Doduo,Bide,TM,
+Doduo,Skull Bash,TM,
+Doduo,Sky Attack,TM,
+Doduo,Rest,TM,
+Doduo,Tri Attack,TM,
+Doduo,Substitute,TM,
+Dodrio,Peck,level,1
+Dodrio,Growl,level,20
+Dodrio,Fury Attack,level,24
+Dodrio,Drill Peck,level,30
+Dodrio,Rage,level,39
+Dodrio,Tri Attack,level,45
+Dodrio,Agility,level,51
+Dodrio,Fly,HM,
+Dodrio,Whirlwind,TM,
+Dodrio,Toxic,TM,
+Dodrio,Body Slam,TM,
+Dodrio,Take Down,TM,
+Dodrio,Double-Edge,TM,
+Dodrio,Hyper Beam,TM,
+Dodrio,Rage,TM,
+Dodrio,Mimic,TM,
+Dodrio,Double Team,TM,
+Dodrio,Reflect,TM,
+Dodrio,Bide,TM,
+Dodrio,Skull Bash,TM,
+Dodrio,Sky Attack,TM,
+Dodrio,Rest,TM,
+Dodrio,Tri Attack,TM,
+Dodrio,Substitute,TM,
+Seel,Headbutt,level,1
+Seel,Growl,level,30
+Seel,Aurora Beam,level,35
+Seel,Rest,level,40
+Seel,Take Down,level,45
+Seel,Ice Beam,level,50
+Seel,Surf,HM,
+Seel,Strength,HM,
+Seel,Toxic,TM,
+Seel,Horn Drill,TM,
+Seel,Body Slam,TM,
+Seel,Take Down,TM,
+Seel,Double-Edge,TM,
+Seel,Bubble Beam,TM,
+Seel,Water Gun,TM,
+Seel,Ice Beam,TM,
+Seel,Blizzard,TM,
+Seel,Pay Day,TM,
+Seel,Rage,TM,
+Seel,Mimic,TM,
+Seel,Double Team,TM,
+Seel,Bide,TM,
+Seel,Skull Bash,TM,
+Seel,Rest,TM,
+Seel,Substitute,TM,
+Dewgong,Headbutt,level,1
+Dewgong,Growl,level,30
+Dewgong,Aurora Beam,level,35
+Dewgong,Rest,level,44
+Dewgong,Take Down,level,50
+Dewgong,Ice Beam,level,56
+Dewgong,Surf,HM,
+Dewgong,Strength,HM,
+Dewgong,Toxic,TM,
+Dewgong,Horn Drill,TM,
+Dewgong,Body Slam,TM,
+Dewgong,Take Down,TM,
+Dewgong,Double-Edge,TM,
+Dewgong,Bubble Beam,TM,
+Dewgong,Water Gun,TM,
+Dewgong,Ice Beam,TM,
+Dewgong,Blizzard,TM,
+Dewgong,Hyper Beam,TM,
+Dewgong,Pay Day,TM,
+Dewgong,Rage,TM,
+Dewgong,Mimic,TM,
+Dewgong,Double Team,TM,
+Dewgong,Bide,TM,
+Dewgong,Skull Bash,TM,
+Dewgong,Rest,TM,
+Dewgong,Substitute,TM,
+Grimer,Disable,level,1
+Grimer,Pound,level,1
+Grimer,Poison Gas,level,30
+Grimer,Minimize,level,33
+Grimer,Sludge,level,37
+Grimer,Harden,level,42
+Grimer,Screech,level,48
+Grimer,Acid Armor,level,55
+Grimer,Toxic,TM,
+Grimer,Body Slam,TM,
+Grimer,Rage,TM,
+Grimer,Mega Drain,TM,
+Grimer,Thunderbolt,TM,
+Grimer,Thunder,TM,
+Grimer,Mimic,TM,
+Grimer,Double Team,TM,
+Grimer,Bide,TM,
+Grimer,Selfdestruct,TM,
+Grimer,Fire Blast,TM,
+Grimer,Rest,TM,
+Grimer,Explosion,TM,
+Grimer,Substitute,TM,
+Muk,Disable,level,1
+Muk,Pound,level,1
+Muk,Poison Gas,level,30
+Muk,Minimize,level,33
+Muk,Sludge,level,37
+Muk,Harden,level,45
+Muk,Screech,level,53
+Muk,Acid Armor,level,60
+Muk,Toxic,TM,
+Muk,Body Slam,TM,
+Muk,Hyper Beam,TM,
+Muk,Rage,TM,
+Muk,Mega Drain,TM,
+Muk,Thunderbolt,TM,
+Muk,Thunder,TM,
+Muk,Mimic,TM,
+Muk,Double Team,TM,
+Muk,Bide,TM,
+Muk,Selfdestruct,TM,
+Muk,Fire Blast,TM,
+Muk,Rest,TM,
+Muk,Explosion,TM,
+Muk,Substitute,TM,
+Shellder,Tackle,level,1
+Shellder,Withdraw,level,1
+Shellder,Supersonic,level,18
+Shellder,Clamp,level,23
+Shellder,Aurora Beam,level,30
+Shellder,Leer,level,39
+Shellder,Ice Beam,level,50
+Shellder,Surf,HM,
+Shellder,Toxic,TM,
+Shellder,Take Down,TM,
+Shellder,Double-Edge,TM,
+Shellder,Bubble Beam,TM,
+Shellder,Water Gun,TM,
+Shellder,Ice Beam,TM,
+Shellder,Blizzard,TM,
+Shellder,Rage,TM,
+Shellder,Teleport,TM,
+Shellder,Mimic,TM,
+Shellder,Double Team,TM,
+Shellder,Reflect,TM,
+Shellder,Bide,TM,
+Shellder,Selfdestruct,TM,
+Shellder,Swift,TM,
+Shellder,Rest,TM,
+Shellder,Explosion,TM,
+Shellder,Tri Attack,TM,
+Shellder,Substitute,TM,
+Cloyster,Tackle,level,1
+Cloyster,Withdraw,level,1
+Cloyster,Supersonic,level,18
+Cloyster,Clamp,level,23
+Cloyster,Aurora Beam,level,30
+Cloyster,Leer,level,39
+Cloyster,Ice Beam,level,50
+Cloyster,Spike Cannon,level,50
+Cloyster,Surf,HM,
+Cloyster,Toxic,TM,
+Cloyster,Take Down,TM,
+Cloyster,Double-Edge,TM,
+Cloyster,Bubble Beam,TM,
+Cloyster,Water Gun,TM,
+Cloyster,Ice Beam,TM,
+Cloyster,Blizzard,TM,
+Cloyster,Hyper Beam,TM,
+Cloyster,Rage,TM,
+Cloyster,Teleport,TM,
+Cloyster,Mimic,TM,
+Cloyster,Double Team,TM,
+Cloyster,Reflect,TM,
+Cloyster,Bide,TM,
+Cloyster,Selfdestruct,TM,
+Cloyster,Swift,TM,
+Cloyster,Rest,TM,
+Cloyster,Explosion,TM,
+Cloyster,Tri Attack,TM,
+Cloyster,Substitute,TM,
+Gastly,Confuse Ray,level,1
+Gastly,Lick,level,1
+Gastly,Night Shade,level,1
+Gastly,Hypnosis,level,27
+Gastly,Dream Eater,level,35
+Gastly,Toxic,TM,
+Gastly,Rage,TM,
+Gastly,Mega Drain,TM,
+Gastly,Thunderbolt,TM,
+Gastly,Thunder,TM,
+Gastly,Psychic,TM,
+Gastly,Mimic,TM,
+Gastly,Double Team,TM,
+Gastly,Bide,TM,
+Gastly,Selfdestruct,TM,
+Gastly,Dream Eater,TM,
+Gastly,Rest,TM,
+Gastly,Psywave,TM,
+Gastly,Explosion,TM,
+Gastly,Substitute,TM,
+Haunter,Confuse Ray,level,1
+Haunter,Lick,level,1
+Haunter,Night Shade,level,1
+Haunter,Hypnosis,level,29
+Haunter,Dream Eater,level,38
+Haunter,Toxic,TM,
+Haunter,Rage,TM,
+Haunter,Mega Drain,TM,
+Haunter,Thunderbolt,TM,
+Haunter,Thunder,TM,
+Haunter,Psychic,TM,
+Haunter,Mimic,TM,
+Haunter,Double Team,TM,
+Haunter,Bide,TM,
+Haunter,Selfdestruct,TM,
+Haunter,Dream Eater,TM,
+Haunter,Rest,TM,
+Haunter,Psywave,TM,
+Haunter,Explosion,TM,
+Haunter,Substitute,TM,
+Gengar,Confuse Ray,level,1
+Gengar,Lick,level,1
+Gengar,Night Shade,level,1
+Gengar,Hypnosis,level,29
+Gengar,Dream Eater,level,38
+Gengar,Strength,HM,
+Gengar,Mega Punch,TM,
+Gengar,Mega Kick,TM,
+Gengar,Toxic,TM,
+Gengar,Body Slam,TM,
+Gengar,Take Down,TM,
+Gengar,Double-Edge,TM,
+Gengar,Hyper Beam,TM,
+Gengar,Submission,TM,
+Gengar,Counter,TM,
+Gengar,Seismic Toss,TM,
+Gengar,Rage,TM,
+Gengar,Mega Drain,TM,
+Gengar,Thunderbolt,TM,
+Gengar,Thunder,TM,
+Gengar,Psychic,TM,
+Gengar,Mimic,TM,
+Gengar,Double Team,TM,
+Gengar,Bide,TM,
+Gengar,Metronome,TM,
+Gengar,Selfdestruct,TM,
+Gengar,Skull Bash,TM,
+Gengar,Dream Eater,TM,
+Gengar,Rest,TM,
+Gengar,Psywave,TM,
+Gengar,Explosion,TM,
+Gengar,Substitute,TM,
+Onix,Screech,level,1
+Onix,Tackle,level,1
+Onix,Bind,level,15
+Onix,Rock Throw,level,19
+Onix,Rage,level,25
+Onix,Slam,level,33
+Onix,Harden,level,43
+Onix,Strength,HM,
+Onix,Toxic,TM,
+Onix,Body Slam,TM,
+Onix,Take Down,TM,
+Onix,Double-Edge,TM,
+Onix,Rage,TM,
+Onix,Earthquake,TM,
+Onix,Fissure,TM,
+Onix,Dig,TM,
+Onix,Mimic,TM,
+Onix,Double Team,TM,
+Onix,Bide,TM,
+Onix,Selfdestruct,TM,
+Onix,Skull Bash,TM,
+Onix,Rest,TM,
+Onix,Explosion,TM,
+Onix,Rock Slide,TM,
+Onix,Substitute,TM,
+Drowzee,Hypnosis,level,1
+Drowzee,Pound,level,1
+Drowzee,Disable,level,12
+Drowzee,Confusion,level,17
+Drowzee,Headbutt,level,24
+Drowzee,Poison Gas,level,29
+Drowzee,Psychic,level,32
+Drowzee,Meditate,level,37
+Drowzee,Flash,HM,
+Drowzee,Mega Punch,TM,
+Drowzee,Mega Kick,TM,
+Drowzee,Toxic,TM,
+Drowzee,Body Slam,TM,
+Drowzee,Take Down,TM,
+Drowzee,Double-Edge,TM,
+Drowzee,Submission,TM,
+Drowzee,Counter,TM,
+Drowzee,Seismic Toss,TM,
+Drowzee,Rage,TM,
+Drowzee,Psychic,TM,
+Drowzee,Teleport,TM,
+Drowzee,Mimic,TM,
+Drowzee,Double Team,TM,
+Drowzee,Reflect,TM,
+Drowzee,Bide,TM,
+Drowzee,Metronome,TM,
+Drowzee,Skull Bash,TM,
+Drowzee,Dream Eater,TM,
+Drowzee,Rest,TM,
+Drowzee,Thunder Wave,TM,
+Drowzee,Psywave,TM,
+Drowzee,Tri Attack,TM,
+Drowzee,Substitute,TM,
+Hypno,Hypnosis,level,1
+Hypno,Pound,level,1
+Hypno,Disable,level,12
+Hypno,Confusion,level,17
+Hypno,Headbutt,level,24
+Hypno,Poison Gas,level,33
+Hypno,Psychic,level,37
+Hypno,Meditate,level,43
+Hypno,Flash,HM,
+Hypno,Mega Punch,TM,
+Hypno,Mega Kick,TM,
+Hypno,Toxic,TM,
+Hypno,Body Slam,TM,
+Hypno,Take Down,TM,
+Hypno,Double-Edge,TM,
+Hypno,Hyper Beam,TM,
+Hypno,Submission,TM,
+Hypno,Counter,TM,
+Hypno,Seismic Toss,TM,
+Hypno,Rage,TM,
+Hypno,Psychic,TM,
+Hypno,Teleport,TM,
+Hypno,Mimic,TM,
+Hypno,Double Team,TM,
+Hypno,Reflect,TM,
+Hypno,Bide,TM,
+Hypno,Metronome,TM,
+Hypno,Skull Bash,TM,
+Hypno,Dream Eater,TM,
+Hypno,Rest,TM,
+Hypno,Thunder Wave,TM,
+Hypno,Psywave,TM,
+Hypno,Tri Attack,TM,
+Hypno,Substitute,TM,
+Krabby,Bubble,level,1
+Krabby,Leer,level,1
+Krabby,Vice Grip,level,20
+Krabby,Guillotine,level,25
+Krabby,Stomp,level,30
+Krabby,Crabhammer,level,35
+Krabby,Harden,level,40
+Krabby,Cut,HM,
+Krabby,Surf,HM,
+Krabby,Strength,HM,
+Krabby,Swords Dance,TM,
+Krabby,Toxic,TM,
+Krabby,Body Slam,TM,
+Krabby,Take Down,TM,
+Krabby,Double-Edge,TM,
+Krabby,Bubble Beam,TM,
+Krabby,Water Gun,TM,
+Krabby,Ice Beam,TM,
+Krabby,Blizzard,TM,
+Krabby,Rage,TM,
+Krabby,Mimic,TM,
+Krabby,Double Team,TM,
+Krabby,Bide,TM,
+Krabby,Rest,TM,
+Krabby,Substitute,TM,
+Kingler,Bubble,level,1
+Kingler,Leer,level,1
+Kingler,Vice Grip,level,20
+Kingler,Guillotine,level,25
+Kingler,Stomp,level,34
+Kingler,Crabhammer,level,42
+Kingler,Harden,level,49
+Kingler,Cut,HM,
+Kingler,Surf,HM,
+Kingler,Strength,HM,
+Kingler,Swords Dance,TM,
+Kingler,Toxic,TM,
+Kingler,Body Slam,TM,
+Kingler,Take Down,TM,
+Kingler,Double-Edge,TM,
+Kingler,Bubble Beam,TM,
+Kingler,Water Gun,TM,
+Kingler,Ice Beam,TM,
+Kingler,Blizzard,TM,
+Kingler,Hyper Beam,TM,
+Kingler,Rage,TM,
+Kingler,Mimic,TM,
+Kingler,Double Team,TM,
+Kingler,Bide,TM,
+Kingler,Rest,TM,
+Kingler,Substitute,TM,
+Voltorb,Screech,level,1
+Voltorb,Tackle,level,1
+Voltorb,Sonic Boom,level,17
+Voltorb,Selfdestruct,level,22
+Voltorb,Light Screen,level,29
+Voltorb,Swift,level,36
+Voltorb,Explosion,level,43
+Voltorb,Flash,HM,
+Voltorb,Toxic,TM,
+Voltorb,Take Down,TM,
+Voltorb,Rage,TM,
+Voltorb,Thunderbolt,TM,
+Voltorb,Thunder,TM,
+Voltorb,Teleport,TM,
+Voltorb,Mimic,TM,
+Voltorb,Double Team,TM,
+Voltorb,Reflect,TM,
+Voltorb,Bide,TM,
+Voltorb,Selfdestruct,TM,
+Voltorb,Swift,TM,
+Voltorb,Rest,TM,
+Voltorb,Thunder Wave,TM,
+Voltorb,Explosion,TM,
+Voltorb,Substitute,TM,
+Electrode,Screech,level,1
+Electrode,Tackle,level,1
+Electrode,Sonic Boom,level,17
+Electrode,Selfdestruct,level,22
+Electrode,Light Screen,level,29
+Electrode,Swift,level,40
+Electrode,Explosion,level,50
+Electrode,Flash,HM,
+Electrode,Toxic,TM,
+Electrode,Take Down,TM,
+Electrode,Hyper Beam,TM,
+Electrode,Rage,TM,
+Electrode,Thunderbolt,TM,
+Electrode,Thunder,TM,
+Electrode,Teleport,TM,
+Electrode,Mimic,TM,
+Electrode,Double Team,TM,
+Electrode,Reflect,TM,
+Electrode,Bide,TM,
+Electrode,Selfdestruct,TM,
+Electrode,Swift,TM,
+Electrode,Skull Bash,TM,
+Electrode,Rest,TM,
+Electrode,Thunder Wave,TM,
+Electrode,Explosion,TM,
+Electrode,Substitute,TM,
+Exeggcute,Barrage,level,1
+Exeggcute,Hypnosis,level,1
+Exeggcute,Reflect,level,25
+Exeggcute,Leech Seed,level,28
+Exeggcute,Stun Spore,level,32
+Exeggcute,Poison Powder,level,37
+Exeggcute,Solar Beam,level,42
+Exeggcute,Sleep Powder,level,48
+Exeggcute,Toxic,TM,
+Exeggcute,Take Down,TM,
+Exeggcute,Double-Edge,TM,
+Exeggcute,Rage,TM,
+Exeggcute,Psychic,TM,
+Exeggcute,Teleport,TM,
+Exeggcute,Mimic,TM,
+Exeggcute,Double Team,TM,
+Exeggcute,Reflect,TM,
+Exeggcute,Bide,TM,
+Exeggcute,Selfdestruct,TM,
+Exeggcute,Egg Bomb,TM,
+Exeggcute,Rest,TM,
+Exeggcute,Psywave,TM,
+Exeggcute,Explosion,TM,
+Exeggcute,Substitute,TM,
+Exeggcutor,Barrage,level,1
+Exeggcutor,Hypnosis,level,1
+Exeggcutor,Reflect,level,25
+Exeggcutor,Leech Seed,level,28
+Exeggcutor,Stomp,level,28
+Exeggcutor,Stun Spore,level,32
+Exeggcutor,Poison Powder,level,37
+Exeggcutor,Solar Beam,level,42
+Exeggcutor,Sleep Powder,level,48
+Exeggcutor,Strength,HM,
+Exeggcutor,Toxic,TM,
+Exeggcutor,Take Down,TM,
+Exeggcutor,Double-Edge,TM,
+Exeggcutor,Hyper Beam,TM,
+Exeggcutor,Rage,TM,
+Exeggcutor,Mega Drain,TM,
+Exeggcutor,Solar Beam,TM,
+Exeggcutor,Psychic,TM,
+Exeggcutor,Teleport,TM,
+Exeggcutor,Mimic,TM,
+Exeggcutor,Double Team,TM,
+Exeggcutor,Reflect,TM,
+Exeggcutor,Bide,TM,
+Exeggcutor,Selfdestruct,TM,
+Exeggcutor,Egg Bomb,TM,
+Exeggcutor,Rest,TM,
+Exeggcutor,Psywave,TM,
+Exeggcutor,Explosion,TM,
+Exeggcutor,Substitute,TM,
+Cubone,Growl,level,1
+Cubone,Bone Club,level,10
+Cubone,Tail Whip,level,13
+Cubone,Headbutt,level,18
+Cubone,Leer,level,25
+Cubone,Focus Energy,level,31
+Cubone,Thrash,level,38
+Cubone,Bonemerang,level,43
+Cubone,Rage,level,46
+Cubone,Strength,HM,
+Cubone,Mega Punch,TM,
+Cubone,Mega Kick,TM,
+Cubone,Toxic,TM,
+Cubone,Body Slam,TM,
+Cubone,Take Down,TM,
+Cubone,Double-Edge,TM,
+Cubone,Bubble Beam,TM,
+Cubone,Water Gun,TM,
+Cubone,Ice Beam,TM,
+Cubone,Blizzard,TM,
+Cubone,Submission,TM,
+Cubone,Counter,TM,
+Cubone,Seismic Toss,TM,
+Cubone,Rage,TM,
+Cubone,Earthquake,TM,
+Cubone,Fissure,TM,
+Cubone,Dig,TM,
+Cubone,Mimic,TM,
+Cubone,Double Team,TM,
+Cubone,Bide,TM,
+Cubone,Fire Blast,TM,
+Cubone,Skull Bash,TM,
+Cubone,Rest,TM,
+Cubone,Substitute,TM,
+Marowak,Growl,level,1
+Marowak,Bone Club,level,10
+Marowak,Tail Whip,level,13
+Marowak,Headbutt,level,18
+Marowak,Leer,level,25
+Marowak,Focus Energy,level,33
+Marowak,Thrash,level,41
+Marowak,Bonemerang,level,48
+Marowak,Rage,level,55
+Marowak,Strength,HM,
+Marowak,Mega Punch,TM,
+Marowak,Mega Kick,TM,
+Marowak,Toxic,TM,
+Marowak,Body Slam,TM,
+Marowak,Take Down,TM,
+Marowak,Double-Edge,TM,
+Marowak,Bubble Beam,TM,
+Marowak,Water Gun,TM,
+Marowak,Ice Beam,TM,
+Marowak,Blizzard,TM,
+Marowak,Hyper Beam,TM,
+Marowak,Submission,TM,
+Marowak,Counter,TM,
+Marowak,Seismic Toss,TM,
+Marowak,Rage,TM,
+Marowak,Earthquake,TM,
+Marowak,Fissure,TM,
+Marowak,Dig,TM,
+Marowak,Mimic,TM,
+Marowak,Double Team,TM,
+Marowak,Bide,TM,
+Marowak,Fire Blast,TM,
+Marowak,Skull Bash,TM,
+Marowak,Rest,TM,
+Marowak,Substitute,TM,
+Hitmonlee,Double Kick,level,1
+Hitmonlee,Meditate,level,1
+Hitmonlee,Rolling Kick,level,33
+Hitmonlee,Jump Kick,level,38
+Hitmonlee,Focus Energy,level,43
+Hitmonlee,High Jump Kick,level,48
+Hitmonlee,Mega Kick,level,53
+Hitmonlee,Strength,HM,
+Hitmonlee,Mega Punch,TM,
+Hitmonlee,Mega Kick,TM,
+Hitmonlee,Toxic,TM,
+Hitmonlee,Body Slam,TM,
+Hitmonlee,Take Down,TM,
+Hitmonlee,Double-Edge,TM,
+Hitmonlee,Submission,TM,
+Hitmonlee,Counter,TM,
+Hitmonlee,Seismic Toss,TM,
+Hitmonlee,Rage,TM,
+Hitmonlee,Mimic,TM,
+Hitmonlee,Double Team,TM,
+Hitmonlee,Bide,TM,
+Hitmonlee,Metronome,TM,
+Hitmonlee,Swift,TM,
+Hitmonlee,Skull Bash,TM,
+Hitmonlee,Rest,TM,
+Hitmonlee,Substitute,TM,
+Hitmonchan,Agility,level,1
+Hitmonchan,Comet Punch,level,1
+Hitmonchan,Fire Punch,level,33
+Hitmonchan,Ice Punch,level,38
+Hitmonchan,Thunder Punch,level,43
+Hitmonchan,Mega Punch,level,48
+Hitmonchan,Counter,level,53
+Hitmonchan,Strength,HM,
+Hitmonchan,Mega Punch,TM,
+Hitmonchan,Mega Kick,TM,
+Hitmonchan,Toxic,TM,
+Hitmonchan,Body Slam,TM,
+Hitmonchan,Take Down,TM,
+Hitmonchan,Double-Edge,TM,
+Hitmonchan,Submission,TM,
+Hitmonchan,Counter,TM,
+Hitmonchan,Seismic Toss,TM,
+Hitmonchan,Rage,TM,
+Hitmonchan,Mimic,TM,
+Hitmonchan,Double Team,TM,
+Hitmonchan,Bide,TM,
+Hitmonchan,Metronome,TM,
+Hitmonchan,Swift,TM,
+Hitmonchan,Skull Bash,TM,
+Hitmonchan,Rest,TM,
+Hitmonchan,Substitute,TM,
+Lickitung,Supersonic,level,1
+Lickitung,Wrap,level,1
+Lickitung,Stomp,level,7
+Lickitung,Disable,level,15
+Lickitung,Defense Curl,level,23
+Lickitung,Slam,level,31
+Lickitung,Screech,level,39
+Lickitung,Cut,HM,
+Lickitung,Surf,HM,
+Lickitung,Strength,HM,
+Lickitung,Mega Punch,TM,
+Lickitung,Swords Dance,TM,
+Lickitung,Mega Kick,TM,
+Lickitung,Toxic,TM,
+Lickitung,Body Slam,TM,
+Lickitung,Take Down,TM,
+Lickitung,Double-Edge,TM,
+Lickitung,Bubble Beam,TM,
+Lickitung,Water Gun,TM,
+Lickitung,Ice Beam,TM,
+Lickitung,Blizzard,TM,
+Lickitung,Hyper Beam,TM,
+Lickitung,Submission,TM,
+Lickitung,Counter,TM,
+Lickitung,Seismic Toss,TM,
+Lickitung,Rage,TM,
+Lickitung,Thunderbolt,TM,
+Lickitung,Thunder,TM,
+Lickitung,Earthquake,TM,
+Lickitung,Fissure,TM,
+Lickitung,Mimic,TM,
+Lickitung,Double Team,TM,
+Lickitung,Bide,TM,
+Lickitung,Fire Blast,TM,
+Lickitung,Skull Bash,TM,
+Lickitung,Rest,TM,
+Lickitung,Substitute,TM,
+Koffing,Smog,level,1
+Koffing,Tackle,level,1
+Koffing,Sludge,level,32
+Koffing,Smoke Screen,level,37
+Koffing,Selfdestruct,level,40
+Koffing,Haze,level,45
+Koffing,Explosion,level,48
+Koffing,Toxic,TM,
+Koffing,Rage,TM,
+Koffing,Thunderbolt,TM,
+Koffing,Thunder,TM,
+Koffing,Mimic,TM,
+Koffing,Double Team,TM,
+Koffing,Bide,TM,
+Koffing,Selfdestruct,TM,
+Koffing,Fire Blast,TM,
+Koffing,Rest,TM,
+Koffing,Explosion,TM,
+Koffing,Substitute,TM,
+Weezing,Smog,level,1
+Weezing,Tackle,level,1
+Weezing,Sludge,level,32
+Weezing,Smoke Screen,level,39
+Weezing,Selfdestruct,level,43
+Weezing,Haze,level,49
+Weezing,Explosion,level,53
+Weezing,Toxic,TM,
+Weezing,Hyper Beam,TM,
+Weezing,Rage,TM,
+Weezing,Thunderbolt,TM,
+Weezing,Thunder,TM,
+Weezing,Mimic,TM,
+Weezing,Double Team,TM,
+Weezing,Bide,TM,
+Weezing,Selfdestruct,TM,
+Weezing,Fire Blast,TM,
+Weezing,Rest,TM,
+Weezing,Explosion,TM,
+Weezing,Substitute,TM,
+Rhyhorn,Horn Attack,level,1
+Rhyhorn,Stomp,level,30
+Rhyhorn,Tail Whip,level,35
+Rhyhorn,Fury Attack,level,40
+Rhyhorn,Horn Drill,level,45
+Rhyhorn,Leer,level,50
+Rhyhorn,Take Down,level,55
+Rhyhorn,Strength,HM,
+Rhyhorn,Toxic,TM,
+Rhyhorn,Horn Drill,TM,
+Rhyhorn,Body Slam,TM,
+Rhyhorn,Take Down,TM,
+Rhyhorn,Double-Edge,TM,
+Rhyhorn,Rage,TM,
+Rhyhorn,Thunderbolt,TM,
+Rhyhorn,Thunder,TM,
+Rhyhorn,Earthquake,TM,
+Rhyhorn,Fissure,TM,
+Rhyhorn,Dig,TM,
+Rhyhorn,Mimic,TM,
+Rhyhorn,Double Team,TM,
+Rhyhorn,Bide,TM,
+Rhyhorn,Fire Blast,TM,
+Rhyhorn,Skull Bash,TM,
+Rhyhorn,Rest,TM,
+Rhyhorn,Rock Slide,TM,
+Rhyhorn,Substitute,TM,
+Rhydon,Horn Attack,level,1
+Rhydon,Stomp,level,30
+Rhydon,Tail Whip,level,35
+Rhydon,Fury Attack,level,40
+Rhydon,Horn Drill,level,48
+Rhydon,Leer,level,55
+Rhydon,Take Down,level,64
+Rhydon,Surf,HM,
+Rhydon,Strength,HM,
+Rhydon,Mega Punch,TM,
+Rhydon,Mega Kick,TM,
+Rhydon,Toxic,TM,
+Rhydon,Horn Drill,TM,
+Rhydon,Body Slam,TM,
+Rhydon,Take Down,TM,
+Rhydon,Double-Edge,TM,
+Rhydon,Bubble Beam,TM,
+Rhydon,Water Gun,TM,
+Rhydon,Ice Beam,TM,
+Rhydon,Blizzard,TM,
+Rhydon,Hyper Beam,TM,
+Rhydon,Pay Day,TM,
+Rhydon,Submission,TM,
+Rhydon,Counter,TM,
+Rhydon,Seismic Toss,TM,
+Rhydon,Rage,TM,
+Rhydon,Thunderbolt,TM,
+Rhydon,Thunder,TM,
+Rhydon,Earthquake,TM,
+Rhydon,Fissure,TM,
+Rhydon,Dig,TM,
+Rhydon,Mimic,TM,
+Rhydon,Double Team,TM,
+Rhydon,Bide,TM,
+Rhydon,Fire Blast,TM,
+Rhydon,Skull Bash,TM,
+Rhydon,Rest,TM,
+Rhydon,Rock Slide,TM,
+Rhydon,Substitute,TM,
+Chansey,Pound,level,1
+Chansey,Tail Whip,level,1
+Chansey,Double Slap,level,12
+Chansey,Sing,level,24
+Chansey,Growl,level,30
+Chansey,Minimize,level,38
+Chansey,Defense Curl,level,44
+Chansey,Light Screen,level,48
+Chansey,Double-Edge,level,54
+Chansey,Strength,HM,
+Chansey,Flash,HM,
+Chansey,Mega Punch,TM,
+Chansey,Mega Kick,TM,
+Chansey,Toxic,TM,
+Chansey,Body Slam,TM,
+Chansey,Take Down,TM,
+Chansey,Double-Edge,TM,
+Chansey,Bubble Beam,TM,
+Chansey,Water Gun,TM,
+Chansey,Ice Beam,TM,
+Chansey,Blizzard,TM,
+Chansey,Hyper Beam,TM,
+Chansey,Submission,TM,
+Chansey,Counter,TM,
+Chansey,Seismic Toss,TM,
+Chansey,Rage,TM,
+Chansey,Solar Beam,TM,
+Chansey,Thunderbolt,TM,
+Chansey,Thunder,TM,
+Chansey,Psychic,TM,
+Chansey,Teleport,TM,
+Chansey,Mimic,TM,
+Chansey,Double Team,TM,
+Chansey,Reflect,TM,
+Chansey,Bide,TM,
+Chansey,Metronome,TM,
+Chansey,Egg Bomb,TM,
+Chansey,Fire Blast,TM,
+Chansey,Skull Bash,TM,
+Chansey,Softboiled,TM,
+Chansey,Rest,TM,
+Chansey,Thunder Wave,TM,
+Chansey,Psywave,TM,
+Chansey,Tri Attack,TM,
+Chansey,Substitute,TM,
+Tangela,Constrict,level,1
+Tangela,Bind,level,24
+Tangela,Absorb,level,27
+Tangela,Vine Whip,level,29
+Tangela,Poison Powder,level,32
+Tangela,Stun Spore,level,36
+Tangela,Sleep Powder,level,39
+Tangela,Slam,level,45
+Tangela,Growth,level,48
+Tangela,Cut,HM,
+Tangela,Swords Dance,TM,
+Tangela,Toxic,TM,
+Tangela,Body Slam,TM,
+Tangela,Take Down,TM,
+Tangela,Double-Edge,TM,
+Tangela,Hyper Beam,TM,
+Tangela,Rage,TM,
+Tangela,Mega Drain,TM,
+Tangela,Solar Beam,TM,
+Tangela,Mimic,TM,
+Tangela,Double Team,TM,
+Tangela,Bide,TM,
+Tangela,Skull Bash,TM,
+Tangela,Rest,TM,
+Tangela,Substitute,TM,
+Kangaskhan,Comet Punch,level,1
+Kangaskhan,Rage,level,1
+Kangaskhan,Bite,level,26
+Kangaskhan,Tail Whip,level,31
+Kangaskhan,Mega Punch,level,36
+Kangaskhan,Leer,level,41
+Kangaskhan,Dizzy Punch,level,46
+Kangaskhan,Surf,HM,
+Kangaskhan,Strength,HM,
+Kangaskhan,Mega Punch,TM,
+Kangaskhan,Mega Kick,TM,
+Kangaskhan,Toxic,TM,
+Kangaskhan,Body Slam,TM,
+Kangaskhan,Take Down,TM,
+Kangaskhan,Double-Edge,TM,
+Kangaskhan,Bubble Beam,TM,
+Kangaskhan,Water Gun,TM,
+Kangaskhan,Ice Beam,TM,
+Kangaskhan,Blizzard,TM,
+Kangaskhan,Hyper Beam,TM,
+Kangaskhan,Submission,TM,
+Kangaskhan,Counter,TM,
+Kangaskhan,Seismic Toss,TM,
+Kangaskhan,Rage,TM,
+Kangaskhan,Thunderbolt,TM,
+Kangaskhan,Thunder,TM,
+Kangaskhan,Earthquake,TM,
+Kangaskhan,Fissure,TM,
+Kangaskhan,Mimic,TM,
+Kangaskhan,Double Team,TM,
+Kangaskhan,Bide,TM,
+Kangaskhan,Fire Blast,TM,
+Kangaskhan,Skull Bash,TM,
+Kangaskhan,Rest,TM,
+Kangaskhan,Rock Slide,TM,
+Kangaskhan,Substitute,TM,
+Horsea,Bubble,level,1
+Horsea,Smoke Screen,level,19
+Horsea,Leer,level,24
+Horsea,Water Gun,level,30
+Horsea,Agility,level,37
+Horsea,Hydro Pump,level,45
+Horsea,Surf,HM,
+Horsea,Toxic,TM,
+Horsea,Take Down,TM,
+Horsea,Double-Edge,TM,
+Horsea,Bubble Beam,TM,
+Horsea,Water Gun,TM,
+Horsea,Ice Beam,TM,
+Horsea,Blizzard,TM,
+Horsea,Rage,TM,
+Horsea,Mimic,TM,
+Horsea,Double Team,TM,
+Horsea,Bide,TM,
+Horsea,Swift,TM,
+Horsea,Skull Bash,TM,
+Horsea,Rest,TM,
+Horsea,Substitute,TM,
+Seadra,Bubble,level,1
+Seadra,Smoke Screen,level,19
+Seadra,Leer,level,24
+Seadra,Water Gun,level,30
+Seadra,Agility,level,41
+Seadra,Hydro Pump,level,52
+Seadra,Surf,HM,
+Seadra,Toxic,TM,
+Seadra,Take Down,TM,
+Seadra,Double-Edge,TM,
+Seadra,Bubble Beam,TM,
+Seadra,Water Gun,TM,
+Seadra,Ice Beam,TM,
+Seadra,Blizzard,TM,
+Seadra,Hyper Beam,TM,
+Seadra,Rage,TM,
+Seadra,Mimic,TM,
+Seadra,Double Team,TM,
+Seadra,Bide,TM,
+Seadra,Swift,TM,
+Seadra,Skull Bash,TM,
+Seadra,Rest,TM,
+Seadra,Substitute,TM,
+Goldeen,Peck,level,1
+Goldeen,Tail Whip,level,1
+Goldeen,Supersonic,level,19
+Goldeen,Horn Attack,level,24
+Goldeen,Fury Attack,level,30
+Goldeen,Waterfall,level,37
+Goldeen,Horn Drill,level,45
+Goldeen,Agility,level,54
+Goldeen,Surf,HM,
+Goldeen,Toxic,TM,
+Goldeen,Horn Drill,TM,
+Goldeen,Take Down,TM,
+Goldeen,Double-Edge,TM,
+Goldeen,Bubble Beam,TM,
+Goldeen,Water Gun,TM,
+Goldeen,Ice Beam,TM,
+Goldeen,Blizzard,TM,
+Goldeen,Rage,TM,
+Goldeen,Mimic,TM,
+Goldeen,Double Team,TM,
+Goldeen,Bide,TM,
+Goldeen,Swift,TM,
+Goldeen,Skull Bash,TM,
+Goldeen,Rest,TM,
+Goldeen,Substitute,TM,
+Seaking,Peck,level,1
+Seaking,Tail Whip,level,1
+Seaking,Supersonic,level,19
+Seaking,Horn Attack,level,24
+Seaking,Fury Attack,level,30
+Seaking,Waterfall,level,39
+Seaking,Horn Drill,level,48
+Seaking,Agility,level,54
+Seaking,Surf,HM,
+Seaking,Toxic,TM,
+Seaking,Horn Drill,TM,
+Seaking,Take Down,TM,
+Seaking,Double-Edge,TM,
+Seaking,Bubble Beam,TM,
+Seaking,Water Gun,TM,
+Seaking,Ice Beam,TM,
+Seaking,Blizzard,TM,
+Seaking,Hyper Beam,TM,
+Seaking,Rage,TM,
+Seaking,Mimic,TM,
+Seaking,Double Team,TM,
+Seaking,Bide,TM,
+Seaking,Swift,TM,
+Seaking,Skull Bash,TM,
+Seaking,Rest,TM,
+Seaking,Substitute,TM,
+Staryu,Tackle,level,1
+Staryu,Water Gun,level,17
+Staryu,Harden,level,22
+Staryu,Recover,level,27
+Staryu,Swift,level,32
+Staryu,Minimize,level,37
+Staryu,Light Screen,level,42
+Staryu,Hydro Pump,level,47
+Staryu,Surf,HM,
+Staryu,Flash,HM,
+Staryu,Toxic,TM,
+Staryu,Take Down,TM,
+Staryu,Double-Edge,TM,
+Staryu,Bubble Beam,TM,
+Staryu,Water Gun,TM,
+Staryu,Ice Beam,TM,
+Staryu,Blizzard,TM,
+Staryu,Rage,TM,
+Staryu,Thunderbolt,TM,
+Staryu,Thunder,TM,
+Staryu,Psychic,TM,
+Staryu,Teleport,TM,
+Staryu,Mimic,TM,
+Staryu,Double Team,TM,
+Staryu,Reflect,TM,
+Staryu,Bide,TM,
+Staryu,Swift,TM,
+Staryu,Skull Bash,TM,
+Staryu,Rest,TM,
+Staryu,Thunder Wave,TM,
+Staryu,Psywave,TM,
+Staryu,Tri Attack,TM,
+Staryu,Substitute,TM,
+Starmie,Tackle,level,1
+Starmie,Water Gun,level,17
+Starmie,Harden,level,22
+Starmie,Recover,level,27
+Starmie,Swift,level,32
+Starmie,Minimize,level,37
+Starmie,Light Screen,level,42
+Starmie,Hydro Pump,level,47
+Starmie,Surf,HM,
+Starmie,Flash,HM,
+Starmie,Toxic,TM,
+Starmie,Take Down,TM,
+Starmie,Double-Edge,TM,
+Starmie,Bubble Beam,TM,
+Starmie,Water Gun,TM,
+Starmie,Ice Beam,TM,
+Starmie,Blizzard,TM,
+Starmie,Hyper Beam,TM,
+Starmie,Rage,TM,
+Starmie,Thunderbolt,TM,
+Starmie,Thunder,TM,
+Starmie,Psychic,TM,
+Starmie,Teleport,TM,
+Starmie,Mimic,TM,
+Starmie,Double Team,TM,
+Starmie,Reflect,TM,
+Starmie,Bide,TM,
+Starmie,Swift,TM,
+Starmie,Skull Bash,TM,
+Starmie,Rest,TM,
+Starmie,Thunder Wave,TM,
+Starmie,Psywave,TM,
+Starmie,Tri Attack,TM,
+Starmie,Substitute,TM,
+Mr. Mime,Barrier,level,1
+Mr. Mime,Confusion,level,15
+Mr. Mime,Light Screen,level,23
+Mr. Mime,Double Slap,level,31
+Mr. Mime,Meditate,level,39
+Mr. Mime,Substitute,level,47
+Mr. Mime,Flash,HM,
+Mr. Mime,Mega Punch,TM,
+Mr. Mime,Mega Kick,TM,
+Mr. Mime,Toxic,TM,
+Mr. Mime,Body Slam,TM,
+Mr. Mime,Take Down,TM,
+Mr. Mime,Double-Edge,TM,
+Mr. Mime,Hyper Beam,TM,
+Mr. Mime,Submission,TM,
+Mr. Mime,Counter,TM,
+Mr. Mime,Seismic Toss,TM,
+Mr. Mime,Rage,TM,
+Mr. Mime,Solar Beam,TM,
+Mr. Mime,Thunderbolt,TM,
+Mr. Mime,Thunder,TM,
+Mr. Mime,Psychic,TM,
+Mr. Mime,Teleport,TM,
+Mr. Mime,Mimic,TM,
+Mr. Mime,Double Team,TM,
+Mr. Mime,Reflect,TM,
+Mr. Mime,Bide,TM,
+Mr. Mime,Metronome,TM,
+Mr. Mime,Skull Bash,TM,
+Mr. Mime,Rest,TM,
+Mr. Mime,Thunder Wave,TM,
+Mr. Mime,Psywave,TM,
+Mr. Mime,Substitute,TM,
+Scyther,Quick Attack,level,1
+Scyther,Leer,level,17
+Scyther,Focus Energy,level,20
+Scyther,Double Team,level,24
+Scyther,Slash,level,29
+Scyther,Swords Dance,level,35
+Scyther,Agility,level,42
+Scyther,Wing Attack,level,50
+Scyther,Cut,HM,
+Scyther,Swords Dance,TM,
+Scyther,Toxic,TM,
+Scyther,Take Down,TM,
+Scyther,Double-Edge,TM,
+Scyther,Hyper Beam,TM,
+Scyther,Rage,TM,
+Scyther,Mimic,TM,
+Scyther,Double Team,TM,
+Scyther,Bide,TM,
+Scyther,Swift,TM,
+Scyther,Skull Bash,TM,
+Scyther,Rest,TM,
+Scyther,Substitute,TM,
+Jynx,Lovely Kiss,level,1
+Jynx,Pound,level,1
+Jynx,Lick,level,18
+Jynx,Double Slap,level,23
+Jynx,Ice Punch,level,31
+Jynx,Body Slam,level,39
+Jynx,Thrash,level,47
+Jynx,Blizzard,level,58
+Jynx,Mega Punch,TM,
+Jynx,Mega Kick,TM,
+Jynx,Toxic,TM,
+Jynx,Body Slam,TM,
+Jynx,Take Down,TM,
+Jynx,Double-Edge,TM,
+Jynx,Bubble Beam,TM,
+Jynx,Water Gun,TM,
+Jynx,Ice Beam,TM,
+Jynx,Blizzard,TM,
+Jynx,Hyper Beam,TM,
+Jynx,Submission,TM,
+Jynx,Counter,TM,
+Jynx,Seismic Toss,TM,
+Jynx,Rage,TM,
+Jynx,Psychic,TM,
+Jynx,Teleport,TM,
+Jynx,Mimic,TM,
+Jynx,Double Team,TM,
+Jynx,Reflect,TM,
+Jynx,Bide,TM,
+Jynx,Metronome,TM,
+Jynx,Skull Bash,TM,
+Jynx,Rest,TM,
+Jynx,Psywave,TM,
+Jynx,Substitute,TM,
+Electabuzz,Leer,level,1
+Electabuzz,Quick Attack,level,1
+Electabuzz,Thunder Shock,level,34
+Electabuzz,Screech,level,37
+Electabuzz,Thunder Punch,level,42
+Electabuzz,Light Screen,level,49
+Electabuzz,Thunder,level,54
+Electabuzz,Strength,HM,
+Electabuzz,Flash,HM,
+Electabuzz,Mega Punch,TM,
+Electabuzz,Mega Kick,TM,
+Electabuzz,Toxic,TM,
+Electabuzz,Body Slam,TM,
+Electabuzz,Take Down,TM,
+Electabuzz,Double-Edge,TM,
+Electabuzz,Hyper Beam,TM,
+Electabuzz,Submission,TM,
+Electabuzz,Counter,TM,
+Electabuzz,Seismic Toss,TM,
+Electabuzz,Rage,TM,
+Electabuzz,Thunderbolt,TM,
+Electabuzz,Thunder,TM,
+Electabuzz,Psychic,TM,
+Electabuzz,Teleport,TM,
+Electabuzz,Mimic,TM,
+Electabuzz,Double Team,TM,
+Electabuzz,Reflect,TM,
+Electabuzz,Bide,TM,
+Electabuzz,Metronome,TM,
+Electabuzz,Swift,TM,
+Electabuzz,Skull Bash,TM,
+Electabuzz,Rest,TM,
+Electabuzz,Thunder Wave,TM,
+Electabuzz,Psywave,TM,
+Electabuzz,Substitute,TM,
+Magmar,Ember,level,1
+Magmar,Leer,level,36
+Magmar,Confuse Ray,level,39
+Magmar,Fire Punch,level,43
+Magmar,Smoke Screen,level,48
+Magmar,Smog,level,52
+Magmar,Flamethrower,level,58
+Magmar,Strength,HM,
+Magmar,Mega Punch,TM,
+Magmar,Mega Kick,TM,
+Magmar,Toxic,TM,
+Magmar,Body Slam,TM,
+Magmar,Take Down,TM,
+Magmar,Double-Edge,TM,
+Magmar,Hyper Beam,TM,
+Magmar,Submission,TM,
+Magmar,Counter,TM,
+Magmar,Seismic Toss,TM,
+Magmar,Rage,TM,
+Magmar,Psychic,TM,
+Magmar,Teleport,TM,
+Magmar,Mimic,TM,
+Magmar,Double Team,TM,
+Magmar,Bide,TM,
+Magmar,Metronome,TM,
+Magmar,Fire Blast,TM,
+Magmar,Skull Bash,TM,
+Magmar,Rest,TM,
+Magmar,Psywave,TM,
+Magmar,Substitute,TM,
+Pinsir,Vice Grip,level,1
+Pinsir,Bind,level,21
+Pinsir,Seismic Toss,level,25
+Pinsir,Guillotine,level,30
+Pinsir,Focus Energy,level,36
+Pinsir,Harden,level,43
+Pinsir,Slash,level,49
+Pinsir,Swords Dance,level,54
+Pinsir,Cut,HM,
+Pinsir,Strength,HM,
+Pinsir,Swords Dance,TM,
+Pinsir,Toxic,TM,
+Pinsir,Body Slam,TM,
+Pinsir,Take Down,TM,
+Pinsir,Double-Edge,TM,
+Pinsir,Hyper Beam,TM,
+Pinsir,Submission,TM,
+Pinsir,Seismic Toss,TM,
+Pinsir,Rage,TM,
+Pinsir,Mimic,TM,
+Pinsir,Double Team,TM,
+Pinsir,Bide,TM,
+Pinsir,Rest,TM,
+Pinsir,Substitute,TM,
+Tauros,Tackle,level,1
+Tauros,Stomp,level,21
+Tauros,Tail Whip,level,28
+Tauros,Leer,level,35
+Tauros,Rage,level,44
+Tauros,Take Down,level,51
+Tauros,Strength,HM,
+Tauros,Toxic,TM,
+Tauros,Horn Drill,TM,
+Tauros,Body Slam,TM,
+Tauros,Take Down,TM,
+Tauros,Double-Edge,TM,
+Tauros,Ice Beam,TM,
+Tauros,Blizzard,TM,
+Tauros,Hyper Beam,TM,
+Tauros,Rage,TM,
+Tauros,Thunderbolt,TM,
+Tauros,Thunder,TM,
+Tauros,Earthquake,TM,
+Tauros,Fissure,TM,
+Tauros,Mimic,TM,
+Tauros,Double Team,TM,
+Tauros,Bide,TM,
+Tauros,Fire Blast,TM,
+Tauros,Skull Bash,TM,
+Tauros,Rest,TM,
+Tauros,Substitute,TM,
+Magikarp,Splash,level,1
+Magikarp,Tackle,level,15
+Gyarados,Splash,level,1
+Gyarados,Tackle,level,15
+Gyarados,Bite,level,20
+Gyarados,Dragon Rage,level,25
+Gyarados,Leer,level,32
+Gyarados,Hydro Pump,level,41
+Gyarados,Hyper Beam,level,52
+Gyarados,Surf,HM,
+Gyarados,Strength,HM,
+Gyarados,Toxic,TM,
+Gyarados,Body Slam,TM,
+Gyarados,Take Down,TM,
+Gyarados,Double-Edge,TM,
+Gyarados,Bubble Beam,TM,
+Gyarados,Water Gun,TM,
+Gyarados,Ice Beam,TM,
+Gyarados,Blizzard,TM,
+Gyarados,Hyper Beam,TM,
+Gyarados,Rage,TM,
+Gyarados,Dragon Rage,TM,
+Gyarados,Thunderbolt,TM,
+Gyarados,Thunder,TM,
+Gyarados,Mimic,TM,
+Gyarados,Double Team,TM,
+Gyarados,Reflect,TM,
+Gyarados,Bide,TM,
+Gyarados,Fire Blast,TM,
+Gyarados,Skull Bash,TM,
+Gyarados,Rest,TM,
+Gyarados,Substitute,TM,
+Lapras,Growl,level,1
+Lapras,Water Gun,level,1
+Lapras,Sing,level,16
+Lapras,Mist,level,20
+Lapras,Body Slam,level,25
+Lapras,Confuse Ray,level,31
+Lapras,Ice Beam,level,38
+Lapras,Hydro Pump,level,46
+Lapras,Surf,HM,
+Lapras,Strength,HM,
+Lapras,Toxic,TM,
+Lapras,Horn Drill,TM,
+Lapras,Body Slam,TM,
+Lapras,Take Down,TM,
+Lapras,Double-Edge,TM,
+Lapras,Bubble Beam,TM,
+Lapras,Water Gun,TM,
+Lapras,Ice Beam,TM,
+Lapras,Blizzard,TM,
+Lapras,Hyper Beam,TM,
+Lapras,Rage,TM,
+Lapras,Solar Beam,TM,
+Lapras,Dragon Rage,TM,
+Lapras,Thunderbolt,TM,
+Lapras,Thunder,TM,
+Lapras,Psychic,TM,
+Lapras,Mimic,TM,
+Lapras,Double Team,TM,
+Lapras,Reflect,TM,
+Lapras,Bide,TM,
+Lapras,Skull Bash,TM,
+Lapras,Rest,TM,
+Lapras,Psywave,TM,
+Lapras,Substitute,TM,
+Ditto,Transform,level,1
+Eevee,Tackle,level,1
+Eevee,Tail Whip,level,1
+Eevee,Sand Attack,level,8
+Eevee,Growl,level,16
+Eevee,Quick Attack,level,23
+Eevee,Bite,level,30
+Eevee,Focus Energy,level,36
+Eevee,Take Down,level,42
+Eevee,Toxic,TM,
+Eevee,Body Slam,TM,
+Eevee,Take Down,TM,
+Eevee,Double-Edge,TM,
+Eevee,Rage,TM,
+Eevee,Mimic,TM,
+Eevee,Double Team,TM,
+Eevee,Reflect,TM,
+Eevee,Bide,TM,
+Eevee,Swift,TM,
+Eevee,Skull Bash,TM,
+Eevee,Rest,TM,
+Eevee,Substitute,TM,
+Vaporeon,Tackle,level,1
+Vaporeon,Tail Whip,level,1
+Vaporeon,Sand Attack,level,8
+Vaporeon,Growl,level,16
+Vaporeon,Water Gun,level,16
+Vaporeon,Quick Attack,level,23
+Vaporeon,Bite,level,30
+Vaporeon,Focus Energy,level,36
+Vaporeon,Aurora Beam,level,36
+Vaporeon,Take Down,level,42
+Vaporeon,Haze,level,42
+Vaporeon,Mist,level,42
+Vaporeon,Acid Armor,level,47
+Vaporeon,Hydro Pump,level,52
+Vaporeon,Surf,HM,
+Vaporeon,Toxic,TM,
+Vaporeon,Body Slam,TM,
+Vaporeon,Take Down,TM,
+Vaporeon,Double-Edge,TM,
+Vaporeon,Bubble Beam,TM,
+Vaporeon,Water Gun,TM,
+Vaporeon,Ice Beam,TM,
+Vaporeon,Blizzard,TM,
+Vaporeon,Hyper Beam,TM,
+Vaporeon,Rage,TM,
+Vaporeon,Mimic,TM,
+Vaporeon,Double Team,TM,
+Vaporeon,Reflect,TM,
+Vaporeon,Bide,TM,
+Vaporeon,Swift,TM,
+Vaporeon,Skull Bash,TM,
+Vaporeon,Rest,TM,
+Vaporeon,Substitute,TM,
+Jolteon,Tackle,level,1
+Jolteon,Tail Whip,level,1
+Jolteon,Sand Attack,level,8
+Jolteon,Growl,level,16
+Jolteon,Thunder Shock,level,16
+Jolteon,Quick Attack,level,23
+Jolteon,Bite,level,30
+Jolteon,Double Kick,level,30
+Jolteon,Focus Energy,level,36
+Jolteon,Pin Missile,level,36
+Jolteon,Take Down,level,42
+Jolteon,Thunder Wave,level,42
+Jolteon,Agility,level,47
+Jolteon,Thunder,level,52
+Jolteon,Flash,HM,
+Jolteon,Toxic,TM,
+Jolteon,Body Slam,TM,
+Jolteon,Take Down,TM,
+Jolteon,Double-Edge,TM,
+Jolteon,Hyper Beam,TM,
+Jolteon,Rage,TM,
+Jolteon,Thunderbolt,TM,
+Jolteon,Thunder,TM,
+Jolteon,Mimic,TM,
+Jolteon,Double Team,TM,
+Jolteon,Reflect,TM,
+Jolteon,Bide,TM,
+Jolteon,Swift,TM,
+Jolteon,Skull Bash,TM,
+Jolteon,Rest,TM,
+Jolteon,Thunder Wave,TM,
+Jolteon,Substitute,TM,
+Flareon,Tackle,level,1
+Flareon,Tail Whip,level,1
+Flareon,Sand Attack,level,8
+Flareon,Growl,level,16
+Flareon,Ember,level,16
+Flareon,Quick Attack,level,23
+Flareon,Bite,level,30
+Flareon,Focus Energy,level,36
+Flareon,Fire Spin,level,36
+Flareon,Take Down,level,42
+Flareon,Smog,level,42
+Flareon,Leer,level,47
+Flareon,Flamethrower,level,52
+Flareon,Toxic,TM,
+Flareon,Body Slam,TM,
+Flareon,Take Down,TM,
+Flareon,Double-Edge,TM,
+Flareon,Hyper Beam,TM,
+Flareon,Rage,TM,
+Flareon,Mimic,TM,
+Flareon,Double Team,TM,
+Flareon,Reflect,TM,
+Flareon,Bide,TM,
+Flareon,Fire Blast,TM,
+Flareon,Swift,TM,
+Flareon,Skull Bash,TM,
+Flareon,Rest,TM,
+Flareon,Substitute,TM,
+Porygon,Conversion,level,1
+Porygon,Sharpen,level,1
+Porygon,Tackle,level,1
+Porygon,Psybeam,level,23
+Porygon,Recover,level,28
+Porygon,Agility,level,35
+Porygon,Tri Attack,level,42
+Porygon,Flash,HM,
+Porygon,Toxic,TM,
+Porygon,Take Down,TM,
+Porygon,Double-Edge,TM,
+Porygon,Ice Beam,TM,
+Porygon,Blizzard,TM,
+Porygon,Hyper Beam,TM,
+Porygon,Rage,TM,
+Porygon,Thunderbolt,TM,
+Porygon,Thunder,TM,
+Porygon,Psychic,TM,
+Porygon,Teleport,TM,
+Porygon,Mimic,TM,
+Porygon,Double Team,TM,
+Porygon,Reflect,TM,
+Porygon,Bide,TM,
+Porygon,Swift,TM,
+Porygon,Skull Bash,TM,
+Porygon,Rest,TM,
+Porygon,Thunder Wave,TM,
+Porygon,Psywave,TM,
+Porygon,Tri Attack,TM,
+Porygon,Substitute,TM,
+Omanyte,Water Gun,level,1
+Omanyte,Withdraw,level,1
+Omanyte,Horn Attack,level,34
+Omanyte,Leer,level,39
+Omanyte,Spike Cannon,level,44
+Omanyte,Hydro Pump,level,49
+Omanyte,Surf,HM,
+Omanyte,Toxic,TM,
+Omanyte,Body Slam,TM,
+Omanyte,Take Down,TM,
+Omanyte,Double-Edge,TM,
+Omanyte,Bubble Beam,TM,
+Omanyte,Water Gun,TM,
+Omanyte,Ice Beam,TM,
+Omanyte,Blizzard,TM,
+Omanyte,Rage,TM,
+Omanyte,Mimic,TM,
+Omanyte,Double Team,TM,
+Omanyte,Reflect,TM,
+Omanyte,Bide,TM,
+Omanyte,Rest,TM,
+Omanyte,Substitute,TM,
+Omastar,Water Gun,level,1
+Omastar,Withdraw,level,1
+Omastar,Horn Attack,level,34
+Omastar,Leer,level,39
+Omastar,Spike Cannon,level,46
+Omastar,Hydro Pump,level,53
+Omastar,Surf,HM,
+Omastar,Toxic,TM,
+Omastar,Horn Drill,TM,
+Omastar,Body Slam,TM,
+Omastar,Take Down,TM,
+Omastar,Double-Edge,TM,
+Omastar,Bubble Beam,TM,
+Omastar,Water Gun,TM,
+Omastar,Ice Beam,TM,
+Omastar,Blizzard,TM,
+Omastar,Hyper Beam,TM,
+Omastar,Submission,TM,
+Omastar,Seismic Toss,TM,
+Omastar,Rage,TM,
+Omastar,Mimic,TM,
+Omastar,Double Team,TM,
+Omastar,Reflect,TM,
+Omastar,Bide,TM,
+Omastar,Skull Bash,TM,
+Omastar,Rest,TM,
+Omastar,Substitute,TM,
+Kabuto,Harden,level,1
+Kabuto,Scratch,level,1
+Kabuto,Absorb,level,34
+Kabuto,Slash,level,39
+Kabuto,Leer,level,44
+Kabuto,Hydro Pump,level,49
+Kabuto,Surf,HM,
+Kabuto,Toxic,TM,
+Kabuto,Body Slam,TM,
+Kabuto,Take Down,TM,
+Kabuto,Double-Edge,TM,
+Kabuto,Bubble Beam,TM,
+Kabuto,Water Gun,TM,
+Kabuto,Ice Beam,TM,
+Kabuto,Blizzard,TM,
+Kabuto,Rage,TM,
+Kabuto,Mimic,TM,
+Kabuto,Double Team,TM,
+Kabuto,Reflect,TM,
+Kabuto,Bide,TM,
+Kabuto,Rest,TM,
+Kabuto,Substitute,TM,
+Kabutops,Harden,level,1
+Kabutops,Scratch,level,1
+Kabutops,Absorb,level,34
+Kabutops,Slash,level,39
+Kabutops,Leer,level,46
+Kabutops,Hydro Pump,level,53
+Kabutops,Cut,HM,
+Kabutops,Surf,HM,
+Kabutops,Razor Wind,TM,
+Kabutops,Swords Dance,TM,
+Kabutops,Mega Kick,TM,
+Kabutops,Toxic,TM,
+Kabutops,Body Slam,TM,
+Kabutops,Take Down,TM,
+Kabutops,Double-Edge,TM,
+Kabutops,Bubble Beam,TM,
+Kabutops,Water Gun,TM,
+Kabutops,Ice Beam,TM,
+Kabutops,Blizzard,TM,
+Kabutops,Hyper Beam,TM,
+Kabutops,Submission,TM,
+Kabutops,Seismic Toss,TM,
+Kabutops,Rage,TM,
+Kabutops,Mimic,TM,
+Kabutops,Double Team,TM,
+Kabutops,Reflect,TM,
+Kabutops,Bide,TM,
+Kabutops,Skull Bash,TM,
+Kabutops,Rest,TM,
+Kabutops,Substitute,TM,
+Aerodactyl,Agility,level,1
+Aerodactyl,Wing Attack,level,1
+Aerodactyl,Supersonic,level,33
+Aerodactyl,Bite,level,38
+Aerodactyl,Take Down,level,45
+Aerodactyl,Hyper Beam,level,54
+Aerodactyl,Fly,HM,
+Aerodactyl,Razor Wind,TM,
+Aerodactyl,Whirlwind,TM,
+Aerodactyl,Toxic,TM,
+Aerodactyl,Take Down,TM,
+Aerodactyl,Double-Edge,TM,
+Aerodactyl,Hyper Beam,TM,
+Aerodactyl,Rage,TM,
+Aerodactyl,Dragon Rage,TM,
+Aerodactyl,Mimic,TM,
+Aerodactyl,Double Team,TM,
+Aerodactyl,Reflect,TM,
+Aerodactyl,Bide,TM,
+Aerodactyl,Fire Blast,TM,
+Aerodactyl,Swift,TM,
+Aerodactyl,Sky Attack,TM,
+Aerodactyl,Recover,TM,
+Aerodactyl,Substitute,TM,
+Snorlax,Amnesia,level,1
+Snorlax,Headbutt,level,1
+Snorlax,Rest,level,1
+Snorlax,Body Slam,level,35
+Snorlax,Harden,level,41
+Snorlax,Double-Edge,level,48
+Snorlax,Hyper Beam,level,56
+Snorlax,Surf,HM,
+Snorlax,Strength,HM,
+Snorlax,Mega Punch,TM,
+Snorlax,Mega Kick,TM,
+Snorlax,Toxic,TM,
+Snorlax,Body Slam,TM,
+Snorlax,Take Down,TM,
+Snorlax,Double-Edge,TM,
+Snorlax,Bubble Beam,TM,
+Snorlax,Water Gun,TM,
+Snorlax,Ice Beam,TM,
+Snorlax,Blizzard,TM,
+Snorlax,Hyper Beam,TM,
+Snorlax,Pay Day,TM,
+Snorlax,Submission,TM,
+Snorlax,Counter,TM,
+Snorlax,Seismic Toss,TM,
+Snorlax,Rage,TM,
+Snorlax,Solar Beam,TM,
+Snorlax,Thunderbolt,TM,
+Snorlax,Thunder,TM,
+Snorlax,Earthquake,TM,
+Snorlax,Fissure,TM,
+Snorlax,Psychic,TM,
+Snorlax,Mimic,TM,
+Snorlax,Double Team,TM,
+Snorlax,Reflect,TM,
+Snorlax,Bide,TM,
+Snorlax,Metronome,TM,
+Snorlax,Selfdestruct,TM,
+Snorlax,Fire Blast,TM,
+Snorlax,Skull Bash,TM,
+Snorlax,Rest,TM,
+Snorlax,Psywave,TM,
+Snorlax,Rock Slide,TM,
+Snorlax,Substitute,TM,
+Articuno,Ice Beam,level,1
+Articuno,Peck,level,1
+Articuno,Blizzard,level,51
+Articuno,Agility,level,55
+Articuno,Mist,level,60
+Articuno,Fly,HM,
+Articuno,Razor Wind,TM,
+Articuno,Whirlwind,TM,
+Articuno,Toxic,TM,
+Articuno,Take Down,TM,
+Articuno,Double-Edge,TM,
+Articuno,Bubble Beam,TM,
+Articuno,Water Gun,TM,
+Articuno,Ice Beam,TM,
+Articuno,Blizzard,TM,
+Articuno,Hyper Beam,TM,
+Articuno,Rage,TM,
+Articuno,Mimic,TM,
+Articuno,Double Team,TM,
+Articuno,Reflect,TM,
+Articuno,Bide,TM,
+Articuno,Swift,TM,
+Articuno,Sky Attack,TM,
+Articuno,Rest,TM,
+Articuno,Substitute,TM,
+Zapdos,Drill Peck,level,1
+Zapdos,Thunder Shock,level,1
+Zapdos,Thunder,level,51
+Zapdos,Agility,level,55
+Zapdos,Light Screen,level,60
+Zapdos,Fly,HM,
+Zapdos,Flash,HM,
+Zapdos,Razor Wind,TM,
+Zapdos,Whirlwind,TM,
+Zapdos,Toxic,TM,
+Zapdos,Take Down,TM,
+Zapdos,Double-Edge,TM,
+Zapdos,Hyper Beam,TM,
+Zapdos,Rage,TM,
+Zapdos,Thunderbolt,TM,
+Zapdos,Thunder,TM,
+Zapdos,Mimic,TM,
+Zapdos,Double Team,TM,
+Zapdos,Reflect,TM,
+Zapdos,Bide,TM,
+Zapdos,Swift,TM,
+Zapdos,Sky Attack,TM,
+Zapdos,Rest,TM,
+Zapdos,Thunder Wave,TM,
+Zapdos,Substitute,TM,
+Moltres,Fire Spin,level,1
+Moltres,Peck,level,1
+Moltres,Leer,level,51
+Moltres,Agility,level,55
+Moltres,Sky Attack,level,60
+Moltres,Fly,HM,
+Moltres,Razor Wind,TM,
+Moltres,Whirlwind,TM,
+Moltres,Toxic,TM,
+Moltres,Take Down,TM,
+Moltres,Double-Edge,TM,
+Moltres,Hyper Beam,TM,
+Moltres,Rage,TM,
+Moltres,Mimic,TM,
+Moltres,Double Team,TM,
+Moltres,Reflect,TM,
+Moltres,Bide,TM,
+Moltres,Fire Blast,TM,
+Moltres,Swift,TM,
+Moltres,Sky Attack,TM,
+Moltres,Rest,TM,
+Moltres,Substitute,TM,
+Dratini,Leer,level,1
+Dratini,Wrap,level,1
+Dratini,Thunder Wave,level,10
+Dratini,Agility,level,20
+Dratini,Slam,level,30
+Dratini,Dragon Rage,level,40
+Dratini,Hyper Beam,level,50
+Dratini,Surf,HM,
+Dratini,Toxic,TM,
+Dratini,Body Slam,TM,
+Dratini,Take Down,TM,
+Dratini,Double-Edge,TM,
+Dratini,Bubble Beam,TM,
+Dratini,Water Gun,TM,
+Dratini,Ice Beam,TM,
+Dratini,Blizzard,TM,
+Dratini,Rage,TM,
+Dratini,Dragon Rage,TM,
+Dratini,Thunderbolt,TM,
+Dratini,Thunder,TM,
+Dratini,Mimic,TM,
+Dratini,Double Team,TM,
+Dratini,Reflect,TM,
+Dratini,Bide,TM,
+Dratini,Fire Blast,TM,
+Dratini,Swift,TM,
+Dratini,Skull Bash,TM,
+Dratini,Rest,TM,
+Dratini,Thunder Wave,TM,
+Dratini,Substitute,TM,
+Dragonair,Leer,level,1
+Dragonair,Wrap,level,1
+Dragonair,Thunder Wave,level,10
+Dragonair,Agility,level,20
+Dragonair,Slam,level,35
+Dragonair,Dragon Rage,level,45
+Dragonair,Hyper Beam,level,55
+Dragonair,Surf,HM,
+Dragonair,Toxic,TM,
+Dragonair,Horn Drill,TM,
+Dragonair,Body Slam,TM,
+Dragonair,Take Down,TM,
+Dragonair,Double-Edge,TM,
+Dragonair,Bubble Beam,TM,
+Dragonair,Water Gun,TM,
+Dragonair,Ice Beam,TM,
+Dragonair,Blizzard,TM,
+Dragonair,Rage,TM,
+Dragonair,Dragon Rage,TM,
+Dragonair,Thunderbolt,TM,
+Dragonair,Thunder,TM,
+Dragonair,Mimic,TM,
+Dragonair,Double Team,TM,
+Dragonair,Reflect,TM,
+Dragonair,Bide,TM,
+Dragonair,Fire Blast,TM,
+Dragonair,Swift,TM,
+Dragonair,Skull Bash,TM,
+Dragonair,Rest,TM,
+Dragonair,Thunder Wave,TM,
+Dragonair,Substitute,TM,
+Dragonite,Leer,level,1
+Dragonite,Wrap,level,1
+Dragonite,Thunder Wave,level,10
+Dragonite,Agility,level,20
+Dragonite,Slam,level,35
+Dragonite,Dragon Rage,level,45
+Dragonite,Hyper Beam,level,60
+Dragonite,Surf,HM,
+Dragonite,Strength,HM,
+Dragonite,Razor Wind,TM,
+Dragonite,Toxic,TM,
+Dragonite,Horn Drill,TM,
+Dragonite,Body Slam,TM,
+Dragonite,Take Down,TM,
+Dragonite,Double-Edge,TM,
+Dragonite,Bubble Beam,TM,
+Dragonite,Water Gun,TM,
+Dragonite,Ice Beam,TM,
+Dragonite,Blizzard,TM,
+Dragonite,Hyper Beam,TM,
+Dragonite,Rage,TM,
+Dragonite,Dragon Rage,TM,
+Dragonite,Thunderbolt,TM,
+Dragonite,Thunder,TM,
+Dragonite,Mimic,TM,
+Dragonite,Double Team,TM,
+Dragonite,Reflect,TM,
+Dragonite,Bide,TM,
+Dragonite,Fire Blast,TM,
+Dragonite,Swift,TM,
+Dragonite,Skull Bash,TM,
+Dragonite,Rest,TM,
+Dragonite,Thunder Wave,TM,
+Dragonite,Substitute,TM,
+Mewtwo,Confusion,level,1
+Mewtwo,Disable,level,1
+Mewtwo,Swift,level,1
+Mewtwo,Barrier,level,63
+Mewtwo,Psychic,level,66
+Mewtwo,Recover,level,70
+Mewtwo,Mist,level,75
+Mewtwo,Amnesia,level,81
+Mewtwo,Strength,HM,
+Mewtwo,Flash,HM,
+Mewtwo,Mega Punch,TM,
+Mewtwo,Mega Kick,TM,
+Mewtwo,Toxic,TM,
+Mewtwo,Body Slam,TM,
+Mewtwo,Take Down,TM,
+Mewtwo,Double-Edge,TM,
+Mewtwo,Bubble Beam,TM,
+Mewtwo,Water Gun,TM,
+Mewtwo,Ice Beam,TM,
+Mewtwo,Blizzard,TM,
+Mewtwo,Hyper Beam,TM,
+Mewtwo,Submission,TM,
+Mewtwo,Counter,TM,
+Mewtwo,Seismic Toss,TM,
+Mewtwo,Rage,TM,
+Mewtwo,Solar Beam,TM,
+Mewtwo,Thunderbolt,TM,
+Mewtwo,Thunder,TM,
+Mewtwo,Psychic,TM,
+Mewtwo,Teleport,TM,
+Mewtwo,Mimic,TM,
+Mewtwo,Double Team,TM,
+Mewtwo,Reflect,TM,
+Mewtwo,Bide,TM,
+Mewtwo,Metronome,TM,
+Mewtwo,Selfdestruct,TM,
+Mewtwo,Fire Blast,TM,
+Mewtwo,Skull Bash,TM,
+Mewtwo,Rest,TM,
+Mewtwo,Thunder Wave,TM,
+Mewtwo,Psywave,TM,
+Mewtwo,Tri Attack,TM,
+Mewtwo,Substitute,TM,
+Mew,Pound,level,1
+Mew,Transform,level,10
+Mew,Mega Punch,level,20
+Mew,Metronome,level,30
+Mew,Psychic,level,40
+Mew,Cut,HM,
+Mew,Fly,HM,
+Mew,Surf,HM,
+Mew,Strength,HM,
+Mew,Flash,HM,
+Mew,Mega Punch,TM,
+Mew,Razor Wind,TM,
+Mew,Swords Dance,TM,
+Mew,Whirlwind,TM,
+Mew,Mega Kick,TM,
+Mew,Toxic,TM,
+Mew,Horn Drill,TM,
+Mew,Body Slam,TM,
+Mew,Take Down,TM,
+Mew,Double-Edge,TM,
+Mew,Bubble Beam,TM,
+Mew,Water Gun,TM,
+Mew,Ice Beam,TM,
+Mew,Blizzard,TM,
+Mew,Hyper Beam,TM,
+Mew,Pay Day,TM,
+Mew,Submission,TM,
+Mew,Counter,TM,
+Mew,Seismic Toss,TM,
+Mew,Rage,TM,
+Mew,Mega Drain,TM,
+Mew,Solar Beam,TM,
+Mew,Dragon Rage,TM,
+Mew,Thunderbolt,TM,
+Mew,Thunder,TM,
+Mew,Earthquake,TM,
+Mew,Fissure,TM,
+Mew,Dig,TM,
+Mew,Psychic,TM,
+Mew,Teleport,TM,
+Mew,Mimic,TM,
+Mew,Double Team,TM,
+Mew,Reflect,TM,
+Mew,Bide,TM,
+Mew,Metronome,TM,
+Mew,Selfdestruct,TM,
+Mew,Egg Bomb,TM,
+Mew,Fire Blast,TM,
+Mew,Swift,TM,
+Mew,Skull Bash,TM,
+Mew,Softboiled,TM,
+Mew,Dream Eater,TM,
+Mew,Sky Attack,TM,
+Mew,Rest,TM,
+Mew,Thunder Wave,TM,
+Mew,Psywave,TM,
+Mew,Explosion,TM,
+Mew,Rock Slide,TM,
+Mew,Tri Attack,TM,
+Mew,Substitute,TM,

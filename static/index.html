@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/main.css">
+  <title>Pokédex Battle Simulator</title>
+</head>
+<body>
+  <h1>Pokémon Battle Simulator</h1>
+  <form id="battle-form">
+    <div class="pokemon-form">
+      <h2>Player Pokémon</h2>
+      <div class="form-section">
+        <label for="player-name">Pokémon:</label>
+        <select id="player-name"></select>
+      </div>
+      <div class="form-section">
+        <label for="player-level">Level:</label>
+        <input type="number" id="player-level" min="1" max="100" value="50">
+      </div>
+      <div class="form-section">
+        <label for="player-tm-toggle">Allow TM/HM moves:</label>
+        <input type="checkbox" id="player-tm-toggle">
+      </div>
+      <div class="form-section">
+        <div id="player-move-options"></div>
+      </div>
+    </div>
+
+    <div class="pokemon-form">
+      <h2>Opponent Pokémon</h2>
+      <div class="form-section">
+        <label for="opponent-name">Pokémon:</label>
+        <select id="opponent-name"></select>
+      </div>
+      <div class="form-section">
+        <label for="opponent-level">Level:</label>
+        <input type="number" id="opponent-level" min="1" max="100" value="50">
+      </div>
+      <div class="form-section">
+        <label for="opponent-tm-toggle">Allow TM/HM moves:</label>
+        <input type="checkbox" id="opponent-tm-toggle">
+      </div>
+      <div class="form-section">
+        <div id="opponent-move-options"></div>
+      </div>
+    </div>
+
+    <button id="battle-button" type="submit">Battle</button>
+  </form>
+
+  <div id="result"></div>
+  <a id="download-log" class="download-button" style="display: none;">Download Battle Log</button>
+
+  <script src="static/main.js"></script>
+</body>
+</html>

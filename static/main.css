@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background-color: #f0f8ff;
+}
+h1 {
+    color: #ff0000;
+}
+.pokemon-form {
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background: white;
+    max-width: 600px;
+}
+.form-section {
+    margin-bottom: 1rem;
+}
+.stat, .move {
+    margin-bottom: 0.3rem;
+}
+.move {
+    margin-left: 1rem;
+}
+
+#battle-button {
+  background-color: #e63946;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 16px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#battle-button:hover {
+  background-color: #c5303c;
+}
+
+#download-log {
+  display: none;
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+#download-log:hover {
+  background-color: #357ab7;
+}

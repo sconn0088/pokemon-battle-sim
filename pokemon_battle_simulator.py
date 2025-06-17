@@ -1,0 +1,331 @@
+from constants import get_type_multiplier
+from utils import select_move
+import random
+
+def use_move(user, target, move, log=None):
+    if move.multi_turn_type == "charge":
+        user.must_charge = True
+        user.multi_turn_move = move
+        user.multi_turn_counter += 1
+        if log: log.add(f"{user.name} began charging...")
+        return
+    
+    if log: log.add(f"{user.name} used {move.name}!")
+
+    if random.randint(1, 100) >= move.accuracy:
+        if log: log.add(f"{user.name}'s {move.name} missed!")
+        return
+
+    if move.effect == "skip":
+        if log: log.add(f"But nothing happened!")
+        return
+
+    if move.effect == "crit_boost" and move.name == "Focus Energy":
+        user.next_crit_boosted = True
+        if log: log.add(f"{user.name} is getting pumped!")
+        return
+
+    calculate_and_apply_damage(user, target, move, log)
+
+    if move.effect in ["raise_stat", "lower_stat"]:
+        apply_stat_stage_change(user, target, move, log)
+
+    if move.effect == "flinch":
+        try_inflict_flinch(target, move, log)
+
+    if move.multi_turn_type == "recharge":
+        user.must_recharge = True
+    
+    if move.effect == "status":
+        try_inflict_status(user, target, move, log)
+    
+    if move.effect == "confuse":
+        try_inflict_confusion(target, move, log)
+
+def calculate_and_apply_damage(user, target, move, log):
+    if move.category in ["Physical", "Special"]:
+        if move.category == "Physical":
+            attack_stat = user.attack * get_stage_multiplier(user.stat_stages.get("attack", 0))
+            if user.status == "burned":
+                attack_stat = attack_stat // 2
+                if log: log.add(f"{user.name}'s Attack is halved due to burn!")
+            defense_stat = target.defense * get_stage_multiplier(target.stat_stages.get("defense", 0))
+        else:
+            attack_stat = user.special_attack * get_stage_multiplier(user.stat_stages.get("special_attack", 0))
+            defense_stat = target.special_defense * get_stage_multiplier(target.stat_stages.get("special_defense", 0))
+
+        if target.invulnerable and move.name not in target.vulnerable_to:
+            if log: log.add(f"{target.name} is invulnerable to {move.name}!")
+            return
+
+        is_crit = False
+        crit_rate = 1/24
+        if move.effect == "crit_boost" or user.next_crit_boosted:
+            crit_rate = 1/8
+            user.next_crit_boosted = False
+
+        if random.random() < crit_rate:
+            is_crit = True
+            if log: log.add("A critical hit!")
+
+        accuracy_mod = get_stage_multiplier(user.stat_stages.get("accuracy", 0))
+        evasion_mod = get_stage_multiplier(target.stat_stages.get("evasion", 0))
+        effective_accuracy = move.accuracy * (accuracy_mod / evasion_mod)
+        if random.randint(1, 100) > effective_accuracy:
+            if log: log.add(f"{user.name}'s {move.name} missed!")
+            return
+
+        if move.effect == "multi_hit":
+            min_hits, max_hits = map(int, move.hits.split("-")) if "-" in move.hits else (int(move.hits), int(move.hits))
+            num_hits = random.randint(min_hits, max_hits)
+            total_damage = 0
+            for _ in range(num_hits):
+                level_factor = (2 * user.level) / 5 + 2
+                base_damage = (((level_factor * move.power * (attack_stat / defense_stat)) / 50) + 2)
+                if is_crit:
+                    base_damage *= 2
+                type_multiplier = get_type_multiplier(move.type, target.types)
+                hit_damage = int(base_damage * type_multiplier)
+                target.current_hp -= hit_damage
+                total_damage += hit_damage
+                if hasattr(move, 'status') and move.status and hasattr(move, 'chance') and move.chance > 0:
+                    try_inflict_status(user, target, move, log)
+                if target.current_hp <= 0:
+                    break
+            if log:
+                log.add(f"{move.name} hit {num_hits} times!")
+                log.add(f"{target.name} took {total_damage} total damage!")
+        else:
+            level_factor = (2 * user.level) / 5 + 2
+            base_damage = (((level_factor * move.power * (attack_stat / defense_stat)) / 50) + 2)
+            if is_crit:
+                base_damage *= 2
+            type_multiplier = get_type_multiplier(move.type, target.types)
+            final_damage = int(base_damage * type_multiplier)
+            target.current_hp -= final_damage
+            if log:
+                if type_multiplier > 1:
+                    log.add("It's super effective!")
+                elif type_multiplier < 1:
+                    log.add("It's not very effective...")
+                log.add(f"{target.name} took {final_damage} damage!")
+
+##################################################
+###############  BATTLE FUNCTIONS  ###############
+##################################################
+
+###############    STAT CHANGES    ###############
+def apply_stat_stage_change(user, target, move, log=None):
+    # Determine the correct target
+    target_pokemon = user if move.target == "self" else target
+    stat_name = move.stat
+
+    current_stage = target_pokemon.stat_stages[stat_name]
+
+    # Check stat limits
+    if move.effect == "raise_stat" and current_stage >= 6:
+        if log: log.add(f"{target_pokemon.name}'s {stat_name} won't go higher!")
+        return
+    elif move.effect == "lower_stat" and current_stage <= -6:
+        if log: log.add(f"{target_pokemon.name}'s {stat_name} won't go lower!")
+        return
+
+    # Check chance of effect
+    if random.randint(1, 100) <= move.chance:
+        change = move.stages if move.effect == "raise_stat" else -move.stages
+        new_stage = max(-6, min(6, current_stage + change))
+        target_pokemon.stat_stages[stat_name] = new_stage
+        if change >= 1:
+            if log: log.add(f"{target_pokemon.name}'s {stat_name} rose!")
+        elif change <= -1:
+            if log: log.add(f"{target_pokemon.name}'s {stat_name} fell!")
+    else:
+        if log: log.add(f"But it failed!")
+
+def get_stage_multiplier(stage):
+    stage_multipliers = {
+        -6: 2/8, -5: 2/7, -4: 2/6, -3: 2/5, -2: 2/4, -1: 2/3,
+         0: 2/2,
+         1: 3/2, 2: 4/2, 3: 5/2, 4: 6/2, 5: 7/2, 6: 8/2
+    }
+    return stage_multipliers.get(stage, 1.0)
+
+###############   STATUS CHANGES   ###############
+def try_inflict_status(user, target, move, log=None):
+    # Already afflicted
+    if target.status != "OK":
+        if log: log.add(f"{target.name} already has a status condition!")
+        return
+
+    # Apply status based on chance
+    if random.randint(1, 100) <= move.chance:
+        # Type-based immunities
+        status = move.status  # e.g., "burned", "paralyzed"
+        if status == "burned" and "Fire" in target.types:
+            if log: log.add(f"{target.name} is immune to burn!")
+            return
+        if status == "paralyzed" and "Electric" in target.types:
+            if log: log.add(f"{target.name} is immune to paralysis!")
+            return
+        if status == "poisoned" and ("Poison" in target.types or "Steel" in target.types):
+            if log: log.add(f"{target.name} is immune to poison!")
+            return
+        if status == "frozen" and "Ice" in target.types:
+            if log: log.add(f"{target.name} is immune to freeze!")
+            return
+        
+        target.status = status
+        if log: log.add(f"{target.name} was {status}!")
+        if status == "paralyzed":
+            target.speed = max(1, target.speed // 4)
+            if log: log.add(f"{target.name}'s speed fell due to paralysis!")
+        
+        if target.status == "badly_poisoned":
+            target.toxic_counter = 1
+            if log: log.add(f"{target.name} was badly poisoned!")
+            return
+        if target.status == "asleep":
+            min_turns, max_turns = map(int, move.duration.split('-'))
+            target.sleep_turns = random.randint(min_turns, max_turns)
+
+def try_inflict_confusion(target, move, log=None):
+    if target.is_confused:
+        if log: log.add(f"{target.name} is already confused!")
+        return
+    if random.randint(1, 100) <= move.chance:
+        min_turns, max_turns = map(int, move.duration.split('-'))
+        target.is_confused = True
+        target.confused_turns = random.randint(min_turns, max_turns)
+        if log: log.add(f"{target.name} became confused!")
+    else:
+        if log: log.add("But it failed!")
+
+############## CHECK STATUS EFFECTS ##############
+def check_confusion(pokemon, log=None):
+    if pokemon.is_confused:
+        pokemon.confused_turns -= 1
+        if pokemon.confused_turns <= 0:
+            pokemon.is_confused = False
+            if log: log.add(f"{pokemon.name} snapped out of confusion!")
+            return False
+        if random.random() < 0.5:
+            damage = int(((((2*pokemon.level/5 + 2)*pokemon.attack*40)/pokemon.defense)/50) + 2)
+            pokemon.current_hp -= damage
+            if log: log.add(f"{pokemon.name} hurt itself in its confusion! {pokemon.name} took {damage} damage!")
+            return True
+    return False
+
+def check_sleep(pokemon, log=None):
+    if pokemon.status == "sleep":
+        if pokemon.sleep_turns > 0:
+            pokemon.sleep_turns -= 1
+            if log: log.add(f"{pokemon.name} is fast asleep.")
+            return True
+        else:
+            pokemon.status = "OK"
+            if log: log.add(f"{pokemon.name} woke up!")
+            return False
+    return False
+
+def check_paralysis(pokemon, log=None):
+    if pokemon.status == "paralyzed":
+        if random.randint(1, 100) <= 25:
+            if log: log.add(f"{pokemon.name} is fully paralyzed and can't move!")
+            return True  # turn is skipped
+    return False
+
+def check_freeze(pokemon, log=None):
+    if pokemon.status == "frozen":
+        if log: log.add(f"{pokemon.name} is frozen solid and can't move!")
+        return True  # Skip turn
+    return False
+
+def process_end_of_turn_status(pokemon, log=None):
+    if pokemon.status == "poisoned":
+        damage = max(1, pokemon.hp // 8)
+        pokemon.current_hp -= damage
+        if log: log.add(f"{pokemon.name} is hurt by poison and loses {damage} HP!")
+    elif pokemon.status == "badly_poisoned":
+        damage = max(1, int(pokemon.hp * 0.0625 * pokemon.toxic_counter))
+        pokemon.current_hp -= damage
+        pokemon.toxic_counter += 1
+        if log: log.add(f"{pokemon.name} is hurt by Toxic and loses {damage} HP!")
+    elif pokemon.status == "burned":
+        damage = max(1, pokemon.hp // 16)
+        pokemon.current_hp -= damage
+        if log: log.add(f"{pokemon.name} is hurt by its burn and loses {damage} HP!")
+
+###############       FLINCH       ###############
+def try_inflict_flinch(target, move, log=None):
+    if move.effect == "flinch" and random.randint(1, 100) <= move.chance:
+        target.flinched = True
+        if log: log.add(f"{target.name} flinched!")
+
+##################################################
+###############       BATTLE       ###############
+##################################################
+def simulate_battle(player, opponent, log):
+    while True:
+        if player.is_fainted():
+            log.add(f"{player.name} fainted!")
+            log.add(f"{opponent.name} wins!")
+            return opponent.name
+        if opponent.is_fainted():
+            log.add(f"{opponent.name} fainted!")
+            log.add(f"{player.name} wins!")
+            return player.name
+
+        if player.speed * get_stage_multiplier(player.stat_stages.get("speed", 0)) >= opponent.speed * get_stage_multiplier(opponent.stat_stages.get("speed", 0)):
+            turn_order = [(player, opponent), (opponent, player)]
+        else:
+            turn_order = [(opponent, player), (player, opponent)]
+
+        for acting_pokemon, defending_pokemon in turn_order:
+            if acting_pokemon.is_fainted():
+                continue
+
+            if check_confusion(acting_pokemon, log):
+                continue
+            if check_sleep(acting_pokemon, log):
+                continue
+            if check_paralysis(acting_pokemon, log):
+                continue
+            if check_freeze(acting_pokemon, log):
+                continue
+            if acting_pokemon.flinched:
+                acting_pokemon.flinched = False
+                continue
+
+            if acting_pokemon.must_recharge:
+                if log: log.add(f"{acting_pokemon.name} must recharge and can't move!")
+                acting_pokemon.must_recharge = False
+                continue
+            
+            if acting_pokemon.multi_turn_move and acting_pokemon.multi_turn_counter > 0:
+                acting_pokemon.multi_turn_counter -= 1
+                move_to_use = acting_pokemon.multi_turn_move
+
+                if move_to_use.multi_turn_type == "charge":
+                    if log: log.add(f"{acting_pokemon.name} used {move_to_use.name}!")
+                    acting_pokemon.multi_turn_move = None
+                    calculate_and_apply_damage(acting_pokemon, defending_pokemon, move_to_use, log)
+                    continue
+
+                if move_to_use.multi_turn_type == "invulnerable":
+                    acting_pokemon.invulnerable = False
+                    acting_pokemon.vulnerable_to = []
+                    if log: log.add(f"{acting_pokemon.name} used {move_to_use.name}!")
+                    acting_pokemon.multi_turn_move = None
+                    calculate_and_apply_damage(acting_pokemon, defending_pokemon, move_to_use, log)
+                    continue
+            
+            move = select_move(acting_pokemon)
+            use_move(acting_pokemon, defending_pokemon, move, log)
+
+            if defending_pokemon.is_fainted():
+                log.add(f"{defending_pokemon.name} fainted!")
+                log.add(f"{acting_pokemon.name} wins!")
+                return acting_pokemon.name
+
+        process_end_of_turn_status(player, log)
+        process_end_of_turn_status(opponent, log)
