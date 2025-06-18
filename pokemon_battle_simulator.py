@@ -12,7 +12,17 @@ def use_move(user, target, move, log=None):
     
     if log: log.add(f"{user.name} used {move.name}!")
 
-    if random.randint(1, 100) >= move.accuracy:
+    # Accuracy vs Evasiveness stage adjustment
+    accuracy_stage = user.stat_stages.get("accuracy", 0)
+    evasiveness_stage = target.stat_stages.get("evasiveness", 0)
+
+    accuracy_multiplier = get_stage_multiplier(accuracy_stage)
+    evasiveness_multiplier = get_stage_multiplier(evasiveness_stage)
+
+    adjusted_accuracy = move.accuracy * (accuracy_multiplier / evasiveness_multiplier)
+    hit_roll = random.uniform(0, 100)
+
+    if hit_roll > adjusted_accuracy:
         if log: log.add(f"{user.name}'s {move.name} missed!")
         return
 
@@ -67,13 +77,6 @@ def calculate_and_apply_damage(user, target, move, log):
         if random.random() < crit_rate:
             is_crit = True
             if log: log.add("A critical hit!")
-
-        accuracy_mod = get_stage_multiplier(user.stat_stages.get("accuracy", 0))
-        evasion_mod = get_stage_multiplier(target.stat_stages.get("evasion", 0))
-        effective_accuracy = move.accuracy * (accuracy_mod / evasion_mod)
-        if random.randint(1, 100) > effective_accuracy:
-            if log: log.add(f"{user.name}'s {move.name} missed!")
-            return
 
         if move.effect == "multi_hit":
             min_hits, max_hits = map(int, move.hits.split("-")) if "-" in move.hits else (int(move.hits), int(move.hits))
@@ -179,7 +182,7 @@ def try_inflict_status(user, target, move, log=None):
         if status == "paralyzed":
             target.speed = max(1, target.speed // 4)
             if log: log.add(f"{target.name}'s speed fell due to paralysis!")
-        
+            return
         if target.status == "badly_poisoned":
             target.toxic_counter = 1
             if log: log.add(f"{target.name} was badly poisoned!")
@@ -187,6 +190,7 @@ def try_inflict_status(user, target, move, log=None):
         if target.status == "asleep":
             min_turns, max_turns = map(int, move.duration.split('-'))
             target.sleep_turns = random.randint(min_turns, max_turns)
+            return
 
 def try_inflict_confusion(target, move, log=None):
     if target.is_confused:
@@ -197,8 +201,6 @@ def try_inflict_confusion(target, move, log=None):
         target.is_confused = True
         target.confused_turns = random.randint(min_turns, max_turns)
         if log: log.add(f"{target.name} became confused!")
-    else:
-        if log: log.add("But it failed!")
 
 ############## CHECK STATUS EFFECTS ##############
 def check_confusion(pokemon, log=None):
