@@ -142,8 +142,6 @@ def apply_stat_stage_change(user, target, move, log=None):
             if log: log.add(f"{target_pokemon.name}'s {stat_name} rose!")
         elif change <= -1:
             if log: log.add(f"{target_pokemon.name}'s {stat_name} fell!")
-    else:
-        if log: log.add(f"But it failed!")
 
 def get_stage_multiplier(stage):
     stage_multipliers = {
@@ -157,7 +155,9 @@ def get_stage_multiplier(stage):
 def try_inflict_status(user, target, move, log=None):
     # Already afflicted
     if target.status != "OK":
-        if log: log.add(f"{target.name} already has a status condition!")
+        if move.chance < 100:
+            return
+        if log: log.add(f"{target.name} is already {target.status}!")
         return
 
     # Apply status based on chance
@@ -178,19 +178,21 @@ def try_inflict_status(user, target, move, log=None):
             return
         
         target.status = status
-        if log: log.add(f"{target.name} was {status}!")
         if status == "paralyzed":
             target.speed = max(1, target.speed // 4)
+            if log: log.add(f"{target.name} was paralyzed!")
             if log: log.add(f"{target.name}'s speed fell due to paralysis!")
             return
-        if target.status == "badly_poisoned":
+        if status == "badly_poisoned":
             target.toxic_counter = 1
             if log: log.add(f"{target.name} was badly poisoned!")
             return
-        if target.status == "asleep":
+        if status == "asleep":
             min_turns, max_turns = map(int, move.duration.split('-'))
             target.sleep_turns = random.randint(min_turns, max_turns)
+            if log: log.add(f"{target.name} fell asleep!")
             return
+        if log: log.add(f"{target.name} was {status}!")
 
 def try_inflict_confusion(target, move, log=None):
     if target.is_confused:
@@ -213,12 +215,13 @@ def check_confusion(pokemon, log=None):
         if random.random() < 0.5:
             damage = int(((((2*pokemon.level/5 + 2)*pokemon.attack*40)/pokemon.defense)/50) + 2)
             pokemon.current_hp -= damage
-            if log: log.add(f"{pokemon.name} hurt itself in its confusion! {pokemon.name} took {damage} damage!")
+            if log: log.add(f"{pokemon.name} hurt itself in its confusion!")
+            if log: log.add(f"{pokemon.name} took {damage} damage!")
             return True
     return False
 
 def check_sleep(pokemon, log=None):
-    if pokemon.status == "sleep":
+    if pokemon.status == "asleep":
         if pokemon.sleep_turns > 0:
             pokemon.sleep_turns -= 1
             if log: log.add(f"{pokemon.name} is fast asleep.")
