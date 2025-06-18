@@ -10,6 +10,14 @@ def use_move(user, target, move, log=None):
         if log: log.add(f"{user.name} began charging...")
         return
     
+    if move.multi_turn_type == "invulnerable":
+        user.invulnerable = True
+        user.vulnerable_to = [m.strip() for m in move.vulnerable_to.split(",")] if move.vulnerable_to else []
+        user.multi_turn_move = move
+        user.multi_turn_counter = 1
+        if log: log.add(f"{user.name} flew up high!" if move.name == "Fly" else f"{user.name} dug underground!")
+        return
+    
     if log: log.add(f"{user.name} used {move.name}!")
 
     # Accuracy vs Evasiveness stage adjustment
@@ -65,7 +73,7 @@ def calculate_and_apply_damage(user, target, move, log):
             defense_stat = target.special_defense * get_stage_multiplier(target.stat_stages.get("special_defense", 0))
 
         if target.invulnerable and move.name not in target.vulnerable_to:
-            if log: log.add(f"{target.name} is invulnerable to {move.name}!")
+            if log: log.add(f"{target.name} is unaffected!")
             return
 
         is_crit = False
@@ -105,6 +113,10 @@ def calculate_and_apply_damage(user, target, move, log):
                 base_damage *= 2
             type_multiplier = get_type_multiplier(move.type, target.types)
             final_damage = int(base_damage * type_multiplier)
+            # Special case: Earthquake hitting Dig
+            if target.invulnerable and move.name == "Earthquake":
+                final_damage *= 2
+                if log: log.add("Earthquake hits with double power during Dig!")
             target.current_hp -= final_damage
             if log:
                 if type_multiplier > 1:
