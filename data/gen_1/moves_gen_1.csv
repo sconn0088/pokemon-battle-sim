@@ -1,165 +1,165 @@
 name,type,power,accuracy,category,description,effect,status,chance,target,stat,stages,hits,duration,critical_rate,multi_turn,multi_turn_type,vulnerable_to,effect_value
 Absorb,Grass,20,100,Special,User recovers half the HP inflicted on opponent. ,drain,,100,opponent,,,,,,,,,0.5
-Acid,Poison,40,100,Physical,May lower opponent's Special Defense. ,lower_stat,,33,opponent,defense,1,,,,,,,
-Acid Armor,Poison,0,100,Status,Sharply raises user's Defense. ,raise_stat,,100,self,defense,2,,,,,,,
-Agility,Psychic,0,100,Status,Sharply raises user's Speed.,raise_stat,,100,self,speed,2,,,,,,,
-Amnesia,Psychic,0,100,Status,Sharply raises user's Special Defense.,raise_stat,,100,self,special_defense,2,,,,,,,
-Aurora Beam,Ice,65,100,Special,May lower opponent's Attack.,lower_stat,,10,opponent,attack,1,,,,,,,
-Barrage,Normal,15,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,
-Barrier,Psychic,0,100,Status,Sharply raises user's Defense.,raise_stat,,100,self,defense,2,,,,,,,
-Bide,Normal,0,100,Physical,User takes damage for two turns then strikes back double.,bide,,,opponent,,,,2-3,,,,,
-Bind,Normal,15,75,Physical,"Traps opponent, damaging them for 4-5 turns.",multi_hit,,,opponent,,,2-5,,,,,,
-Bite,Normal,60,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,
-Blizzard,Ice,120,90,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,
-Body Slam,Normal,85,100,Physical,May paralyze opponent.,status,paralyzed,30,opponent,,,,,,,,,
-Bone Club,Ground,65,85,Physical,May cause flinching.,flinch,,10,opponent,,,,,,,,,
-Bonemerang,Ground,50,90,Physical,Hits twice in one turn.,multi_hit,,,opponent,,,2,,,,,,
-Bubble,Water,20,100,Special,May lower opponent's Speed.,lower_stat,,10,opponent,speed,1,,,,,,,
-Bubble Beam,Water,65,100,Special,May lower opponent's Speed.,lower_stat,,10,opponent,speed,1,,,,,,,
-Clamp,Water,35,75,Special,"Traps opponent, damaging them for 4-5 turns.",multi_hit,,,opponent,,,2-5,,,,,,
-Comet Punch,Normal,18,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,
+Acid,Poison,40,100,Physical,May lower opponent's Special Defense. ,lower_stat,,33,opponent,defense,1,,,,,,,0.0
+Acid Armor,Poison,0,100,Status,Sharply raises user's Defense. ,raise_stat,,100,self,defense,2,,,,,,,0.0
+Agility,Psychic,0,100,Status,Sharply raises user's Speed.,raise_stat,,100,self,speed,2,,,,,,,0.0
+Amnesia,Psychic,0,100,Status,Sharply raises user's Special Defense.,raise_stat,,100,self,special_defense,2,,,,,,,0.0
+Aurora Beam,Ice,65,100,Special,May lower opponent's Attack.,lower_stat,,10,opponent,attack,1,,,,,,,0.0
+Barrage,Normal,15,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,0.0
+Barrier,Psychic,0,100,Status,Sharply raises user's Defense.,raise_stat,,100,self,defense,2,,,,,,,0.0
+Bide,Normal,0,100,Physical,User takes damage for two turns then strikes back double.,bide,,,opponent,,,,2-3,,,,,0.0
+Bind,Normal,15,75,Physical,"Traps opponent, damaging them for 4-5 turns.",multi_hit,,,opponent,,,2-5,,,,,,0.0
+Bite,Normal,60,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0.0
+Blizzard,Ice,120,90,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,0.0
+Body Slam,Normal,85,100,Physical,May paralyze opponent.,status,paralyzed,30,opponent,,,,,,,,,0.0
+Bone Club,Ground,65,85,Physical,May cause flinching.,flinch,,10,opponent,,,,,,,,,0.0
+Bonemerang,Ground,50,90,Physical,Hits twice in one turn.,multi_hit,,,opponent,,,2,,,,,,0.0
+Bubble,Water,20,100,Special,May lower opponent's Speed.,lower_stat,,10,opponent,speed,1,,,,,,,0.0
+Bubble Beam,Water,65,100,Special,May lower opponent's Speed.,lower_stat,,10,opponent,speed,1,,,,,,,0.0
+Clamp,Water,35,75,Special,"Traps opponent, damaging them for 4-5 turns.",multi_hit,,,opponent,,,2-5,,,,,,0.0
+Comet Punch,Normal,18,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,0.0
 Confuse Ray,Ghost,0,100,Status,Confuses opponent.,confuse,,100,opponent,,,,2-4,,,,,0.5
 Confusion,Psychic,50,100,Special,May confuse opponent.,confuse,,10,opponent,,,,2-4,,,,,0.5
-Constrict,Normal,10,100,Physical,May lower opponent's Speed by one stage.,lower_stat,,10,opponent,speed,1,,,,,,,
-Conversion,Normal,0,100,Status,Changes user's type to that of its first move.,conversion,,100,self,,,,,,,,,
-Counter,Fighting,0,100,Physical,"When hit by a Physical Attack, user strikes back with 2x power.",counter,,100,opponent,,,,,,,,,
-Crabhammer,Water,90,85,Special,High critical hit ratio.,crit_boost,,,opponent,,,,,0.125,,,,
-Cut,Normal,50,95,Physical,,,,,opponent,,,,,,,,,
-Defense Curl,Normal,0,100,Status,Raises user's Defense.,raise_stat,,100,self,defense,1,,,,,,,
-Dig,Ground,100,100,Physical,"Digs underground on first turn, attacks on second. Can also escape from caves.",charge,,,opponent,,,,,,2,invulnerable,"Earthquake,Fissure,Swift",
-Disable,Normal,0,55,Status,Opponent can't use its last attack for a few turns.,disable,,100,opponent,,,,2-8,,,,,
-Dizzy Punch,Normal,70,100,Physical,,,,,opponent,,,,,,,,,
-Double Kick,Fighting,30,100,Physical,Hits twice in one turn.,multi_hit,,,opponent,,,2,,,,,,
-Double Slap,Normal,15,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,
-Double Team,Normal,0,100,Status,Raises user's Evasiveness.,raise_stat,,100,self,evasiveness,1,,,,,,,
+Constrict,Normal,10,100,Physical,May lower opponent's Speed by one stage.,lower_stat,,10,opponent,speed,1,,,,,,,0.0
+Conversion,Normal,0,100,Status,Changes user's type to that of its first move.,conversion,,100,self,,,,,,,,,0.0
+Counter,Fighting,0,100,Physical,"When hit by a Physical Attack, user strikes back with 2x power.",counter,,100,opponent,,,,,,,,,0.0
+Crabhammer,Water,90,85,Special,High critical hit ratio.,crit_boost,,,opponent,,,,,0.125,,,,0.0
+Cut,Normal,50,95,Physical,,,,,opponent,,,,,,,,,0.0
+Defense Curl,Normal,0,100,Status,Raises user's Defense.,raise_stat,,100,self,defense,1,,,,,,,0.0
+Dig,Ground,100,100,Physical,"Digs underground on first turn, attacks on second. Can also escape from caves.",charge,,,opponent,,,,,,2,invulnerable,"Earthquake,Fissure,Swift",0.0
+Disable,Normal,0,55,Status,Opponent can't use its last attack for a few turns.,disable,,100,opponent,,,,2-8,,,,,0.0
+Dizzy Punch,Normal,70,100,Physical,,,,,opponent,,,,,,,,,0.0
+Double Kick,Fighting,30,100,Physical,Hits twice in one turn.,multi_hit,,,opponent,,,2,,,,,,0.0
+Double Slap,Normal,15,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,0.0
+Double Team,Normal,0,100,Status,Raises user's Evasiveness.,raise_stat,,100,self,evasiveness,1,,,,,,,0.0
 Double-Edge,Normal,100,100,Physical,User receives recoil damage.,recoil,,100,opponent,,,,,,,,,0.25
-Dragon Rage,Dragon,0,100,Special,Always inflicts 40 HP.,fixed_damage,,,opponent,,,,,,,,,40
+Dragon Rage,Dragon,0,100,Special,Always inflicts 40 HP.,fixed_damage,,,opponent,,,,,,,,,40.0
 Dream Eater,Psychic,100,100,Special,User recovers half the HP inflicted on a sleeping opponent.,drain,,,opponent,,,,,,,,,0.5
-Drill Peck,Flying,80,100,Physical,,,,,opponent,,,,,,,,,
-Earthquake,Ground,100,100,Physical,Power is doubled if opponent is underground from using Dig.,bonus_against_state,,,opponent,,,,,,,,,
-Egg Bomb,Normal,100,75,Physical,,,,,opponent,,,,,,,,,
-Ember,Fire,40,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,
-Explosion,Normal,340,100,Physical,User faints.,selfdestruct,,,opponent,,,,,,,,,
-Fire Blast,Fire,120,85,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,
-Fire Punch,Fire,75,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,
-Fire Spin,Fire,15,70,Special,"Traps opponent, damaging them for 4-5 turns.",multi_hit,,,opponent,,,2-5,,,,,,
-Fissure,Ground,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,
-Flamethrower,Fire,95,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,
-Flash,Normal,0,70,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,
-Fly,Flying,70,95,Physical,"Flies up on first turn, attacks on second turn.",charge,,,opponent,,,,,,2,invulnerable,"Thunder,Swift",
-Focus Energy,Normal,0,100,Status,Increases critical hit ratio.,crit_boost,,,self,,,,,0.125,,,,2
-Fury Attack,Normal,15,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,
-Fury Swipes,Normal,18,80,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,
-Glare,Normal,0,75,Status,Paralyzes opponent.,status,paralyzed,100,opponent,,,,,,,,,
-Growl,Normal,0,100,Status,Lowers opponent's Attack.,lower_stat,,100,opponent,attack,1,,,,,,,
-Growth,Normal,0,100,Status,Raises user's Attack and Special Attack.,raise_stat,,100,self,special_attack,1,,,,,,,
-Guillotine,Normal,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,
-Gust,Normal,40,100,Physical,,,,,opponent,,,,,,,,,
-Harden,Normal,0,100,Status,Raises user's Defense.,raise_stat,,100,self,defense,1,,,,,,,
-Haze,Ice,0,100,Status,Resets all stat changes.,clear_stats,,,both,,,,,,,,,0
-Headbutt,Normal,70,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,
-High Jump Kick,Fighting,85,90,Physical,"If it misses, the user loses 1 HP.",recoil,,,opponent,,,,,,,,,1
-Horn Attack,Normal,65,100,Physical,,,,,opponent,,,,,,,,,
-Horn Drill,Normal,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,
-Hydro Pump,Water,120,80,Special,,,,,opponent,,,,,,,,,
-Hyper Beam,Normal,150,90,Physical,User must recharge next turn.,charge,,100,opponent,,,,,,2,recharge,,
-Hyper Fang,Normal,80,90,Physical,May cause flinching.,flinch,,10,opponent,,,,,,,,,
-Hypnosis,Psychic,0,60,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,
-Ice Beam,Ice,95,100,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,
-Ice Punch,Ice,75,100,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,
-Jump Kick,Fighting,70,95,Physical,"If it misses, the user loses 1 HP.",recoil,,,opponent,,,,,,,,,1
-Karate Chop,Normal,50,100,Physical,High critical hit ratio.,crit_boost,,,opponent,,,,,0.125,,,,
-Kinesis,Psychic,0,80,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,
+Drill Peck,Flying,80,100,Physical,,,,,opponent,,,,,,,,,0.0
+Earthquake,Ground,100,100,Physical,Power is doubled if opponent is underground from using Dig.,bonus_against_state,,,opponent,,,,,,,,,0.0
+Egg Bomb,Normal,100,75,Physical,,,,,opponent,,,,,,,,,0.0
+Ember,Fire,40,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,0.0
+Explosion,Normal,340,100,Physical,User faints.,selfdestruct,,,opponent,,,,,,,,,0.0
+Fire Blast,Fire,120,85,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,0.0
+Fire Punch,Fire,75,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,0.0
+Fire Spin,Fire,15,70,Special,"Traps opponent, damaging them for 4-5 turns.",multi_hit,,,opponent,,,2-5,,,,,,0.0
+Fissure,Ground,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0.0
+Flamethrower,Fire,95,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,0.0
+Flash,Normal,0,70,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,0.0
+Fly,Flying,70,95,Physical,"Flies up on first turn, attacks on second turn.",charge,,,opponent,,,,,,2,invulnerable,"Thunder,Swift",0.0
+Focus Energy,Normal,0,100,Status,Increases critical hit ratio.,crit_boost,,,self,,,,,0.125,,,,2.0
+Fury Attack,Normal,15,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,0.0
+Fury Swipes,Normal,18,80,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,0.0
+Glare,Normal,0,75,Status,Paralyzes opponent.,status,paralyzed,100,opponent,,,,,,,,,0.0
+Growl,Normal,0,100,Status,Lowers opponent's Attack.,lower_stat,,100,opponent,attack,1,,,,,,,0.0
+Growth,Normal,0,100,Status,Raises user's Attack and Special Attack.,raise_stat,,100,self,special_attack,1,,,,,,,0.0
+Guillotine,Normal,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0.0
+Gust,Normal,40,100,Physical,,,,,opponent,,,,,,,,,0.0
+Harden,Normal,0,100,Status,Raises user's Defense.,raise_stat,,100,self,defense,1,,,,,,,0.0
+Haze,Ice,0,100,Status,Resets all stat changes.,clear_stats,,,both,,,,,,,,,0.0
+Headbutt,Normal,70,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0.0
+High Jump Kick,Fighting,85,90,Physical,"If it misses, the user loses 1 HP.",recoil,,,opponent,,,,,,,,,1.0
+Horn Attack,Normal,65,100,Physical,,,,,opponent,,,,,,,,,0.0
+Horn Drill,Normal,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0.0
+Hydro Pump,Water,120,80,Special,,,,,opponent,,,,,,,,,0.0
+Hyper Beam,Normal,150,90,Physical,User must recharge next turn.,charge,,100,opponent,,,,,,2,recharge,,0.0
+Hyper Fang,Normal,80,90,Physical,May cause flinching.,flinch,,10,opponent,,,,,,,,,0.0
+Hypnosis,Psychic,0,60,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,0.0
+Ice Beam,Ice,95,100,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,0.0
+Ice Punch,Ice,75,100,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,0.0
+Jump Kick,Fighting,70,95,Physical,"If it misses, the user loses 1 HP.",recoil,,,opponent,,,,,,,,,1.0
+Karate Chop,Normal,50,100,Physical,High critical hit ratio.,crit_boost,,,opponent,,,,,0.125,,,,0.0
+Kinesis,Psychic,0,80,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,0.0
 Leech Life,Bug,20,100,Physical,User recovers half the HP inflicted on opponent.,drain,,,opponent,,,,,,,,,0.5
 Leech Seed,Grass,0,90,Status,Drains HP from opponent each turn.,leech_seed,,100,opponent,,,,,,,,,0.0625
-Leer,Normal,0,100,Status,Lowers opponent's Defense.,lower_stat,,100,opponent,defense,1,,,,,,,
-Lick,Ghost,20,100,Physical,May paralyze opponent.,status,paralyzed,30,opponent,,,,,,,,,
-Light Screen,Psychic,0,100,Status,Halves damage from Special attacks for 5 turns.,screen,,100,self,,,,5,,,,,
-Lovely Kiss,Normal,0,75,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,
-Low Kick,Fighting,50,90,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,
-Meditate,Psychic,0,100,Status,Raises user's Attack.,raise_stat,,100,self,attack,1,,,,,,,
+Leer,Normal,0,100,Status,Lowers opponent's Defense.,lower_stat,,100,opponent,defense,1,,,,,,,0.0
+Lick,Ghost,20,100,Physical,May paralyze opponent.,status,paralyzed,30,opponent,,,,,,,,,0.0
+Light Screen,Psychic,0,100,Status,Halves damage from Special attacks for 5 turns.,screen,,100,self,,,,5,,,,,0.0
+Lovely Kiss,Normal,0,75,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,0.0
+Low Kick,Fighting,50,90,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0.0
+Meditate,Psychic,0,100,Status,Raises user's Attack.,raise_stat,,100,self,attack,1,,,,,,,0.0
 Mega Drain,Grass,40,100,Special,User recovers half the HP inflicted on opponent.,drain,,100,opponent,,,,,,,,,0.5
-Mega Kick,Normal,120,75,Physical,,,,,opponent,,,,,,,,,
-Mega Punch,Normal,80,85,Physical,,,,,opponent,,,,,,,,,
-Metronome,Normal,0,100,Status,User performs almost any move in the game at random.,metronome,,100,self,,,,,,,,,
-Mimic,Normal,0,100,Status,Copies the opponent's last move.,mimic,,100,opponent,,,,,,,,,
-Minimize,Normal,0,100,Status,Sharply raises user's Evasiveness.,raise_stat,,100,self,evasiveness,1,,,,,,,
-Mirror Move,Flying,0,100,Status,User performs the opponent's last move.,mirror_move,,100,opponent,,,,,,,,,
-Mist,Ice,0,100,Status,User's stats cannot be changed for a period of time.,mist,,100,self,,,,,,,,,
-Night Shade,Ghost,0,100,Physical,Inflicts damage equal to user's level.,level_scale,,100,opponent,,,,,,,,,
-Pay Day,Normal,40,100,Physical,Money is earned after the battle.,,,,opponent,,,,,,,,,
-Peck,Flying,35,100,Physical,,,,,opponent,,,,,,,,,
+Mega Kick,Normal,120,75,Physical,,,,,opponent,,,,,,,,,0.0
+Mega Punch,Normal,80,85,Physical,,,,,opponent,,,,,,,,,0.0
+Metronome,Normal,0,100,Status,User performs almost any move in the game at random.,metronome,,100,self,,,,,,,,,0.0
+Mimic,Normal,0,100,Status,Copies the opponent's last move.,mimic,,100,opponent,,,,,,,,,0.0
+Minimize,Normal,0,100,Status,Sharply raises user's Evasiveness.,raise_stat,,100,self,evasiveness,1,,,,,,,0.0
+Mirror Move,Flying,0,100,Status,User performs the opponent's last move.,mirror_move,,100,opponent,,,,,,,,,0.0
+Mist,Ice,0,100,Status,User's stats cannot be changed for a period of time.,mist,,100,self,,,,,,,,,0.0
+Night Shade,Ghost,0,100,Physical,Inflicts damage equal to user's level.,level_scale,,100,opponent,,,,,,,,,0.0
+Pay Day,Normal,40,100,Physical,Money is earned after the battle.,,,,opponent,,,,,,,,,0.0
+Peck,Flying,35,100,Physical,,,,,opponent,,,,,,,,,0.0
 Petal Dance,Grass,70,100,Special,User attacks for 3-4 turns but then becomes confused.,confuse_self,,100,opponent,,,,2-4,,3-4,,,0.5
-Pin Missile,Bug,14,95,Physical,Hits 2-5 times in one turn.,multi_hit,,100,opponent,,,2-5,,,,,,
-Poison Gas,Poison,0,55,Status,Poisons opponent.,status,poisoned,100,opponent,,,,,,,,,
-Poison Powder,Poison,0,75,Status,Poisons opponent.,status,poisoned,100,opponent,,,,,,,,,
-Poison Sting,Poison,15,100,Physical,May poison the opponent.,status,poisoned,30,opponent,,,,,,,,,
-Pound,Normal,40,100,Physical,,,,,opponent,,,,,,,,,
+Pin Missile,Bug,14,95,Physical,Hits 2-5 times in one turn.,multi_hit,,100,opponent,,,2-5,,,,,,0.0
+Poison Gas,Poison,0,55,Status,Poisons opponent.,status,poisoned,100,opponent,,,,,,,,,0.0
+Poison Powder,Poison,0,75,Status,Poisons opponent.,status,poisoned,100,opponent,,,,,,,,,0.0
+Poison Sting,Poison,15,100,Physical,May poison the opponent.,status,poisoned,30,opponent,,,,,,,,,0.0
+Pound,Normal,40,100,Physical,,,,,opponent,,,,,,,,,0.0
 Psybeam,Psychic,65,100,Special,May confuse opponent.,confuse,,10,opponent,,,,2-4,,,,,0.5
-Psychic,Psychic,90,100,Special,May lower opponent's Special Defense.,lower_stat,,30,opponent,special_defense,1,,,,,,,
-Psywave,Psychic,0,100,Special,Inflicts damage 100-150% of user's level.,level_scale,,,opponent,,,,,,,,,
-Quick Attack,Normal,40,100,Physical,User attacks first.,,,,opponent,,,,,,,,,
-Rage,Normal,20,100,Physical,Raises user's Attack when hit.,rage_mode,,100,opponent,,,,,,,,,
-Razor Leaf,Grass,55,95,Special,High critical hit ratio.,crit_boost,,100,opponent,,,,,0.125,,,,
-Razor Wind,Normal,80,75,Physical,"Charges on first turn, attacks on second.",charge,,,opponent,,,,,,2,charge,,
+Psychic,Psychic,90,100,Special,May lower opponent's Special Defense.,lower_stat,,30,opponent,special_defense,1,,,,,,,0.0
+Psywave,Psychic,0,100,Special,Inflicts damage 100-150% of user's level.,level_scale,,,opponent,,,,,,,,,0.0
+Quick Attack,Normal,40,100,Physical,User attacks first.,,,,opponent,,,,,,,,,0.0
+Rage,Normal,20,100,Physical,Raises user's Attack when hit.,rage_mode,,100,opponent,,,,,,,,,0.0
+Razor Leaf,Grass,55,95,Special,High critical hit ratio.,crit_boost,,100,opponent,,,,,0.125,,,,0.0
+Razor Wind,Normal,80,75,Physical,"Charges on first turn, attacks on second.",charge,,,opponent,,,,,,2,charge,,0.0
 Recover,Normal,0,100,Status,User recovers half its max HP.,heal,,100,self,,,,,,,,,0.5
-Reflect,Psychic,0,100,Status,Halves damage from Physical attacks for 5 turns.,screen,,100,self,,,,5,,,,,
-Rest,Psychic,0,100,Status,"User sleeps for 2 turns, but user is fully healed.",rest,,100,self,,,,2,,,,,
-Roar,Normal,0,100,Status,"In battles, the opponent switches. In the wild, the Pokémon runs. ",skip,,,self,,,,,,,,,
-Rock Slide,Rock,75,90,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,
-Rock Throw,Rock,50,65,Physical,,,,,opponent,,,,,,,,,
-Rolling Kick,Fighting,60,85,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,
-Sand Attack,Normal,0,100,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,
-Scratch,Normal,40,100,Physical,,,,,opponent,,,,,,,,,
-Screech,Normal,0,85,Status,Sharply lowers opponent's Defense.,lower_stat,,100,opponent,defense,2,,,,,,,
-Seismic Toss,Fighting,0,100,Physical,Inflicts damage equal to user's level.,level_scale,,,opponent,,,,,,,,,
-Selfdestruct,Normal,130,100,Physical,User faints.,selfdestruct,,,opponent,,,,,,,,,
-Sharpen,Normal,0,100,Status,Raises user's Attack.,raise_stat,,100,self,attack,1,,,,,,,
-Sing,Normal,0,55,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,
-Skull Bash,Normal,100,100,Physical,"Charges on first turn, attacks on second.",charge,,100,opponent,,,,,,2,charge,,
-Sky Attack,Flying,140,90,Physical,"Charges on first turn, attacks on second. May cause flinching.",charge,,30,opponent,,,,,,2,charge,,
-Slam,Normal,80,75,Physical,,,,,opponent,,,,,,,,,
-Slash,Normal,70,100,Physical,High critical hit ratio.,crit_boost,,,opponent,,,,,0.125,,,,
-Sleep Powder,Grass,0,75,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,
-Sludge,Poison,65,100,Physical,May poison opponent.,status,poisoned,30,opponent,,,,,,,,,
-Smog,Poison,20,70,Physical,May poison opponent.,status,poisoned,40,opponent,,,,,,,,,
-Smokescreen,Normal,0,100,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,
+Reflect,Psychic,0,100,Status,Halves damage from Physical attacks for 5 turns.,screen,,100,self,,,,5,,,,,0.0
+Rest,Psychic,0,100,Status,"User sleeps for 2 turns, but user is fully healed.",rest,,100,self,,,,2,,,,,0.0
+Roar,Normal,0,100,Status,"In battles, the opponent switches. In the wild, the Pokémon runs. ",skip,,,self,,,,,,,,,0.0
+Rock Slide,Rock,75,90,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0.0
+Rock Throw,Rock,50,65,Physical,,,,,opponent,,,,,,,,,0.0
+Rolling Kick,Fighting,60,85,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0.0
+Sand Attack,Normal,0,100,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,0.0
+Scratch,Normal,40,100,Physical,,,,,opponent,,,,,,,,,0.0
+Screech,Normal,0,85,Status,Sharply lowers opponent's Defense.,lower_stat,,100,opponent,defense,2,,,,,,,0.0
+Seismic Toss,Fighting,0,100,Physical,Inflicts damage equal to user's level.,level_scale,,,opponent,,,,,,,,,0.0
+Selfdestruct,Normal,130,100,Physical,User faints.,selfdestruct,,,opponent,,,,,,,,,0.0
+Sharpen,Normal,0,100,Status,Raises user's Attack.,raise_stat,,100,self,attack,1,,,,,,,0.0
+Sing,Normal,0,55,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,0.0
+Skull Bash,Normal,100,100,Physical,"Charges on first turn, attacks on second.",charge,,100,opponent,,,,,,2,charge,,0.0
+Sky Attack,Flying,140,90,Physical,"Charges on first turn, attacks on second. May cause flinching.",charge,,30,opponent,,,,,,2,charge,,0.0
+Slam,Normal,80,75,Physical,,,,,opponent,,,,,,,,,0.0
+Slash,Normal,70,100,Physical,High critical hit ratio.,crit_boost,,,opponent,,,,,0.125,,,,0.0
+Sleep Powder,Grass,0,75,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,0.0
+Sludge,Poison,65,100,Physical,May poison opponent.,status,poisoned,30,opponent,,,,,,,,,0.0
+Smog,Poison,20,70,Physical,May poison opponent.,status,poisoned,40,opponent,,,,,,,,,0.0
+Smokescreen,Normal,0,100,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,0.0
 Softboiled,Normal,0,100,Status,User recovers half its max HP.,heal,,100,self,,,,,,,,,0.5
-Solar Beam,Grass,120,100,Special,"Charges on first turn, attacks on second.",charge,,100,opponent,,,,,,2,charge,,
-Sonic Boom,Normal,0,90,Physical,Always inflicts 20 HP.,fixed_damage,,,opponent,,,,,,,,,20
-Spike Cannon,Normal,20,100,Physical,Hits 2-5 times in one turn.,multi_hit,,100,opponent,,,2-5,,,,,,
-Splash,Normal,0,100,Status,Doesn't do ANYTHING.,skip,,,self,,,,,,,,,
-Spore,Grass,0,100,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,
-Stomp,Normal,65,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,
-Strength,Normal,80,100,Physical,,,,,opponent,,,,,,,,,
-String Shot,Bug,0,95,Status,Lowers opponent's Speed.,lower_stat,,100,opponent,speed,1,,,,,,,
-Stun Spore,Grass,0,75,Status,Paralyzes opponent.,status,paralyzed,100,opponent,,,,,,,,,
+Solar Beam,Grass,120,100,Special,"Charges on first turn, attacks on second.",charge,,100,opponent,,,,,,2,charge,,0.0
+Sonic Boom,Normal,0,90,Physical,Always inflicts 20 HP.,fixed_damage,,,opponent,,,,,,,,,20.0
+Spike Cannon,Normal,20,100,Physical,Hits 2-5 times in one turn.,multi_hit,,100,opponent,,,2-5,,,,,,0.0
+Splash,Normal,0,100,Status,Doesn't do ANYTHING.,skip,,,self,,,,,,,,,0.0
+Spore,Grass,0,100,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,0.0
+Stomp,Normal,65,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0.0
+Strength,Normal,80,100,Physical,,,,,opponent,,,,,,,,,0.0
+String Shot,Bug,0,95,Status,Lowers opponent's Speed.,lower_stat,,100,opponent,speed,1,,,,,,,0.0
+Stun Spore,Grass,0,75,Status,Paralyzes opponent.,status,paralyzed,100,opponent,,,,,,,,,0.0
 Submission,Fighting,80,80,Physical,User receives recoil damage.,recoil,,100,opponent,,,,,,,,,0.25
-Substitute,Normal,0,100,Status,Uses HP to creates a decoy that takes hits.,substitute,,100,self,,,,,,,,,
+Substitute,Normal,0,100,Status,Uses HP to creates a decoy that takes hits.,substitute,,100,self,,,,,,,,,0.0
 Super Fang,Normal,0,90,Physical,Always takes off half of the opponent's HP.,super_fang,,100,opponent,,,,,,,,,0.5
 Supersonic,Normal,0,55,Status,Confuses opponent.,confuse,,100,opponent,,,,2-4,,,,,0.5
-Surf,Water,95,100,Special,,,,,opponent,,,,,,,,,
-Swift,Normal,60,100,Physical,Ignores Accuracy and Evasiveness.,swift,,100,opponent,,,,,,,,,
-Swords Dance,Normal,0,100,Status,Sharply raises user's Attack.,raise_stat,,100,self,attack,2,,,,,,,
-Tackle,Normal,35,95,Physical,,,,,opponent,,,,,,,,,
-Tail Whip,Normal,0,100,Status,Lowers opponent's Defense.,lower_stat,,100,opponent,defense,1,,,,,,,
+Surf,Water,95,100,Special,,,,,opponent,,,,,,,,,0.0
+Swift,Normal,60,100,Physical,Ignores Accuracy and Evasiveness.,swift,,100,opponent,,,,,,,,,0.0
+Swords Dance,Normal,0,100,Status,Sharply raises user's Attack.,raise_stat,,100,self,attack,2,,,,,,,0.0
+Tackle,Normal,35,95,Physical,,,,,opponent,,,,,,,,,0.0
+Tail Whip,Normal,0,100,Status,Lowers opponent's Defense.,lower_stat,,100,opponent,defense,1,,,,,,,0.0
 Take Down,Normal,90,85,Physical,User receives recoil damage.,recoil,,100,opponent,,,,,,,,,0.25
-Teleport,Psychic,0,100,Status,Allows user to flee wild battles,skip,,,self,,,,,,,,,
+Teleport,Psychic,0,100,Status,Allows user to flee wild battles,skip,,,self,,,,,,,,,0.0
 Thrash,Normal,90,100,Physical,User attacks for 3-4 turns but then becomes confused.,confuse_self,,100,opponent,,,,2-4,,3-4,,,0.5
-Thunder,Electric,120,70,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,
-Thunder Punch,Electric,75,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,
-Thunder Shock,Electric,40,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,
-Thunder Wave,Electric,0,100,Status,Paralyzes opponent.,status,paralyzed,100,opponent,,,,,,,,,
-Thunderbolt,Electric,95,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,
+Thunder,Electric,120,70,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,0.0
+Thunder Punch,Electric,75,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,0.0
+Thunder Shock,Electric,40,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,0.0
+Thunder Wave,Electric,0,100,Status,Paralyzes opponent.,status,paralyzed,100,opponent,,,,,,,,,0.0
+Thunderbolt,Electric,95,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,0.0
 Toxic,Poison,0,85,Status,Badly poisons opponent.,status,badly_poisoned,100,opponent,,,,,,,,,0.0625
-Transform,Normal,0,0,Status,User takes on the form and attacks of the opponent.,transform,,100,opponent,,,,,,,,,
-Tri Attack,Normal,80,100,Physical,"May paralyze, burn or freeze opponent.",tri_attack,,20,opponent,,,,,,,,,
-Twineedle,Bug,25,100,Physical,Hits twice in one turn. May poison opponent.,multi_hit,poisoned,20,opponent,,,2,,,,,,
-Vine Whip,Grass,35,100,Special,,,,,opponent,,,,,,,,,
-Vise Grip,Normal,55,100,Physical,,,,,opponent,,,,,,,,,
-Water Gun,Water,40,100,Special,,,,,opponent,,,,,,,,,
-Waterfall,Water,80,100,Special,May cause flinching.,flinch,,20,opponent,,,,,,,,,
-Whirlwind,Normal,0,85,Status,"In battles, the opponent switches. In the wild, the Pokémon runs.",skip,,,self,,,,,,,,,
-Wing Attack,Flying,35,100,Physical,,,,,opponent,,,,,,,,,
-Withdraw,Water,0,100,Status,Raises user's Defense.,raise_stat,,100,self,defense,1,,,,,,,
-Wrap,Normal,15,85,Physical,"Traps opponent, damaging them for 2-5 turns.",multi_hit,,100,opponent,,,2-5,,,,,,
+Transform,Normal,0,0,Status,User takes on the form and attacks of the opponent.,transform,,100,opponent,,,,,,,,,0.0
+Tri Attack,Normal,80,100,Physical,"May paralyze, burn or freeze opponent.",tri_attack,,20,opponent,,,,,,,,,0.0
+Twineedle,Bug,25,100,Physical,Hits twice in one turn. May poison opponent.,multi_hit,poisoned,20,opponent,,,2,,,,,,0.0
+Vine Whip,Grass,35,100,Special,,,,,opponent,,,,,,,,,0.0
+Vise Grip,Normal,55,100,Physical,,,,,opponent,,,,,,,,,0.0
+Water Gun,Water,40,100,Special,,,,,opponent,,,,,,,,,0.0
+Waterfall,Water,80,100,Special,May cause flinching.,flinch,,20,opponent,,,,,,,,,0.0
+Whirlwind,Normal,0,85,Status,"In battles, the opponent switches. In the wild, the Pokémon runs.",skip,,,self,,,,,,,,,0.0
+Wing Attack,Flying,35,100,Physical,,,,,opponent,,,,,,,,,0.0
+Withdraw,Water,0,100,Status,Raises user's Defense.,raise_stat,,100,self,defense,1,,,,,,,0.0
+Wrap,Normal,15,85,Physical,"Traps opponent, damaging them for 2-5 turns.",multi_hit,,100,opponent,,,2-5,,,,,,0.0

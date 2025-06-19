@@ -42,6 +42,10 @@ def use_move(user, target, move, log=None):
         user.next_crit_boosted = True
         if log: log.add(f"{user.name} is getting pumped!")
         return
+    
+    if move.name == "Dream Eater" and target.status != "asleep":
+        if log: log.add(f"{user.name}'s {move.name} missed!")
+        return
 
     calculate_and_apply_damage(user, target, move, log)
 
@@ -124,6 +128,11 @@ def calculate_and_apply_damage(user, target, move, log):
                 elif type_multiplier < 1:
                     log.add("It's not very effective...")
                 log.add(f"{target.name} took {final_damage} damage!")
+            
+            if move.effect == "drain" and final_damage > 0:
+                heal = int(final_damage * move.effect_value)
+                user.current_hp = min(user.hp, user.current_hp + heal)
+                if log: log.add(f"{user.name} recovered {heal} HP!")
 
 ##################################################
 ###############  BATTLE FUNCTIONS  ###############
