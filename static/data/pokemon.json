@@ -11,6 +11,38 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Tackle",
+        "Leech Seed",
+        "Vine Whip",
+        "Poison Powder",
+        "Razor Leaf",
+        "Growth",
+        "Sleep Powder",
+        "Solar Beam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Ivysaur": {
@@ -25,6 +57,38 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 60
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Tackle",
+        "Leech Seed",
+        "Vine Whip",
+        "Poison Powder",
+        "Razor Leaf",
+        "Growth",
+        "Sleep Powder",
+        "Solar Beam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Venusaur": {
@@ -39,6 +103,39 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 80
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Tackle",
+        "Leech Seed",
+        "Vine Whip",
+        "Poison Powder",
+        "Razor Leaf",
+        "Growth",
+        "Sleep Powder",
+        "Solar Beam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Charmander": {
@@ -52,6 +149,46 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 65
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Scratch",
+        "Ember",
+        "Leer",
+        "Rage",
+        "Slash",
+        "Flamethrower",
+        "Fire Spin"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Swords Dance",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dragon Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Strength"
+      ]
     }
   },
   "Charmeleon": {
@@ -65,6 +202,46 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 80
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Scratch",
+        "Ember",
+        "Leer",
+        "Rage",
+        "Slash",
+        "Flamethrower",
+        "Fire Spin"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Swords Dance",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dragon Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Strength"
+      ]
     }
   },
   "Charizard": {
@@ -79,6 +256,50 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Scratch",
+        "Ember",
+        "Leer",
+        "Rage",
+        "Slash",
+        "Flamethrower",
+        "Fire Spin"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Swords Dance",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dragon Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Fly",
+        "Strength"
+      ]
     }
   },
   "Squirtle": {
@@ -92,6 +313,46 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 43
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Bubble",
+        "Water Gun",
+        "Bite",
+        "Withdraw",
+        "Skull Bash",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Wartortle": {
@@ -105,6 +366,46 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 58
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Bubble",
+        "Water Gun",
+        "Bite",
+        "Withdraw",
+        "Skull Bash",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Blastoise": {
@@ -118,6 +419,49 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 78
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Bubble",
+        "Water Gun",
+        "Bite",
+        "Withdraw",
+        "Skull Bash",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Caterpie": {
@@ -131,6 +475,14 @@
       "special_attack": 20,
       "special_defense": 20,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "String Shot",
+        "Tackle"
+      ],
+      "tm": [],
+      "hm": []
     }
   },
   "Metapod": {
@@ -144,6 +496,15 @@
       "special_attack": 25,
       "special_defense": 25,
       "speed": 30
+    },
+    "learnset": {
+      "level_up": [
+        "String Shot",
+        "Tackle",
+        "Harden"
+      ],
+      "tm": [],
+      "hm": []
     }
   },
   "Butterfree": {
@@ -158,6 +519,45 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "String Shot",
+        "Tackle",
+        "Harden",
+        "Confusion",
+        "Poison Powder",
+        "Stun Spore",
+        "Sleep Powder",
+        "Supersonic",
+        "Whirlwind",
+        "Gust",
+        "Psybeam"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Weedle": {
@@ -172,6 +572,14 @@
       "special_attack": 20,
       "special_defense": 20,
       "speed": 50
+    },
+    "learnset": {
+      "level_up": [
+        "Poison Sting",
+        "String Shot"
+      ],
+      "tm": [],
+      "hm": []
     }
   },
   "Kakuna": {
@@ -186,6 +594,15 @@
       "special_attack": 25,
       "special_defense": 25,
       "speed": 35
+    },
+    "learnset": {
+      "level_up": [
+        "Poison Sting",
+        "String Shot",
+        "Harden"
+      ],
+      "tm": [],
+      "hm": []
     }
   },
   "Beedrill": {
@@ -200,6 +617,39 @@
       "special_attack": 45,
       "special_defense": 45,
       "speed": 75
+    },
+    "learnset": {
+      "level_up": [
+        "Poison Sting",
+        "String Shot",
+        "Harden",
+        "Fury Attack",
+        "Focus Energy",
+        "Twineedle",
+        "Rage",
+        "Pin Missile",
+        "Agility"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Pidgey": {
@@ -214,6 +664,36 @@
       "special_attack": 35,
       "special_defense": 35,
       "speed": 56
+    },
+    "learnset": {
+      "level_up": [
+        "Gust",
+        "Sand Attack",
+        "Quick Attack",
+        "Whirlwind",
+        "Wing Attack",
+        "Agility",
+        "Mirror Move"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Pideotto": {
@@ -228,6 +708,11 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 71
+    },
+    "learnset": {
+      "level_up": [],
+      "tm": [],
+      "hm": []
     }
   },
   "Pidgeot": {
@@ -242,6 +727,37 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 91
+    },
+    "learnset": {
+      "level_up": [
+        "Gust",
+        "Sand Attack",
+        "Quick Attack",
+        "Whirlwind",
+        "Wing Attack",
+        "Agility",
+        "Mirror Move"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Rattata": {
@@ -255,6 +771,37 @@
       "special_attack": 25,
       "special_defense": 25,
       "speed": 72
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Quick Attack",
+        "Hyper Fang",
+        "Focus Energy",
+        "Super Fang"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Blizzard",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Raticate": {
@@ -268,6 +815,39 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 97
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Quick Attack",
+        "Hyper Fang",
+        "Focus Energy",
+        "Super Fang"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Spearow": {
@@ -282,6 +862,35 @@
       "special_attack": 31,
       "special_defense": 31,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Peck",
+        "Leer",
+        "Fury Attack",
+        "Mirror Move",
+        "Drill Peck",
+        "Agility"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Fearow": {
@@ -296,6 +905,36 @@
       "special_attack": 61,
       "special_defense": 61,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Peck",
+        "Leer",
+        "Fury Attack",
+        "Mirror Move",
+        "Drill Peck",
+        "Agility"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Ekans": {
@@ -309,6 +948,38 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Wrap",
+        "Poison Sting",
+        "Bite",
+        "Glare",
+        "Screech",
+        "Acid"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Arbok": {
@@ -322,6 +993,39 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 80
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Wrap",
+        "Poison Sting",
+        "Bite",
+        "Glare",
+        "Screech",
+        "Acid"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Pikachu": {
@@ -335,6 +1039,47 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Thunder Shock",
+        "Tail Whip",
+        "Thunder Wave",
+        "Quick Attack",
+        "Double Team",
+        "Slam",
+        "Thunderbolt",
+        "Agility",
+        "Thunder",
+        "Light Screen"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Pay Day",
+        "Submission",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Raichu": {
@@ -348,6 +1093,48 @@
       "special_attack": 90,
       "special_defense": 90,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Thunder Shock",
+        "Tail Whip",
+        "Thunder Wave",
+        "Quick Attack",
+        "Double Team",
+        "Slam",
+        "Thunderbolt",
+        "Agility",
+        "Thunder",
+        "Light Screen"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Sandshrew": {
@@ -361,6 +1148,41 @@
       "special_attack": 30,
       "special_defense": 30,
       "speed": 40
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Sand Attack",
+        "Slash",
+        "Poison Sting",
+        "Swift",
+        "Fury Swipes"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Strength"
+      ]
     }
   },
   "Sandslash": {
@@ -374,6 +1196,42 @@
       "special_attack": 55,
       "special_defense": 55,
       "speed": 65
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Sand Attack",
+        "Slash",
+        "Poison Sting",
+        "Swift",
+        "Fury Swipes"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Strength"
+      ]
     }
   },
   "Nidoran\u2640": {
@@ -387,6 +1245,36 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 41
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Tackle",
+        "Scratch",
+        "Double Kick",
+        "Poison Sting",
+        "Tail Whip",
+        "Bite",
+        "Fury Swipes"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Blizzard",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Nidorina": {
@@ -400,6 +1288,40 @@
       "special_attack": 55,
       "special_defense": 55,
       "speed": 56
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Tackle",
+        "Scratch",
+        "Double Kick",
+        "Poison Sting",
+        "Tail Whip",
+        "Bite",
+        "Fury Swipes"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Nidoqueen": {
@@ -414,6 +1336,54 @@
       "special_attack": 75,
       "special_defense": 75,
       "speed": 76
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Tackle",
+        "Tail Whip",
+        "Double Kick",
+        "Poison Sting",
+        "Body Slam",
+        "Bite",
+        "Fury Swipes"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Nidoran\u2642": {
@@ -427,6 +1397,37 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 50
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Tackle",
+        "Horn Attack",
+        "Double Kick",
+        "Poison Sting",
+        "Focus Energy",
+        "Fury Attack",
+        "Horn Drill"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Blizzard",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Nidorino": {
@@ -440,6 +1441,40 @@
       "special_attack": 55,
       "special_defense": 55,
       "speed": 65
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Tackle",
+        "Horn Attack",
+        "Double Kick",
+        "Poison Sting",
+        "Focus Energy",
+        "Fury Attack",
+        "Horn Drill"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Nidoking": {
@@ -454,6 +1489,55 @@
       "special_attack": 75,
       "special_defense": 75,
       "speed": 85
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Tackle",
+        "Horn Attack",
+        "Double Kick",
+        "Poison Sting",
+        "Thrash",
+        "Focus Energy",
+        "Fury Attack",
+        "Horn Drill"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Clefairy": {
@@ -467,6 +1551,55 @@
       "special_attack": 60,
       "special_defense": 60,
       "speed": 35
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Pound",
+        "Sing",
+        "Double Slap",
+        "Minimize",
+        "Metronome",
+        "Defense Curl",
+        "Light Screen"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Clefable": {
@@ -480,6 +1613,56 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 60
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Pound",
+        "Sing",
+        "Double Slap",
+        "Minimize",
+        "Metronome",
+        "Defense Curl",
+        "Light Screen"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Vulpix": {
@@ -493,6 +1676,35 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 65
+    },
+    "learnset": {
+      "level_up": [
+        "Ember",
+        "Tail Whip",
+        "Quick Attack",
+        "Roar",
+        "Confuse Ray",
+        "Flamethrower",
+        "Fire Spin"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Ninetales": {
@@ -506,6 +1718,36 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Ember",
+        "Tail Whip",
+        "Quick Attack",
+        "Roar",
+        "Confuse Ray",
+        "Flamethrower",
+        "Fire Spin"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Jigglypuff": {
@@ -519,6 +1761,54 @@
       "special_attack": 25,
       "special_defense": 25,
       "speed": 20
+    },
+    "learnset": {
+      "level_up": [
+        "Sing",
+        "Pound",
+        "Disable",
+        "Defense Curl",
+        "Double Slap",
+        "Rest",
+        "Body Slam",
+        "Double-Edge"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Wigglytuff": {
@@ -532,6 +1822,55 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "Sing",
+        "Pound",
+        "Disable",
+        "Defense Curl",
+        "Double Slap",
+        "Rest",
+        "Body Slam",
+        "Double-Edge"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Zubat": {
@@ -546,6 +1885,32 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [
+        "Leech Life",
+        "Supersonic",
+        "Bite",
+        "Confuse Ray",
+        "Wing Attack",
+        "Haze"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Golbat": {
@@ -560,6 +1925,34 @@
       "special_attack": 75,
       "special_defense": 75,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Leech Life",
+        "Screech",
+        "Supersonic",
+        "Bite",
+        "Confuse Ray",
+        "Wing Attack",
+        "Haze"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Oddish": {
@@ -574,6 +1967,35 @@
       "special_attack": 75,
       "special_defense": 75,
       "speed": 30
+    },
+    "learnset": {
+      "level_up": [
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Sleep Powder",
+        "Acid",
+        "Petal Dance",
+        "Solar Beam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Gloom": {
@@ -588,6 +2010,35 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 40
+    },
+    "learnset": {
+      "level_up": [
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Sleep Powder",
+        "Acid",
+        "Petal Dance",
+        "Solar Beam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Vileplume": {
@@ -602,6 +2053,37 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 50
+    },
+    "learnset": {
+      "level_up": [
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Sleep Powder",
+        "Acid",
+        "Petal Dance",
+        "Solar Beam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Paras": {
@@ -616,6 +2098,37 @@
       "special_attack": 55,
       "special_defense": 55,
       "speed": 25
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Stun Spore",
+        "Leech Life",
+        "Spore",
+        "Slash",
+        "Growth"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Parasect": {
@@ -630,6 +2143,38 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 30
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Stun Spore",
+        "Leech Life",
+        "Spore",
+        "Slash",
+        "Growth"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Venonat": {
@@ -644,6 +2189,39 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "Disable",
+        "Tackle",
+        "Supersonic",
+        "Confusion",
+        "Poison Powder",
+        "Leech Life",
+        "Stun Spore",
+        "Psybeam",
+        "Sleep Powder",
+        "Psychic"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Venomoth": {
@@ -658,6 +2236,44 @@
       "special_attack": 90,
       "special_defense": 90,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Disable",
+        "Tackle",
+        "Supersonic",
+        "Confusion",
+        "Poison Powder",
+        "Leech Life",
+        "Stun Spore",
+        "Psybeam",
+        "Sleep Powder",
+        "Psychic"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Diglett": {
@@ -671,6 +2287,35 @@
       "special_attack": 45,
       "special_defense": 45,
       "speed": 95
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Growl",
+        "Dig",
+        "Sand Attack",
+        "Slash",
+        "Earthquake"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Dugtrio": {
@@ -684,6 +2329,36 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 120
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Growl",
+        "Dig",
+        "Sand Attack",
+        "Slash",
+        "Earthquake"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Meowth": {
@@ -697,6 +2372,37 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Scratch",
+        "Bite",
+        "Pay Day",
+        "Screech",
+        "Fury Swipes",
+        "Slash"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Pay Day",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Persian": {
@@ -710,6 +2416,38 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 115
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Scratch",
+        "Bite",
+        "Pay Day",
+        "Screech",
+        "Fury Swipes",
+        "Slash"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Hyper Beam",
+        "Pay Day",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Psyduck": {
@@ -723,6 +2461,45 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Tail Whip",
+        "Disable",
+        "Confusion",
+        "Fury Swipes",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Golduck": {
@@ -736,6 +2513,46 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 85
+    },
+    "learnset": {
+      "level_up": [
+        "Scratch",
+        "Tail Whip",
+        "Disable",
+        "Confusion",
+        "Fury Swipes",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Mankey": {
@@ -749,6 +2566,47 @@
       "special_attack": 35,
       "special_defense": 35,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Scratch",
+        "Low Kick",
+        "Karate Chop",
+        "Fury Swipes",
+        "Focus Energy",
+        "Seismic Toss",
+        "Thrash",
+        "Screech"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Primeape": {
@@ -762,6 +2620,49 @@
       "special_attack": 60,
       "special_defense": 60,
       "speed": 95
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Scratch",
+        "Low Kick",
+        "Karate Chop",
+        "Fury Swipes",
+        "Focus Energy",
+        "Rage",
+        "Seismic Toss",
+        "Screech",
+        "Thrash"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Growlithe": {
@@ -775,6 +2676,36 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 60
+    },
+    "learnset": {
+      "level_up": [
+        "Bite",
+        "Roar",
+        "Ember",
+        "Leer",
+        "Take Down",
+        "Agility",
+        "Flamethrower"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Dragon Rage",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Arcanine": {
@@ -788,6 +2719,38 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 95
+    },
+    "learnset": {
+      "level_up": [
+        "Bite",
+        "Roar",
+        "Ember",
+        "Leer",
+        "Take Down",
+        "Agility",
+        "Flamethrower"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Dragon Rage",
+        "Dig",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Poliwag": {
@@ -801,6 +2764,39 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Bubble",
+        "Hypnosis",
+        "Water Gun",
+        "Double Slap",
+        "Body Slam",
+        "Amnesia",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Poliwhirl": {
@@ -814,6 +2810,48 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Bubble",
+        "Hypnosis",
+        "Water Gun",
+        "Double Slap",
+        "Body Slam",
+        "Amnesia",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Poliwrath": {
@@ -828,6 +2866,49 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Bubble",
+        "Hypnosis",
+        "Water Gun",
+        "Double Slap",
+        "Body Slam",
+        "Amnesia",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Abra": {
@@ -841,6 +2922,39 @@
       "special_attack": 105,
       "special_defense": 105,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Teleport"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Kadabra": {
@@ -854,6 +2968,46 @@
       "special_attack": 120,
       "special_defense": 120,
       "speed": 105
+    },
+    "learnset": {
+      "level_up": [
+        "Teleport",
+        "Confusion",
+        "Disable",
+        "Psybeam",
+        "Recover",
+        "Psychic",
+        "Reflect"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dig",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Alakazam": {
@@ -867,6 +3021,47 @@
       "special_attack": 135,
       "special_defense": 135,
       "speed": 120
+    },
+    "learnset": {
+      "level_up": [
+        "Teleport",
+        "Confusion",
+        "Disable",
+        "Psybeam",
+        "Recover",
+        "Psychic",
+        "Reflect"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Dig",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Machop": {
@@ -880,6 +3075,43 @@
       "special_attack": 35,
       "special_defense": 35,
       "speed": 35
+    },
+    "learnset": {
+      "level_up": [
+        "Karate Chop",
+        "Low Kick",
+        "Leer",
+        "Focus Energy",
+        "Seismic Toss",
+        "Submission"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Machoke": {
@@ -893,6 +3125,43 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "Karate Chop",
+        "Low Kick",
+        "Leer",
+        "Focus Energy",
+        "Seismic Toss",
+        "Submission"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Machamp": {
@@ -906,6 +3175,44 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [
+        "Karate Chop",
+        "Low Kick",
+        "Leer",
+        "Focus Energy",
+        "Seismic Toss",
+        "Submission"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Bellsprout": {
@@ -920,6 +3227,37 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 40
+    },
+    "learnset": {
+      "level_up": [
+        "Growth",
+        "Vine Whip",
+        "Wrap",
+        "Poison Powder",
+        "Sleep Powder",
+        "Stun Spore",
+        "Acid",
+        "Razor Leaf",
+        "Slam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Weepinbell": {
@@ -934,6 +3272,37 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [
+        "Growth",
+        "Vine Whip",
+        "Wrap",
+        "Poison Powder",
+        "Sleep Powder",
+        "Stun Spore",
+        "Acid",
+        "Razor Leaf",
+        "Slam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Victreebel": {
@@ -948,6 +3317,39 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Growth",
+        "Vine Whip",
+        "Wrap",
+        "Poison Powder",
+        "Sleep Powder",
+        "Stun Spore",
+        "Acid",
+        "Razor Leaf",
+        "Slam"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Tentacool": {
@@ -962,6 +3364,42 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Acid",
+        "Supersonic",
+        "Wrap",
+        "Poison Sting",
+        "Water Gun",
+        "Constrict",
+        "Barrier",
+        "Screech",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Mega Drain",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Surf"
+      ]
     }
   },
   "Tentacruel": {
@@ -976,6 +3414,43 @@
       "special_attack": 120,
       "special_defense": 120,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Acid",
+        "Supersonic",
+        "Wrap",
+        "Poison Sting",
+        "Water Gun",
+        "Constrict",
+        "Barrier",
+        "Screech",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Surf"
+      ]
     }
   },
   "Geodude": {
@@ -990,6 +3465,44 @@
       "special_attack": 30,
       "special_defense": 30,
       "speed": 20
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Defense Curl",
+        "Rock Throw",
+        "Selfdestruct",
+        "Harden",
+        "Earthquake",
+        "Explosion"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Selfdestruct",
+        "Fire Blast",
+        "Rest",
+        "Explosion",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Graveler": {
@@ -1004,6 +3517,44 @@
       "special_attack": 45,
       "special_defense": 45,
       "speed": 35
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Defense Curl",
+        "Rock Throw",
+        "Selfdestruct",
+        "Harden",
+        "Earthquake",
+        "Explosion"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Selfdestruct",
+        "Fire Blast",
+        "Rest",
+        "Explosion",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Golem": {
@@ -1018,6 +3569,46 @@
       "special_attack": 55,
       "special_defense": 55,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Defense Curl",
+        "Rock Throw",
+        "Selfdestruct",
+        "Harden",
+        "Earthquake",
+        "Explosion"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Selfdestruct",
+        "Fire Blast",
+        "Rest",
+        "Explosion",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Ponyta": {
@@ -1031,6 +3622,35 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Ember",
+        "Tail Whip",
+        "Stomp",
+        "Growl",
+        "Fire Spin",
+        "Take Down",
+        "Agility"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Rapidash": {
@@ -1044,6 +3664,36 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 105
+    },
+    "learnset": {
+      "level_up": [
+        "Ember",
+        "Tail Whip",
+        "Stomp",
+        "Growl",
+        "Fire Spin",
+        "Take Down",
+        "Agility"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Slowpoke": {
@@ -1058,6 +3708,51 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 15
+    },
+    "learnset": {
+      "level_up": [
+        "Confusion",
+        "Disable",
+        "Headbutt",
+        "Growl",
+        "Water Gun",
+        "Amnesia",
+        "Psychic"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Pay Day",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Slowbro": {
@@ -1072,6 +3767,58 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 30
+    },
+    "learnset": {
+      "level_up": [
+        "Confusion",
+        "Disable",
+        "Headbutt",
+        "Growl",
+        "Water Gun",
+        "Withdraw",
+        "Amnesia",
+        "Psychic"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Magnemite": {
@@ -1085,6 +3832,37 @@
       "special_attack": 95,
       "special_defense": 95,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Sonic Boom",
+        "Thunder Shock",
+        "Supersonic",
+        "Thunder Wave",
+        "Swift",
+        "Screech"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Magneton": {
@@ -1098,6 +3876,38 @@
       "special_attack": 120,
       "special_defense": 120,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Sonic Boom",
+        "Thunder Shock",
+        "Supersonic",
+        "Thunder Wave",
+        "Swift",
+        "Screech"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Farfetch\u2019d": {
@@ -1112,6 +3922,39 @@
       "special_attack": 58,
       "special_defense": 58,
       "speed": 60
+    },
+    "learnset": {
+      "level_up": [
+        "Peck",
+        "Sand Attack",
+        "Leer",
+        "Fury Attack",
+        "Swords Dance",
+        "Agility",
+        "Slash"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Swords Dance",
+        "Whirlwind",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Fly"
+      ]
     }
   },
   "Doduo": {
@@ -1126,6 +3969,37 @@
       "special_attack": 35,
       "special_defense": 35,
       "speed": 75
+    },
+    "learnset": {
+      "level_up": [
+        "Peck",
+        "Growl",
+        "Fury Attack",
+        "Drill Peck",
+        "Rage",
+        "Tri Attack",
+        "Agility"
+      ],
+      "tm": [
+        "Whirlwind",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Sky Attack",
+        "Rest",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Dodrio": {
@@ -1140,6 +4014,38 @@
       "special_attack": 60,
       "special_defense": 60,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Peck",
+        "Growl",
+        "Fury Attack",
+        "Drill Peck",
+        "Rage",
+        "Tri Attack",
+        "Agility"
+      ],
+      "tm": [
+        "Whirlwind",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Sky Attack",
+        "Rest",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Seel": {
@@ -1153,6 +4059,39 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "Headbutt",
+        "Growl",
+        "Aurora Beam",
+        "Rest",
+        "Take Down",
+        "Ice Beam"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Pay Day",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Dewgong": {
@@ -1167,6 +4106,40 @@
       "special_attack": 95,
       "special_defense": 95,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Headbutt",
+        "Growl",
+        "Aurora Beam",
+        "Rest",
+        "Take Down",
+        "Ice Beam"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Pay Day",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Grimer": {
@@ -1180,6 +4153,35 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 25
+    },
+    "learnset": {
+      "level_up": [
+        "Disable",
+        "Pound",
+        "Poison Gas",
+        "Minimize",
+        "Sludge",
+        "Harden",
+        "Screech",
+        "Acid Armor"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Rage",
+        "Mega Drain",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Selfdestruct",
+        "Fire Blast",
+        "Rest",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Muk": {
@@ -1193,6 +4195,36 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 50
+    },
+    "learnset": {
+      "level_up": [
+        "Disable",
+        "Pound",
+        "Poison Gas",
+        "Minimize",
+        "Sludge",
+        "Harden",
+        "Screech",
+        "Acid Armor"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Selfdestruct",
+        "Fire Blast",
+        "Rest",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Shellder": {
@@ -1206,6 +4238,41 @@
       "special_attack": 45,
       "special_defense": 45,
       "speed": 40
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Withdraw",
+        "Supersonic",
+        "Clamp",
+        "Aurora Beam",
+        "Leer",
+        "Ice Beam"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Selfdestruct",
+        "Swift",
+        "Rest",
+        "Explosion",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Cloyster": {
@@ -1220,6 +4287,43 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Withdraw",
+        "Supersonic",
+        "Clamp",
+        "Aurora Beam",
+        "Leer",
+        "Ice Beam",
+        "Spike Cannon"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Selfdestruct",
+        "Swift",
+        "Rest",
+        "Explosion",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Gastly": {
@@ -1234,6 +4338,33 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 80
+    },
+    "learnset": {
+      "level_up": [
+        "Confuse Ray",
+        "Lick",
+        "Night Shade",
+        "Hypnosis",
+        "Dream Eater"
+      ],
+      "tm": [
+        "Toxic",
+        "Rage",
+        "Mega Drain",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Selfdestruct",
+        "Dream Eater",
+        "Rest",
+        "Psywave",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Haunter": {
@@ -1248,6 +4379,33 @@
       "special_attack": 115,
       "special_defense": 115,
       "speed": 95
+    },
+    "learnset": {
+      "level_up": [
+        "Confuse Ray",
+        "Lick",
+        "Night Shade",
+        "Hypnosis",
+        "Dream Eater"
+      ],
+      "tm": [
+        "Toxic",
+        "Rage",
+        "Mega Drain",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Selfdestruct",
+        "Dream Eater",
+        "Rest",
+        "Psywave",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Gengar": {
@@ -1262,6 +4420,46 @@
       "special_attack": 130,
       "special_defense": 130,
       "speed": 110
+    },
+    "learnset": {
+      "level_up": [
+        "Confuse Ray",
+        "Lick",
+        "Night Shade",
+        "Hypnosis",
+        "Dream Eater"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Mega Drain",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Selfdestruct",
+        "Skull Bash",
+        "Dream Eater",
+        "Rest",
+        "Psywave",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Onix": {
@@ -1276,6 +4474,39 @@
       "special_attack": 30,
       "special_defense": 30,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Screech",
+        "Tackle",
+        "Bind",
+        "Rock Throw",
+        "Rage",
+        "Slam",
+        "Harden"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Selfdestruct",
+        "Skull Bash",
+        "Rest",
+        "Explosion",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Drowzee": {
@@ -1289,6 +4520,47 @@
       "special_attack": 90,
       "special_defense": 90,
       "speed": 42
+    },
+    "learnset": {
+      "level_up": [
+        "Hypnosis",
+        "Pound",
+        "Disable",
+        "Confusion",
+        "Headbutt",
+        "Poison Gas",
+        "Psychic",
+        "Meditate"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Dream Eater",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Hypno": {
@@ -1302,6 +4574,48 @@
       "special_attack": 115,
       "special_defense": 115,
       "speed": 67
+    },
+    "learnset": {
+      "level_up": [
+        "Hypnosis",
+        "Pound",
+        "Disable",
+        "Confusion",
+        "Headbutt",
+        "Poison Gas",
+        "Psychic",
+        "Meditate"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Dream Eater",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Krabby": {
@@ -1315,6 +4629,39 @@
       "special_attack": 25,
       "special_defense": 25,
       "speed": 50
+    },
+    "learnset": {
+      "level_up": [
+        "Bubble",
+        "Leer",
+        "Vice Grip",
+        "Guillotine",
+        "Stomp",
+        "Crabhammer",
+        "Harden"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Kingler": {
@@ -1328,6 +4675,40 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 75
+    },
+    "learnset": {
+      "level_up": [
+        "Bubble",
+        "Leer",
+        "Vice Grip",
+        "Guillotine",
+        "Stomp",
+        "Crabhammer",
+        "Harden"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Voltorb": {
@@ -1341,6 +4722,38 @@
       "special_attack": 55,
       "special_defense": 55,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Screech",
+        "Tackle",
+        "Sonic Boom",
+        "Selfdestruct",
+        "Light Screen",
+        "Swift",
+        "Explosion"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Selfdestruct",
+        "Swift",
+        "Rest",
+        "Thunder Wave",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Electrode": {
@@ -1354,6 +4767,40 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 140
+    },
+    "learnset": {
+      "level_up": [
+        "Screech",
+        "Tackle",
+        "Sonic Boom",
+        "Selfdestruct",
+        "Light Screen",
+        "Swift",
+        "Explosion"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Selfdestruct",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Exeggcute": {
@@ -1368,6 +4815,37 @@
       "special_attack": 60,
       "special_defense": 60,
       "speed": 40
+    },
+    "learnset": {
+      "level_up": [
+        "Barrage",
+        "Hypnosis",
+        "Reflect",
+        "Leech Seed",
+        "Stun Spore",
+        "Poison Powder",
+        "Solar Beam",
+        "Sleep Powder"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Selfdestruct",
+        "Egg Bomb",
+        "Rest",
+        "Psywave",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Exeggutor": {
@@ -1382,6 +4860,11 @@
       "special_attack": 125,
       "special_defense": 125,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [],
+      "tm": [],
+      "hm": []
     }
   },
   "Cubone": {
@@ -1395,6 +4878,48 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 35
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Bone Club",
+        "Tail Whip",
+        "Headbutt",
+        "Leer",
+        "Focus Energy",
+        "Thrash",
+        "Bonemerang",
+        "Rage"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Marowak": {
@@ -1408,6 +4933,49 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 45
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Bone Club",
+        "Tail Whip",
+        "Headbutt",
+        "Leer",
+        "Focus Energy",
+        "Thrash",
+        "Bonemerang",
+        "Rage"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Hitmonlee": {
@@ -1421,6 +4989,40 @@
       "special_attack": 35,
       "special_defense": 35,
       "speed": 87
+    },
+    "learnset": {
+      "level_up": [
+        "Double Kick",
+        "Meditate",
+        "Rolling Kick",
+        "Jump Kick",
+        "Focus Energy",
+        "High Jump Kick",
+        "Mega Kick"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Hitmonchan": {
@@ -1434,6 +5036,40 @@
       "special_attack": 35,
       "special_defense": 35,
       "speed": 76
+    },
+    "learnset": {
+      "level_up": [
+        "Agility",
+        "Comet Punch",
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Mega Punch",
+        "Counter"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Lickitung": {
@@ -1447,6 +5083,51 @@
       "special_attack": 60,
       "special_defense": 60,
       "speed": 30
+    },
+    "learnset": {
+      "level_up": [
+        "Supersonic",
+        "Wrap",
+        "Stomp",
+        "Disable",
+        "Defense Curl",
+        "Slam",
+        "Screech"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Swords Dance",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Koffing": {
@@ -1460,6 +5141,32 @@
       "special_attack": 60,
       "special_defense": 60,
       "speed": 35
+    },
+    "learnset": {
+      "level_up": [
+        "Smog",
+        "Tackle",
+        "Sludge",
+        "Smoke Screen",
+        "Selfdestruct",
+        "Haze",
+        "Explosion"
+      ],
+      "tm": [
+        "Toxic",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Selfdestruct",
+        "Fire Blast",
+        "Rest",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Weezing": {
@@ -1473,6 +5180,33 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 60
+    },
+    "learnset": {
+      "level_up": [
+        "Smog",
+        "Tackle",
+        "Sludge",
+        "Smoke Screen",
+        "Selfdestruct",
+        "Haze",
+        "Explosion"
+      ],
+      "tm": [
+        "Toxic",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Selfdestruct",
+        "Fire Blast",
+        "Rest",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Rhyhorn": {
@@ -1487,6 +5221,41 @@
       "special_attack": 30,
       "special_defense": 30,
       "speed": 25
+    },
+    "learnset": {
+      "level_up": [
+        "Horn Attack",
+        "Stomp",
+        "Tail Whip",
+        "Fury Attack",
+        "Horn Drill",
+        "Leer",
+        "Take Down"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Rhydon": {
@@ -1501,6 +5270,53 @@
       "special_attack": 45,
       "special_defense": 45,
       "speed": 40
+    },
+    "learnset": {
+      "level_up": [
+        "Horn Attack",
+        "Stomp",
+        "Tail Whip",
+        "Fury Attack",
+        "Horn Drill",
+        "Leer",
+        "Take Down"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Chansey": {
@@ -1514,6 +5330,59 @@
       "special_attack": 105,
       "special_defense": 105,
       "speed": 50
+    },
+    "learnset": {
+      "level_up": [
+        "Pound",
+        "Tail Whip",
+        "Double Slap",
+        "Sing",
+        "Growl",
+        "Minimize",
+        "Defense Curl",
+        "Light Screen",
+        "Double-Edge"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Egg Bomb",
+        "Fire Blast",
+        "Skull Bash",
+        "Softboiled",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Tangela": {
@@ -1527,6 +5396,39 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 60
+    },
+    "learnset": {
+      "level_up": [
+        "Constrict",
+        "Bind",
+        "Absorb",
+        "Vine Whip",
+        "Poison Powder",
+        "Stun Spore",
+        "Sleep Powder",
+        "Slam",
+        "Growth"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Kangaskhan": {
@@ -1540,6 +5442,50 @@
       "special_attack": 40,
       "special_defense": 40,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Comet Punch",
+        "Rage",
+        "Bite",
+        "Tail Whip",
+        "Mega Punch",
+        "Leer",
+        "Dizzy Punch"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Horsea": {
@@ -1553,6 +5499,36 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 60
+    },
+    "learnset": {
+      "level_up": [
+        "Bubble",
+        "Smoke Screen",
+        "Leer",
+        "Water Gun",
+        "Agility",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Seadra": {
@@ -1566,6 +5542,37 @@
       "special_attack": 95,
       "special_defense": 95,
       "speed": 85
+    },
+    "learnset": {
+      "level_up": [
+        "Bubble",
+        "Smoke Screen",
+        "Leer",
+        "Water Gun",
+        "Agility",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Goldeen": {
@@ -1579,6 +5586,39 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 63
+    },
+    "learnset": {
+      "level_up": [
+        "Peck",
+        "Tail Whip",
+        "Supersonic",
+        "Horn Attack",
+        "Fury Attack",
+        "Waterfall",
+        "Horn Drill",
+        "Agility"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Seaking": {
@@ -1592,6 +5632,40 @@
       "special_attack": 80,
       "special_defense": 80,
       "speed": 68
+    },
+    "learnset": {
+      "level_up": [
+        "Peck",
+        "Tail Whip",
+        "Supersonic",
+        "Horn Attack",
+        "Fury Attack",
+        "Waterfall",
+        "Horn Drill",
+        "Agility"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Staryu": {
@@ -1605,6 +5679,47 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 85
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Water Gun",
+        "Harden",
+        "Recover",
+        "Swift",
+        "Minimize",
+        "Light Screen",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Flash"
+      ]
     }
   },
   "Starmie": {
@@ -1619,6 +5734,48 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 115
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Water Gun",
+        "Harden",
+        "Recover",
+        "Swift",
+        "Minimize",
+        "Light Screen",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Flash"
+      ]
     }
   },
   "Mr. Mime": {
@@ -1632,6 +5789,47 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Barrier",
+        "Confusion",
+        "Light Screen",
+        "Double Slap",
+        "Meditate",
+        "Substitute"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Scyther": {
@@ -1646,6 +5844,36 @@
       "special_attack": 55,
       "special_defense": 55,
       "speed": 105
+    },
+    "learnset": {
+      "level_up": [
+        "Quick Attack",
+        "Leer",
+        "Focus Energy",
+        "Double Team",
+        "Slash",
+        "Swords Dance",
+        "Agility",
+        "Wing Attack"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut"
+      ]
     }
   },
   "Jynx": {
@@ -1660,6 +5888,47 @@
       "special_attack": 95,
       "special_defense": 95,
       "speed": 95
+    },
+    "learnset": {
+      "level_up": [
+        "Lovely Kiss",
+        "Pound",
+        "Lick",
+        "Double Slap",
+        "Ice Punch",
+        "Body Slam",
+        "Thrash",
+        "Blizzard"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Skull Bash",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Electabuzz": {
@@ -1673,6 +5942,49 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 105
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Quick Attack",
+        "Thunder Shock",
+        "Screech",
+        "Thunder Punch",
+        "Light Screen",
+        "Thunder"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Magmar": {
@@ -1686,6 +5998,44 @@
       "special_attack": 85,
       "special_defense": 85,
       "speed": 93
+    },
+    "learnset": {
+      "level_up": [
+        "Ember",
+        "Leer",
+        "Confuse Ray",
+        "Fire Punch",
+        "Smoke Screen",
+        "Smog",
+        "Flamethrower"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Metronome",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Pinsir": {
@@ -1699,6 +6049,38 @@
       "special_attack": 55,
       "special_defense": 55,
       "speed": 85
+    },
+    "learnset": {
+      "level_up": [
+        "Vice Grip",
+        "Bind",
+        "Seismic Toss",
+        "Guillotine",
+        "Focus Energy",
+        "Harden",
+        "Slash",
+        "Swords Dance"
+      ],
+      "tm": [
+        "Swords Dance",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Submission",
+        "Seismic Toss",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Strength"
+      ]
     }
   },
   "Tauros": {
@@ -1712,6 +6094,41 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 110
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Stomp",
+        "Tail Whip",
+        "Leer",
+        "Rage",
+        "Take Down"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Mimic",
+        "Double Team",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength"
+      ]
     }
   },
   "Magikarp": {
@@ -1725,6 +6142,14 @@
       "special_attack": 20,
       "special_defense": 20,
       "speed": 80
+    },
+    "learnset": {
+      "level_up": [
+        "Splash",
+        "Tackle"
+      ],
+      "tm": [],
+      "hm": []
     }
   },
   "Gyarados": {
@@ -1739,6 +6164,44 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 81
+    },
+    "learnset": {
+      "level_up": [
+        "Splash",
+        "Tackle",
+        "Bite",
+        "Dragon Rage",
+        "Leer",
+        "Hydro Pump",
+        "Hyper Beam"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Dragon Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Lapras": {
@@ -1753,6 +6216,48 @@
       "special_attack": 95,
       "special_defense": 95,
       "speed": 60
+    },
+    "learnset": {
+      "level_up": [
+        "Growl",
+        "Water Gun",
+        "Sing",
+        "Mist",
+        "Body Slam",
+        "Confuse Ray",
+        "Ice Beam",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Solar Beam",
+        "Dragon Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Psywave",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Ditto": {
@@ -1766,6 +6271,13 @@
       "special_attack": 48,
       "special_defense": 48,
       "speed": 48
+    },
+    "learnset": {
+      "level_up": [
+        "Transform"
+      ],
+      "tm": [],
+      "hm": []
     }
   },
   "Eevee": {
@@ -1779,6 +6291,34 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Sand Attack",
+        "Growl",
+        "Quick Attack",
+        "Bite",
+        "Focus Energy",
+        "Take Down"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Vaporeon": {
@@ -1792,6 +6332,47 @@
       "special_attack": 110,
       "special_defense": 110,
       "speed": 65
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Sand Attack",
+        "Growl",
+        "Water Gun",
+        "Quick Attack",
+        "Bite",
+        "Focus Energy",
+        "Aurora Beam",
+        "Take Down",
+        "Haze",
+        "Mist",
+        "Acid Armor",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Jolteon": {
@@ -1805,6 +6386,46 @@
       "special_attack": 110,
       "special_defense": 110,
       "speed": 130
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Sand Attack",
+        "Growl",
+        "Thunder Shock",
+        "Quick Attack",
+        "Bite",
+        "Double Kick",
+        "Focus Energy",
+        "Pin Missile",
+        "Take Down",
+        "Thunder Wave",
+        "Agility",
+        "Thunder"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Flareon": {
@@ -1818,6 +6439,41 @@
       "special_attack": 110,
       "special_defense": 110,
       "speed": 65
+    },
+    "learnset": {
+      "level_up": [
+        "Tackle",
+        "Tail Whip",
+        "Sand Attack",
+        "Growl",
+        "Ember",
+        "Quick Attack",
+        "Bite",
+        "Focus Energy",
+        "Fire Spin",
+        "Take Down",
+        "Smog",
+        "Leer",
+        "Flamethrower"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": []
     }
   },
   "Porygon": {
@@ -1831,6 +6487,44 @@
       "special_attack": 75,
       "special_defense": 75,
       "speed": 40
+    },
+    "learnset": {
+      "level_up": [
+        "Conversion",
+        "Sharpen",
+        "Tackle",
+        "Psybeam",
+        "Recover",
+        "Agility",
+        "Tri Attack"
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Flash"
+      ]
     }
   },
   "Omanyte": {
@@ -1845,6 +6539,36 @@
       "special_attack": 90,
       "special_defense": 90,
       "speed": 35
+    },
+    "learnset": {
+      "level_up": [
+        "Water Gun",
+        "Withdraw",
+        "Horn Attack",
+        "Leer",
+        "Spike Cannon",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Omastar": {
@@ -1859,6 +6583,41 @@
       "special_attack": 115,
       "special_defense": 115,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [
+        "Water Gun",
+        "Withdraw",
+        "Horn Attack",
+        "Leer",
+        "Spike Cannon",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Seismic Toss",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Kabuto": {
@@ -1873,6 +6632,36 @@
       "special_attack": 45,
       "special_defense": 45,
       "speed": 55
+    },
+    "learnset": {
+      "level_up": [
+        "Harden",
+        "Scratch",
+        "Absorb",
+        "Slash",
+        "Leer",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Kabutops": {
@@ -1887,6 +6676,44 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 80
+    },
+    "learnset": {
+      "level_up": [
+        "Harden",
+        "Scratch",
+        "Absorb",
+        "Slash",
+        "Leer",
+        "Hydro Pump"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Swords Dance",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Seismic Toss",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Skull Bash",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Surf"
+      ]
     }
   },
   "Aerodactyl": {
@@ -1901,6 +6728,38 @@
       "special_attack": 60,
       "special_defense": 60,
       "speed": 130
+    },
+    "learnset": {
+      "level_up": [
+        "Agility",
+        "Wing Attack",
+        "Supersonic",
+        "Bite",
+        "Take Down",
+        "Hyper Beam"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Dragon Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Sky Attack",
+        "Recover",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Snorlax": {
@@ -1914,6 +6773,57 @@
       "special_attack": 65,
       "special_defense": 65,
       "speed": 30
+    },
+    "learnset": {
+      "level_up": [
+        "Amnesia",
+        "Headbutt",
+        "Rest",
+        "Body Slam",
+        "Harden",
+        "Double-Edge",
+        "Hyper Beam"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Selfdestruct",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Psywave",
+        "Rock Slide",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Articuno": {
@@ -1928,6 +6838,39 @@
       "special_attack": 125,
       "special_defense": 125,
       "speed": 85
+    },
+    "learnset": {
+      "level_up": [
+        "Ice Beam",
+        "Peck",
+        "Blizzard",
+        "Agility",
+        "Mist"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Zapdos": {
@@ -1942,6 +6885,39 @@
       "special_attack": 125,
       "special_defense": 125,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Drill Peck",
+        "Thunder Shock",
+        "Thunder",
+        "Agility",
+        "Light Screen"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly",
+        "Flash"
+      ]
     }
   },
   "Moltres": {
@@ -1956,6 +6932,36 @@
       "special_attack": 125,
       "special_defense": 125,
       "speed": 90
+    },
+    "learnset": {
+      "level_up": [
+        "Fire Spin",
+        "Peck",
+        "Leer",
+        "Agility",
+        "Sky Attack"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly"
+      ]
     }
   },
   "Dratini": {
@@ -1969,6 +6975,44 @@
       "special_attack": 50,
       "special_defense": 50,
       "speed": 50
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Wrap",
+        "Thunder Wave",
+        "Agility",
+        "Slam",
+        "Dragon Rage",
+        "Hyper Beam"
+      ],
+      "tm": [
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Dragon Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Dragonair": {
@@ -1982,6 +7026,45 @@
       "special_attack": 70,
       "special_defense": 70,
       "speed": 70
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Wrap",
+        "Thunder Wave",
+        "Agility",
+        "Slam",
+        "Dragon Rage",
+        "Hyper Beam"
+      ],
+      "tm": [
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Rage",
+        "Dragon Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf"
+      ]
     }
   },
   "Dragonite": {
@@ -1996,6 +7079,48 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 80
+    },
+    "learnset": {
+      "level_up": [
+        "Leer",
+        "Wrap",
+        "Thunder Wave",
+        "Agility",
+        "Slam",
+        "Dragon Rage",
+        "Hyper Beam"
+      ],
+      "tm": [
+        "Razor Wind",
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rage",
+        "Dragon Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Substitute"
+      ],
+      "hm": [
+        "Surf",
+        "Strength"
+      ]
     }
   },
   "Mewtwo": {
@@ -2009,6 +7134,57 @@
       "special_attack": 154,
       "special_defense": 154,
       "speed": 130
+    },
+    "learnset": {
+      "level_up": [
+        "Confusion",
+        "Disable",
+        "Swift",
+        "Barrier",
+        "Psychic",
+        "Recover",
+        "Mist",
+        "Amnesia"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Mega Kick",
+        "Toxic",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Solar Beam",
+        "Thunderbolt",
+        "Thunder",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Selfdestruct",
+        "Fire Blast",
+        "Skull Bash",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength",
+        "Flash"
+      ]
     }
   },
   "Mew": {
@@ -2022,6 +7198,74 @@
       "special_attack": 100,
       "special_defense": 100,
       "speed": 100
+    },
+    "learnset": {
+      "level_up": [
+        "Pound",
+        "Transform",
+        "Mega Punch",
+        "Metronome",
+        "Psychic"
+      ],
+      "tm": [
+        "Mega Punch",
+        "Razor Wind",
+        "Swords Dance",
+        "Whirlwind",
+        "Mega Kick",
+        "Toxic",
+        "Horn Drill",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bubble Beam",
+        "Water Gun",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Pay Day",
+        "Submission",
+        "Counter",
+        "Seismic Toss",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Dragon Rage",
+        "Thunderbolt",
+        "Thunder",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Metronome",
+        "Selfdestruct",
+        "Egg Bomb",
+        "Fire Blast",
+        "Swift",
+        "Skull Bash",
+        "Softboiled",
+        "Dream Eater",
+        "Sky Attack",
+        "Rest",
+        "Thunder Wave",
+        "Psywave",
+        "Explosion",
+        "Rock Slide",
+        "Tri Attack",
+        "Substitute"
+      ],
+      "hm": [
+        "Cut",
+        "Fly",
+        "Surf",
+        "Strength",
+        "Flash"
+      ]
     }
   }
 }

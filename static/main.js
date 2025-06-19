@@ -26,10 +26,41 @@ async function fetchPokemonNames() {
     return await res.json();
 }
 
-async function fetchMoves(name, level, allowTM, moveContainerId) {
-    const response = await fetch(`/api/moves?name=${name}&level=${level}&tm=${allowTM}`);
-    const moves = await response.json();
-    renderMoveOptions(moveContainerId, moves);
+function fetchMoves(name, level, allowTM, moveContainerId) {
+  const pokemon = allPokemonData[name];
+  const legalMoves = new Set();
+
+  // Add level-up moves if level requirement is met
+  if (pokemon.learnset && pokemon.learnset.level_up) {
+    for (const move of pokemon.learnset.level_up) {
+      const [moveName, learnLevel] = typeof move === "string" ? [move, 0] : [move.name, move.level];
+      if (level >= (learnLevel || 0)) {
+        legalMoves.add(moveName);
+      }
+    }
+  }
+
+  // Add TM and HM moves if toggle is enabled
+  if (allowTM && pokemon.learnset) {
+    if (pokemon.learnset.tm) {
+      for (const move of pokemon.learnset.tm) {
+        legalMoves.add(move);
+      }
+    }
+    if (pokemon.learnset.hm) {
+      for (const move of pokemon.learnset.hm) {
+        legalMoves.add(move);
+      }
+    }
+  }
+
+  // Convert move names to full move data using allMovesData
+  const fullMoves = Array.from(legalMoves)
+    .map(moveName => allMovesData[moveName])
+    .filter(Boolean)
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  renderMoveOptions(moveContainerId, fullMoves);
 }
 
 function renderMoveOptions(containerId, moves) {
@@ -80,11 +111,11 @@ function populateSelect(selectId, names) {
     });
 }
 
-async function updateMoves(role) {
+function updateMoves(role) {
     const name = document.getElementById(`${role}-name`).value;
     const level = document.getElementById(`${role}-level`).value;
     const tm = document.getElementById(`${role}-tm-toggle`).checked;
-    await fetchMoves(name, level, tm, `${role}-move-options`);
+    fetchMoves(name, level, tm, `${role}-move-options`);
 }
 
 document.getElementById("battle-form").addEventListener("submit", async (e) => {

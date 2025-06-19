@@ -23,8 +23,27 @@ def export_pokemon_data():
                 "special_attack": spa,
                 "special_defense": spd,
                 "speed": spe
+            },
+            "learnset": {
+                "level_up": [],
+                "tm": [],
+                "hm": []
             }
         }
+
+    # Fetch moves and learning methods
+    cursor.execute("SELECT pokemon_name, move_name, method, level_learned FROM pokemon_moves")
+    move_rows = cursor.fetchall()
+
+    for pokemon, move, method in move_rows:
+        if pokemon in data:
+            method = method.lower()
+            if method == "level" and move not in data[pokemon]["learnset"]["level_up"]:
+                data[pokemon]["learnset"]["level_up"].append(move)
+            elif method == "tm" and move not in data[pokemon]["learnset"]["tm"]:
+                data[pokemon]["learnset"]["tm"].append(move)
+            elif method == "hm" and move not in data[pokemon]["learnset"]["hm"]:
+                data[pokemon]["learnset"]["hm"].append(move)
 
     with open("static/data/pokemon.json", "w") as f:
         json.dump(data, f, indent=2)

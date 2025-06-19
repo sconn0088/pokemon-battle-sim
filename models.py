@@ -154,7 +154,6 @@ def create_database():
         move_name TEXT,
         method TEXT,
         level_learned INTEGER,
-        PRIMARY KEY (pokemon_name, move_name),
         FOREIGN KEY (pokemon_name) REFERENCES pokemon(name),
         FOREIGN KEY (move_name) REFERENCES moves(name)
     )
