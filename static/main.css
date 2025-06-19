@@ -60,3 +60,9 @@ h1 {
 #download-log:hover {
   background-color: #357ab7;
 }
+
+small {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+}
