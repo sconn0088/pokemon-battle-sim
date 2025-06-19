@@ -35,15 +35,21 @@ def export_pokemon_data():
     cursor.execute("SELECT pokemon_name, move_name, method, level_learned FROM pokemon_moves")
     move_rows = cursor.fetchall()
 
-    for pokemon, move, method in move_rows:
-        if pokemon in data:
-            method = method.lower()
-            if method == "level" and move not in data[pokemon]["learnset"]["level_up"]:
-                data[pokemon]["learnset"]["level_up"].append(move)
-            elif method == "tm" and move not in data[pokemon]["learnset"]["tm"]:
-                data[pokemon]["learnset"]["tm"].append(move)
-            elif method == "hm" and move not in data[pokemon]["learnset"]["hm"]:
-                data[pokemon]["learnset"]["hm"].append(move)
+    learnsets = {}
+    for name, move, method, level in move_rows:
+        if name not in learnsets:
+            learnsets[name] = {"level_up": [], "tm": [], "hm": []}
+        if method == "level":
+            learnsets[name]["level_up"].append({"name": move, "level": level})
+        elif method == "TM":
+            learnsets[name]["tm"].append(move)
+        elif method == "HM":
+            learnsets[name]["hm"].append(move)
+
+    # Merge learnset into the existing data dictionary
+    for name in data:
+        if name in learnsets:
+            data[name]["learnset"] = learnsets[name]
 
     with open("static/data/pokemon.json", "w") as f:
         json.dump(data, f, indent=2)

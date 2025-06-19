@@ -29,32 +29,32 @@ async function fetchPokemonNames() {
 function fetchMoves(name, level, allowTM, moveContainerId) {
   const pokemon = allPokemonData[name];
   const legalMoves = new Set();
+  const numericLevel = parseInt(level) || 1;
 
-  // Add level-up moves if level requirement is met
-  if (pokemon.learnset && pokemon.learnset.level_up) {
+  // Add level-up moves if Pokémon's level is high enough
+  if (pokemon.learnset && Array.isArray(pokemon.learnset.level_up)) {
     for (const move of pokemon.learnset.level_up) {
-      const [moveName, learnLevel] = typeof move === "string" ? [move, 0] : [move.name, move.level];
-      if (level >= (learnLevel || 0)) {
-        legalMoves.add(moveName);
+      if (level >= move.level) {
+        legalMoves.add(move.name);
       }
     }
   }
 
-  // Add TM and HM moves if toggle is enabled
+  // Always add TM/HM moves if toggle is checked
   if (allowTM && pokemon.learnset) {
-    if (pokemon.learnset.tm) {
+    if (Array.isArray(pokemon.learnset.tm)) {
       for (const move of pokemon.learnset.tm) {
         legalMoves.add(move);
       }
     }
-    if (pokemon.learnset.hm) {
+    if (Array.isArray(pokemon.learnset.hm)) {
       for (const move of pokemon.learnset.hm) {
         legalMoves.add(move);
       }
     }
   }
 
-  // Convert move names to full move data using allMovesData
+  // Turn move names into full move data
   const fullMoves = Array.from(legalMoves)
     .map(moveName => allMovesData[moveName])
     .filter(Boolean)
@@ -111,11 +111,12 @@ function populateSelect(selectId, names) {
     });
 }
 
-function updateMoves(role) {
+async function updateMoves(role) {
     const name = document.getElementById(`${role}-name`).value;
-    const level = document.getElementById(`${role}-level`).value;
+    const level = parseInt(document.getElementById(`${role}-level`).value) || 1;
     const tm = document.getElementById(`${role}-tm-toggle`).checked;
-    fetchMoves(name, level, tm, `${role}-move-options`);
+    console.log(`Updating moves for ${name} at level ${level}, TM toggle = ${tm}`);
+    await fetchMoves(name, level, tm, `${role}-move-options`);
 }
 
 document.getElementById("battle-form").addEventListener("submit", async (e) => {
