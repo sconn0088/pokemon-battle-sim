@@ -30,6 +30,9 @@ def use_move(user, target, move, log):
     adjusted_accuracy = move.accuracy * (accuracy_multiplier / evasiveness_multiplier)
     hit_roll = random.uniform(0, 100)
 
+    if move.target == "self":
+        adjusted_accuracy = 100
+    
     if hit_roll > adjusted_accuracy:
         if log: log.add(f"{user.name}'s {move.name} missed!")
         return
@@ -123,7 +126,8 @@ def apply_damage(damage, target, move, log):
         if log: log.add("Earthquake hits with double power during Dig!")
     
     target.current_hp -= damage
-    if log: log.add(f"{target.name} took {damage} damage!")
+    if damage > 0:
+        if log: log.add(f"{target.name} took {damage} damage!")
 
 ##################################################
 ###############  BATTLE FUNCTIONS  ###############
@@ -195,7 +199,7 @@ def try_inflict_status(target, move, log):
             if log: log.add(f"{target.name} was paralyzed!")
             if log: log.add(f"{target.name}'s speed fell due to paralysis!")
             return
-        if status == "badly_poisoned":
+        if status == "badly poisoned":
             target.toxic_counter = 1
             if log: log.add(f"{target.name} was badly poisoned!")
             return
@@ -262,7 +266,7 @@ def process_end_of_turn_status(pokemon, log):
         damage = max(1, pokemon.hp // 8)
         pokemon.current_hp -= damage
         if log: log.add(f"{pokemon.name} is hurt by poison and loses {damage} HP!")
-    elif pokemon.status == "badly_poisoned":
+    elif pokemon.status == "badly poisoned":
         damage = max(1, int(pokemon.hp * 0.0625 * pokemon.toxic_counter))
         pokemon.current_hp -= damage
         pokemon.toxic_counter += 1

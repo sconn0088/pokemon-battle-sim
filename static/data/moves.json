@@ -39,7 +39,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Acid Armor": {
     "name": "Acid Armor",
@@ -60,7 +60,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Agility": {
     "name": "Agility",
@@ -81,7 +81,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Amnesia": {
     "name": "Amnesia",
@@ -102,7 +102,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Aurora Beam": {
     "name": "Aurora Beam",
@@ -123,7 +123,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Barrage": {
     "name": "Barrage",
@@ -144,7 +144,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Barrier": {
     "name": "Barrier",
@@ -165,7 +165,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Bide": {
     "name": "Bide",
@@ -186,7 +186,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Bind": {
     "name": "Bind",
@@ -207,7 +207,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Bite": {
     "name": "Bite",
@@ -228,7 +228,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Blizzard": {
     "name": "Blizzard",
@@ -249,7 +249,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Body Slam": {
     "name": "Body Slam",
@@ -270,7 +270,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Bone Club": {
     "name": "Bone Club",
@@ -291,7 +291,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Bonemerang": {
     "name": "Bonemerang",
@@ -312,7 +312,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Bubble": {
     "name": "Bubble",
@@ -333,7 +333,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Bubble Beam": {
     "name": "Bubble Beam",
@@ -354,7 +354,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Clamp": {
     "name": "Clamp",
@@ -375,7 +375,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Comet Punch": {
     "name": "Comet Punch",
@@ -396,7 +396,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Confuse Ray": {
     "name": "Confuse Ray",
@@ -459,7 +459,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Conversion": {
     "name": "Conversion",
@@ -480,7 +480,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Counter": {
     "name": "Counter",
@@ -501,7 +501,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Crabhammer": {
     "name": "Crabhammer",
@@ -522,7 +522,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Cut": {
     "name": "Cut",
@@ -543,7 +543,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Defense Curl": {
     "name": "Defense Curl",
@@ -564,7 +564,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Dig": {
     "name": "Dig",
@@ -585,7 +585,7 @@
     "multi_turn": "2",
     "multi_turn_type": "invulnerable",
     "vulnerable_to": "Earthquake,Fissure,Swift",
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Disable": {
     "name": "Disable",
@@ -606,7 +606,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Dizzy Punch": {
     "name": "Dizzy Punch",
@@ -627,7 +627,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Double Kick": {
     "name": "Double Kick",
@@ -648,7 +648,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Double Slap": {
     "name": "Double Slap",
@@ -669,7 +669,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Double Team": {
     "name": "Double Team",
@@ -690,7 +690,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Double-Edge": {
     "name": "Double-Edge",
@@ -774,7 +774,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Earthquake": {
     "name": "Earthquake",
@@ -795,7 +795,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Egg Bomb": {
     "name": "Egg Bomb",
@@ -816,7 +816,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Ember": {
     "name": "Ember",
@@ -837,7 +837,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Explosion": {
     "name": "Explosion",
@@ -858,7 +858,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Fire Blast": {
     "name": "Fire Blast",
@@ -879,7 +879,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Fire Punch": {
     "name": "Fire Punch",
@@ -900,7 +900,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Fire Spin": {
     "name": "Fire Spin",
@@ -921,7 +921,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Fissure": {
     "name": "Fissure",
@@ -942,7 +942,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Flamethrower": {
     "name": "Flamethrower",
@@ -963,7 +963,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Flash": {
     "name": "Flash",
@@ -984,7 +984,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Fly": {
     "name": "Fly",
@@ -1005,7 +1005,7 @@
     "multi_turn": "2",
     "multi_turn_type": "invulnerable",
     "vulnerable_to": "Thunder,Swift",
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Focus Energy": {
     "name": "Focus Energy",
@@ -1047,7 +1047,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Fury Swipes": {
     "name": "Fury Swipes",
@@ -1068,7 +1068,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Glare": {
     "name": "Glare",
@@ -1089,7 +1089,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Growl": {
     "name": "Growl",
@@ -1110,7 +1110,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Growth": {
     "name": "Growth",
@@ -1131,7 +1131,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Guillotine": {
     "name": "Guillotine",
@@ -1152,7 +1152,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Gust": {
     "name": "Gust",
@@ -1173,7 +1173,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Harden": {
     "name": "Harden",
@@ -1194,7 +1194,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Haze": {
     "name": "Haze",
@@ -1236,7 +1236,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "High Jump Kick": {
     "name": "High Jump Kick",
@@ -1278,7 +1278,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Horn Drill": {
     "name": "Horn Drill",
@@ -1299,7 +1299,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Hydro Pump": {
     "name": "Hydro Pump",
@@ -1320,7 +1320,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Hyper Beam": {
     "name": "Hyper Beam",
@@ -1341,7 +1341,7 @@
     "multi_turn": "2",
     "multi_turn_type": "recharge",
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Hyper Fang": {
     "name": "Hyper Fang",
@@ -1362,7 +1362,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Hypnosis": {
     "name": "Hypnosis",
@@ -1383,7 +1383,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Ice Beam": {
     "name": "Ice Beam",
@@ -1404,7 +1404,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Ice Punch": {
     "name": "Ice Punch",
@@ -1425,7 +1425,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Jump Kick": {
     "name": "Jump Kick",
@@ -1467,7 +1467,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Kinesis": {
     "name": "Kinesis",
@@ -1488,7 +1488,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Leech Life": {
     "name": "Leech Life",
@@ -1551,7 +1551,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Lick": {
     "name": "Lick",
@@ -1572,7 +1572,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Light Screen": {
     "name": "Light Screen",
@@ -1593,7 +1593,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Lovely Kiss": {
     "name": "Lovely Kiss",
@@ -1614,7 +1614,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Low Kick": {
     "name": "Low Kick",
@@ -1635,7 +1635,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Meditate": {
     "name": "Meditate",
@@ -1656,7 +1656,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Mega Drain": {
     "name": "Mega Drain",
@@ -1698,7 +1698,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Mega Punch": {
     "name": "Mega Punch",
@@ -1719,7 +1719,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Metronome": {
     "name": "Metronome",
@@ -1740,7 +1740,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Mimic": {
     "name": "Mimic",
@@ -1761,7 +1761,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Minimize": {
     "name": "Minimize",
@@ -1782,7 +1782,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Mirror Move": {
     "name": "Mirror Move",
@@ -1803,7 +1803,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Mist": {
     "name": "Mist",
@@ -1824,7 +1824,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Night Shade": {
     "name": "Night Shade",
@@ -1845,7 +1845,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Pay Day": {
     "name": "Pay Day",
@@ -1866,7 +1866,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Peck": {
     "name": "Peck",
@@ -1887,7 +1887,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Petal Dance": {
     "name": "Petal Dance",
@@ -1929,7 +1929,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Poison Gas": {
     "name": "Poison Gas",
@@ -1950,7 +1950,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Poison Powder": {
     "name": "Poison Powder",
@@ -1971,7 +1971,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Poison Sting": {
     "name": "Poison Sting",
@@ -1992,7 +1992,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Pound": {
     "name": "Pound",
@@ -2013,7 +2013,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Psybeam": {
     "name": "Psybeam",
@@ -2055,7 +2055,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Psywave": {
     "name": "Psywave",
@@ -2076,7 +2076,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Quick Attack": {
     "name": "Quick Attack",
@@ -2097,7 +2097,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Rage": {
     "name": "Rage",
@@ -2118,7 +2118,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Razor Leaf": {
     "name": "Razor Leaf",
@@ -2139,7 +2139,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Razor Wind": {
     "name": "Razor Wind",
@@ -2160,7 +2160,7 @@
     "multi_turn": "2",
     "multi_turn_type": "charge",
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Recover": {
     "name": "Recover",
@@ -2202,7 +2202,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Rest": {
     "name": "Rest",
@@ -2223,7 +2223,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Roar": {
     "name": "Roar",
@@ -2244,7 +2244,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Rock Slide": {
     "name": "Rock Slide",
@@ -2265,7 +2265,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Rock Throw": {
     "name": "Rock Throw",
@@ -2286,7 +2286,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Rolling Kick": {
     "name": "Rolling Kick",
@@ -2307,7 +2307,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Sand Attack": {
     "name": "Sand Attack",
@@ -2328,7 +2328,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Scratch": {
     "name": "Scratch",
@@ -2349,7 +2349,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Screech": {
     "name": "Screech",
@@ -2370,7 +2370,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Seismic Toss": {
     "name": "Seismic Toss",
@@ -2391,7 +2391,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Selfdestruct": {
     "name": "Selfdestruct",
@@ -2412,7 +2412,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Sharpen": {
     "name": "Sharpen",
@@ -2433,7 +2433,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Sing": {
     "name": "Sing",
@@ -2454,7 +2454,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Skull Bash": {
     "name": "Skull Bash",
@@ -2475,7 +2475,7 @@
     "multi_turn": "2",
     "multi_turn_type": "charge",
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Sky Attack": {
     "name": "Sky Attack",
@@ -2496,7 +2496,7 @@
     "multi_turn": "2",
     "multi_turn_type": "charge",
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Slam": {
     "name": "Slam",
@@ -2517,7 +2517,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Slash": {
     "name": "Slash",
@@ -2538,7 +2538,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Sleep Powder": {
     "name": "Sleep Powder",
@@ -2559,7 +2559,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Sludge": {
     "name": "Sludge",
@@ -2580,7 +2580,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Smog": {
     "name": "Smog",
@@ -2601,7 +2601,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Smokescreen": {
     "name": "Smokescreen",
@@ -2622,7 +2622,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Softboiled": {
     "name": "Softboiled",
@@ -2664,7 +2664,7 @@
     "multi_turn": "2",
     "multi_turn_type": "charge",
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Sonic Boom": {
     "name": "Sonic Boom",
@@ -2706,7 +2706,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Splash": {
     "name": "Splash",
@@ -2727,7 +2727,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Spore": {
     "name": "Spore",
@@ -2748,7 +2748,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Stomp": {
     "name": "Stomp",
@@ -2769,7 +2769,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Strength": {
     "name": "Strength",
@@ -2790,7 +2790,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "String Shot": {
     "name": "String Shot",
@@ -2811,7 +2811,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Stun Spore": {
     "name": "Stun Spore",
@@ -2832,7 +2832,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Submission": {
     "name": "Submission",
@@ -2874,7 +2874,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Super Fang": {
     "name": "Super Fang",
@@ -2937,7 +2937,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Swift": {
     "name": "Swift",
@@ -2958,7 +2958,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Swords Dance": {
     "name": "Swords Dance",
@@ -2979,7 +2979,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Tackle": {
     "name": "Tackle",
@@ -3000,7 +3000,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Tail Whip": {
     "name": "Tail Whip",
@@ -3021,7 +3021,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Take Down": {
     "name": "Take Down",
@@ -3063,7 +3063,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Thrash": {
     "name": "Thrash",
@@ -3105,7 +3105,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Thunder Punch": {
     "name": "Thunder Punch",
@@ -3126,7 +3126,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Thunder Shock": {
     "name": "Thunder Shock",
@@ -3147,7 +3147,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Thunder Wave": {
     "name": "Thunder Wave",
@@ -3168,7 +3168,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Thunderbolt": {
     "name": "Thunderbolt",
@@ -3189,7 +3189,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Toxic": {
     "name": "Toxic",
@@ -3199,7 +3199,7 @@
     "category": "Status",
     "description": "Badly poisons opponent.",
     "effect": "status",
-    "status": "badly_poisoned",
+    "status": "badly poisoned",
     "chance": 100,
     "target": "opponent",
     "stat": null,
@@ -3231,7 +3231,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Tri Attack": {
     "name": "Tri Attack",
@@ -3252,7 +3252,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Twineedle": {
     "name": "Twineedle",
@@ -3273,7 +3273,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Vine Whip": {
     "name": "Vine Whip",
@@ -3294,7 +3294,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Vise Grip": {
     "name": "Vise Grip",
@@ -3315,7 +3315,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Water Gun": {
     "name": "Water Gun",
@@ -3336,7 +3336,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Waterfall": {
     "name": "Waterfall",
@@ -3357,7 +3357,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Whirlwind": {
     "name": "Whirlwind",
@@ -3378,7 +3378,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Wing Attack": {
     "name": "Wing Attack",
@@ -3399,7 +3399,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Withdraw": {
     "name": "Withdraw",
@@ -3420,7 +3420,7 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   },
   "Wrap": {
     "name": "Wrap",
@@ -3441,6 +3441,6 @@
     "multi_turn": null,
     "multi_turn_type": null,
     "vulnerable_to": null,
-    "effect_value": null
+    "effect_value": 0.0
   }
 }
