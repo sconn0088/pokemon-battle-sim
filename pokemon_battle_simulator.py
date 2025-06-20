@@ -2,7 +2,7 @@ from constants import get_type_multiplier
 from utils import select_move
 import random
 
-def use_move(user, target, move, log):
+def use_move(user, target, move, log, can_flinch=True):
     if move.multi_turn_type == "charge":
         user.must_charge = True
         user.multi_turn_move = move
@@ -60,7 +60,7 @@ def use_move(user, target, move, log):
     if move.effect in ["raise_stat", "lower_stat"]:
         apply_stat_stage_change(user, target, move, log)
 
-    if move.effect == "flinch":
+    if move.effect == "flinch" and can_flinch:
         try_inflict_flinch(target, move, log)
 
     if move.multi_turn_type == "recharge":
@@ -319,7 +319,7 @@ def simulate_battle(player, opponent, log):
         else:
             turn_order = [(opponent, player), (player, opponent)]
 
-        for acting_pokemon, defending_pokemon in turn_order:
+        for i, (acting_pokemon, defending_pokemon) in enumerate(turn_order):
             if acting_pokemon.is_fainted():
                 continue
 
@@ -361,7 +361,8 @@ def simulate_battle(player, opponent, log):
                     continue
             
             move = select_move(acting_pokemon)
-            use_move(acting_pokemon, defending_pokemon, move, log)
+            # can_flinch is True only for the first Pokémon in the turn_order
+            use_move(acting_pokemon, defending_pokemon, move, log, can_flinch=(i == 0))
 
             if defending_pokemon.is_fainted():
                 log.add(f"{defending_pokemon.name} fainted!")
