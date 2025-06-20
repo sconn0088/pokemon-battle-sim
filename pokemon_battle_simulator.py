@@ -314,12 +314,27 @@ def simulate_battle(player, opponent, log):
             log.add(f"{player.name} wins!")
             return player.name
 
-        if player.speed * get_stage_multiplier(player.stat_stages.get("speed", 0)) >= opponent.speed * get_stage_multiplier(opponent.stat_stages.get("speed", 0)):
-            turn_order = [(player, opponent), (opponent, player)]
-        else:
-            turn_order = [(opponent, player), (player, opponent)]
+        player_move = select_move(player)
+        opponent_move = select_move(opponent)
 
-        for i, (acting_pokemon, defending_pokemon) in enumerate(turn_order):
+        # Priority logic for Quick Attack
+        player_priority = player_move.name == "Quick Attack"
+        opponent_priority = opponent_move.name == "Quick Attack"
+
+        if player_priority and not opponent_priority:
+            turn_order = [(player, opponent, player_move), (opponent, player, opponent_move)]
+        elif opponent_priority and not player_priority:
+            turn_order = [(opponent, player, opponent_move), (player, opponent, player_move)]
+        else:
+            # Speed-based turn order
+            player_speed = player.speed * get_stage_multiplier(player.stat_stages.get("speed", 0))
+            opponent_speed = opponent.speed * get_stage_multiplier(opponent.stat_stages.get("speed", 0))
+            if player_speed >= opponent_speed:
+                turn_order = [(player, opponent, player_move), (opponent, player, opponent_move)]
+            else:
+                turn_order = [(opponent, player, opponent_move), (player, opponent, player_move)]
+
+        for i, (acting_pokemon, defending_pokemon, move) in enumerate(turn_order):
             if acting_pokemon.is_fainted():
                 continue
 
@@ -339,7 +354,7 @@ def simulate_battle(player, opponent, log):
                 if log: log.add(f"{acting_pokemon.name} must recharge and can't move!")
                 acting_pokemon.must_recharge = False
                 continue
-            
+
             if acting_pokemon.multi_turn_move and acting_pokemon.multi_turn_counter > 0:
                 acting_pokemon.multi_turn_counter -= 1
                 move_to_use = acting_pokemon.multi_turn_move
@@ -359,9 +374,7 @@ def simulate_battle(player, opponent, log):
                     damage = calculate_damage(acting_pokemon, defending_pokemon, move_to_use, log)
                     apply_damage(damage, defending_pokemon, move_to_use, log)
                     continue
-            
-            move = select_move(acting_pokemon)
-            # can_flinch is True only for the first Pokémon in the turn_order
+
             use_move(acting_pokemon, defending_pokemon, move, log, can_flinch=(i == 0))
 
             if defending_pokemon.is_fainted():
