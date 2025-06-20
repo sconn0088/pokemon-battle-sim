@@ -49,6 +49,15 @@ def use_move(user, target, move, log, can_flinch=True):
     if move.name == "Dream Eater" and target.status != "asleep":
         if log: log.add(f"{user.name}'s {move.name} missed!")
         return
+    
+    if move.effect == "counter":
+        if user.last_move_received_category == "Physical" and user.last_damage_taken > 0:
+            counter_damage = user.last_damage_taken * 2
+            target.current_hp -= counter_damage
+            if log: log.add(f"{target.name} took {counter_damage} damage!")
+        else:
+            if log: log.add(f"{user.name}'s Counter failed!")
+        return
 
     damage = calculate_damage(user, target, move, log)
 
@@ -127,6 +136,8 @@ def apply_damage(damage, target, move, log):
     
     target.current_hp -= damage
     if damage > 0:
+        target.last_damage_taken = damage
+        target.last_move_received_category = move.category # track Physical/Special
         if log: log.add(f"{target.name} took {damage} damage!")
 
 ##################################################
@@ -314,6 +325,11 @@ def simulate_battle(player, opponent, log):
             log.add(f"{player.name} wins!")
             return player.name
 
+        player.last_damage_taken = 0
+        opponent.last_damage_taken = 0
+        player.last_move_received_category = None
+        opponent.last_move_received_category = None
+        
         player_move = select_move(player)
         opponent_move = select_move(opponent)
 
@@ -321,10 +337,18 @@ def simulate_battle(player, opponent, log):
         player_priority = player_move.name == "Quick Attack"
         opponent_priority = opponent_move.name == "Quick Attack"
 
+        # Priority logic for Counter
+        player_counter = player_move.name == "Counter"
+        opponent_counter = opponent_move.name == "Counter"
+
         if player_priority and not opponent_priority:
             turn_order = [(player, opponent, player_move), (opponent, player, opponent_move)]
         elif opponent_priority and not player_priority:
             turn_order = [(opponent, player, opponent_move), (player, opponent, player_move)]
+        elif player_counter and not opponent_counter:
+            turn_order = [(opponent, player, opponent_move), (player, opponent, player_move)]
+        elif opponent_counter and not player_counter:
+            turn_order = [(player, opponent, player_move), (opponent, player, opponent_move)]
         else:
             # Speed-based turn order
             player_speed = player.speed * get_stage_multiplier(player.stat_stages.get("speed", 0))
