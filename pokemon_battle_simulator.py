@@ -308,7 +308,8 @@ def multi_hit_attack(target, move, damage, log):
     # Check if Twineedle poisons opponent
     if hasattr(move, 'status') and move.status and hasattr(move, 'chance') and move.chance > 0:
         try_inflict_status(target, move, log)
-    if log: log.add(f"{move.name} hit {num_hits} times!")
+    if damage > 0:
+        if log: log.add(f"{move.name} hit {num_hits} times!")
     return total_damage
 
 ##################################################
@@ -325,86 +326,115 @@ def simulate_battle(player, opponent, log):
             log.add(f"{player.name} wins!")
             return player.name
 
-        player.last_damage_taken = 0
-        opponent.last_damage_taken = 0
-        player.last_move_received_category = None
-        opponent.last_move_received_category = None
-        
-        player_move = select_move(player)
-        opponent_move = select_move(opponent)
+        turn_candidates = []
 
-        # Priority logic for Quick Attack
-        player_priority = player_move.name == "Quick Attack"
-        opponent_priority = opponent_move.name == "Quick Attack"
-
-        # Priority logic for Counter
-        player_counter = player_move.name == "Counter"
-        opponent_counter = opponent_move.name == "Counter"
-
-        if player_priority and not opponent_priority:
-            turn_order = [(player, opponent, player_move), (opponent, player, opponent_move)]
-        elif opponent_priority and not player_priority:
-            turn_order = [(opponent, player, opponent_move), (player, opponent, player_move)]
-        elif player_counter and not opponent_counter:
-            turn_order = [(opponent, player, opponent_move), (player, opponent, player_move)]
-        elif opponent_counter and not player_counter:
-            turn_order = [(player, opponent, player_move), (opponent, player, opponent_move)]
-        else:
-            # Speed-based turn order
-            player_speed = player.speed * get_stage_multiplier(player.stat_stages.get("speed", 0))
-            opponent_speed = opponent.speed * get_stage_multiplier(opponent.stat_stages.get("speed", 0))
-            if player_speed >= opponent_speed:
-                turn_order = [(player, opponent, player_move), (opponent, player, opponent_move)]
-            else:
-                turn_order = [(opponent, player, opponent_move), (player, opponent, player_move)]
-
-        for i, (acting_pokemon, defending_pokemon, move) in enumerate(turn_order):
-            if acting_pokemon.is_fainted():
-                continue
-
-            if check_confusion(acting_pokemon, log):
-                continue
-            if check_sleep(acting_pokemon, log):
-                continue
-            if check_paralysis(acting_pokemon, log):
-                continue
-            if check_freeze(acting_pokemon, log):
-                continue
-            if acting_pokemon.flinched:
-                acting_pokemon.flinched = False
-                continue
-
-            if acting_pokemon.must_recharge:
-                if log: log.add(f"{acting_pokemon.name} must recharge and can't move!")
-                acting_pokemon.must_recharge = False
-                continue
-
-            if acting_pokemon.multi_turn_move and acting_pokemon.multi_turn_counter > 0:
-                acting_pokemon.multi_turn_counter -= 1
-                move_to_use = acting_pokemon.multi_turn_move
+        # Player setup
+        if not player.is_fainted():
+            if check_confusion(player, log):
+                move = None
+            elif check_sleep(player, log):
+                move = None
+            elif check_paralysis(player, log):
+                move = None
+            elif check_freeze(player, log):
+                move = None
+            elif player.flinched:
+                player.flinched = False
+                move = None
+            elif player.must_recharge:
+                log.add(f"{player.name} must recharge and can't move!")
+                player.must_recharge = False
+                move = None
+            elif player.multi_turn_move and player.multi_turn_counter > 0:
+                player.multi_turn_counter -= 1
+                move_to_use = player.multi_turn_move
 
                 if move_to_use.multi_turn_type == "charge":
-                    if log: log.add(f"{acting_pokemon.name} used {move_to_use.name}!")
-                    acting_pokemon.multi_turn_move = None
-                    damage = calculate_damage(acting_pokemon, defending_pokemon, move_to_use, log)
-                    apply_damage(damage, defending_pokemon, move_to_use, log)
-                    continue
+                    log.add(f"{player.name} used {move_to_use.name}!")
+                    player.multi_turn_move = None
+                    damage = calculate_damage(player, opponent, move_to_use, log)
+                    apply_damage(damage, opponent, move_to_use, log)
+                    move = None
+                elif move_to_use.multi_turn_type == "invulnerable":
+                    player.invulnerable = False
+                    player.vulnerable_to = []
+                    log.add(f"{player.name} used {move_to_use.name}!")
+                    player.multi_turn_move = None
+                    damage = calculate_damage(player, opponent, move_to_use, log)
+                    apply_damage(damage, opponent, move_to_use, log)
+                    move = None
+                else:
+                    move = select_move(player)
+            else:
+                move = select_move(player)
+            turn_candidates.append((player, opponent, move))
 
-                if move_to_use.multi_turn_type == "invulnerable":
-                    acting_pokemon.invulnerable = False
-                    acting_pokemon.vulnerable_to = []
-                    if log: log.add(f"{acting_pokemon.name} used {move_to_use.name}!")
-                    acting_pokemon.multi_turn_move = None
-                    damage = calculate_damage(acting_pokemon, defending_pokemon, move_to_use, log)
-                    apply_damage(damage, defending_pokemon, move_to_use, log)
-                    continue
+        # Opponent setup
+        if not opponent.is_fainted():
+            if check_confusion(opponent, log):
+                move = None
+            elif check_sleep(opponent, log):
+                move = None
+            elif check_paralysis(opponent, log):
+                move = None
+            elif check_freeze(opponent, log):
+                move = None
+            elif opponent.flinched:
+                opponent.flinched = False
+                move = None
+            elif opponent.must_recharge:
+                log.add(f"{opponent.name} must recharge and can't move!")
+                opponent.must_recharge = False
+                move = None
+            elif opponent.multi_turn_move and opponent.multi_turn_counter > 0:
+                opponent.multi_turn_counter -= 1
+                move_to_use = opponent.multi_turn_move
 
-            use_move(acting_pokemon, defending_pokemon, move, log, can_flinch=(i == 0))
+                if move_to_use.multi_turn_type == "charge":
+                    log.add(f"{opponent.name} used {move_to_use.name}!")
+                    opponent.multi_turn_move = None
+                    damage = calculate_damage(opponent, player, move_to_use, log)
+                    apply_damage(damage, player, move_to_use, log)
+                    move = None
+                elif move_to_use.multi_turn_type == "invulnerable":
+                    opponent.invulnerable = False
+                    opponent.vulnerable_to = []
+                    log.add(f"{opponent.name} used {move_to_use.name}!")
+                    opponent.multi_turn_move = None
+                    damage = calculate_damage(opponent, player, move_to_use, log)
+                    apply_damage(damage, player, move_to_use, log)
+                    move = None
+                else:
+                    move = select_move(opponent)
+            else:
+                move = select_move(opponent)
+            turn_candidates.append((opponent, player, move))
 
-            if defending_pokemon.is_fainted():
-                log.add(f"{defending_pokemon.name} fainted!")
-                log.add(f"{acting_pokemon.name} wins!")
-                return acting_pokemon.name
+        def get_priority(m):
+            if m is None:
+                return 0
+            if m.name == "Quick Attack":
+                return 1
+            if m.name == "Counter":
+                return -1
+            return 0
+
+        turn_candidates.sort(
+            key=lambda tup: (
+                -get_priority(tup[2]),
+                -tup[0].speed * get_stage_multiplier(tup[0].stat_stages.get("speed", 0))
+            )
+        )
+
+        for acting_pokemon, defending_pokemon, move in turn_candidates:
+            if acting_pokemon.is_fainted():
+                continue
+            if move is not None:
+                use_move(acting_pokemon, defending_pokemon, move, log, can_flinch=True)
+                if defending_pokemon.is_fainted():
+                    log.add(f"{defending_pokemon.name} fainted!")
+                    log.add(f"{acting_pokemon.name} wins!")
+                    return acting_pokemon.name
 
         process_end_of_turn_status(player, log)
         process_end_of_turn_status(opponent, log)
