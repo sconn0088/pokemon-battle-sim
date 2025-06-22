@@ -36,4 +36,8 @@ def create_pokemon_from_data(data):
     return Pokemon(name, level, types, base_stats, moves)
 
 def select_move(pokemon):
-    return random.choice(pokemon.moves)
+    if pokemon.multi_turn_move is not None:
+        pokemon.current_move = pokemon.multi_turn_move
+        return
+    move = random.choice(pokemon.moves)
+    pokemon.current_move = move

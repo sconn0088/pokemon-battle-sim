@@ -43,3 +43,16 @@ def get_type_multiplier(move_type, target_types):
     for t in target_types:
         multiplier *= TYPE_EFFECTIVENESS.get((move_type, t), 1.0)
     return multiplier
+
+def is_immune(move_type, target_types):
+    immunity_rules = {
+        "Normal": ["Ghost"],
+        "Ghost": ["Normal"],
+        "Electric": ["Ground"],
+        "Ground": ["Flying"],
+        "Fighting": ["Ghost"],
+        "Poison": ["Steel"],
+        "Psychic": ["Dark"],
+        "Dragon": ["Fairy"]
+    }
+    return any(t in immunity_rules.get(move_type, []) for t in target_types)

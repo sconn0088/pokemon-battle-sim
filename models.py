@@ -61,6 +61,7 @@ class Pokemon:
 
         self.current_hp = self.hp
         self.moves = moves
+        self.current_move = None
 
         self.status = "OK"
 
