@@ -88,6 +88,9 @@ class Pokemon:
         self.invulnerable = False
         self.vulnerable_to = []
 
+        self.is_biding = False
+        self.bide_damage = 0
+
     def is_fainted(self):
         return self.current_hp <= 0
 

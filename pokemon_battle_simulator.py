@@ -18,10 +18,24 @@ def use_move(user, target, log, can_flinch=True):
         if log: log.add(f"{user.name} flew up high!" if user.current_move.name == "Fly" else f"{user.name} dug underground!")
         return
     
+    if user.current_move.effect == "bide":
+        # First time - set Bide
+        if not user.is_biding:
+            user.is_biding = True
+            user.multi_turn_move = user.current_move
+            min_turns, max_turns = map(int, user.current_move.duration.split("-"))
+            num_turns = random.randint(min_turns, max_turns)
+            user.multi_turn_counter = num_turns
+            if log: log.add(f"{user.name} is biding its time...")
+            return
+        # After biding for a few turns - turn it off
+        if user.is_biding:
+            user.is_biding = False
+    
     if log: log.add(f"{user.name} used {user.current_move.name}!")
 
     # Immunity check
-    if is_immune(user.current_move.type, target.types):
+    if is_immune(user.current_move.type, target.types, user.current_move.name):
         if log: log.add("It had no effect!")
         return
 
@@ -68,7 +82,7 @@ def use_move(user, target, log, can_flinch=True):
 
     if user.current_move.effect == "multi_hit":
         damage = multi_hit_attack(user, target, damage, log)
-
+    
     apply_damage(damage, user, target, log)
 
     if user.current_move.effect in ["raise_stat", "lower_stat"]:
@@ -126,6 +140,9 @@ def calculate_damage(user, target, log):
         type_multiplier = get_type_multiplier(user.current_move.type, target.types)
         final_damage = int(base_damage * type_multiplier)
         
+        if user.current_move.effect == "bide":
+            final_damage = user.bide_damage * 2
+
         if log:
             if type_multiplier > 1:
                 log.add("It's super effective!")
@@ -143,10 +160,19 @@ def apply_damage(damage, user, target, log):
         if log: log.add("Earthquake hits with double power during Dig!")
     
     target.current_hp -= damage
+
+    if user.current_move.effect == "bide" and damage == 0:
+        if log: log.add("But it failed!")
+
     if damage > 0:
         target.last_damage_taken = damage
         target.last_move_received_category = user.current_move.category # track Physical/Special
         if log: log.add(f"{target.name} took {damage} damage!")
+    
+    if target.is_biding:
+        target.bide_damage += damage
+    
+    user.bide_damage = 0
 
 def determine_turn_order(combatant_1, combatant_2):
     turn_order = [(combatant_2, combatant_1), (combatant_1, combatant_2)]
@@ -409,10 +435,17 @@ def simulate_battle(player, opponent, log):
                     damage = calculate_damage(acting_pokemon, defending_pokemon, log)
                     apply_damage(damage, acting_pokemon, defending_pokemon, log)
                     continue
+
+                if move_to_use.effect == "bide":
+                    if log: log.add(f"{acting_pokemon.name} is biding its time...")
+                    continue
             
             if acting_pokemon.multi_turn_move and acting_pokemon.multi_turn_counter == 0:
                 if acting_pokemon.multi_turn_move.effect == "confuse_self":
                     set_confusion_self(acting_pokemon, log)
+                if acting_pokemon.multi_turn_move.effect == "bide":
+                    acting_pokemon.current_move = acting_pokemon.multi_turn_move
+                    acting_pokemon.multi_turn_move = None
             
             if check_confusion(acting_pokemon, log):
                 continue

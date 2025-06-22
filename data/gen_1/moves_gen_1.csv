@@ -7,7 +7,7 @@ Amnesia,Psychic,0,100,Status,Sharply raises user's Special Defense.,raise_stat,,
 Aurora Beam,Ice,65,100,Special,May lower opponent's Attack.,lower_stat,,10,opponent,attack,1,,,,,,,0
 Barrage,Normal,15,85,Physical,Hits 2-5 times in one turn.,multi_hit,,,opponent,,,2-5,,,,,,0
 Barrier,Psychic,0,100,Status,Sharply raises user's Defense.,raise_stat,,100,self,defense,2,,,,,,,0
-Bide,Normal,0,100,Physical,User takes damage for two turns then strikes back double.,bide,,,opponent,,,,2-3,,,,,0
+Bide,Normal,0,100,Physical,User takes damage for two turns then strikes back double.,bide,,,opponent,,,,1-2,,,,,0
 Bind,Normal,15,75,Physical,"Traps opponent, damaging them for 4-5 turns.",multi_hit,,,opponent,,,2-5,,,,,,0
 Bite,Normal,60,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0
 Blizzard,Ice,120,90,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,0
