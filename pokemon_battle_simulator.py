@@ -88,6 +88,9 @@ def use_move(user, target, log, can_flinch=True):
     
     if user.current_move.effect == "absorb":
         absorb_health(damage, user, log)
+    
+    if user.current_move.effect == "confuse_self":
+        set_multi_turn_confuse_self(user)
 
 def calculate_damage(user, target, log):
     if user.current_move.category in ["Physical", "Special"]:
@@ -330,6 +333,23 @@ def multi_hit_attack(user, target, damage, log):
         if log: log.add(f"{user.current_move.name} hit {num_hits} times!")
     return total_damage
 
+############ MULTI-TURN CONFUSE SELF #############
+def set_multi_turn_confuse_self(user):
+    # Set number of turns the attack will last
+    user.multi_turn_move = user.current_move
+    min_turns, max_turns = map(int, user.current_move.multi_turn.split("-"))
+    num_turns = random.randint(min_turns, max_turns)
+    user.multi_turn_counter = num_turns
+
+def set_confusion_self(user, log):
+    # User becomes confused after multi-turn attacks
+    user.is_confused = True
+    min_turns, max_turns = map(int, user.multi_turn_move.duration.split("-"))
+    num_turns = random.randint(min_turns, max_turns)
+    user.confused_turns = num_turns
+    if log: log.add(f"{user.name} became confused!")
+    user.multi_turn_move = None
+
 ##################################################
 ###############       BATTLE       ###############
 ##################################################
@@ -359,18 +379,6 @@ def simulate_battle(player, opponent, log):
             if acting_pokemon.is_fainted():
                 continue
 
-            if check_confusion(acting_pokemon, log):
-                continue
-            if check_sleep(acting_pokemon, log):
-                continue
-            if check_paralysis(acting_pokemon, log):
-                continue
-            if check_freeze(acting_pokemon, log):
-                continue
-            if acting_pokemon.flinched:
-                acting_pokemon.flinched = False
-                continue
-
             if acting_pokemon.must_recharge:
                 if log: log.add(f"{acting_pokemon.name} must recharge and can't move!")
                 acting_pokemon.must_recharge = False
@@ -395,6 +403,28 @@ def simulate_battle(player, opponent, log):
                     damage = calculate_damage(acting_pokemon, defending_pokemon, log)
                     apply_damage(damage, acting_pokemon, defending_pokemon, log)
                     continue
+
+                if move_to_use.effect == "confuse_self":
+                    if log: log.add(f"{acting_pokemon.name}'s attack continues!")
+                    damage = calculate_damage(acting_pokemon, defending_pokemon, log)
+                    apply_damage(damage, acting_pokemon, defending_pokemon, log)
+                    continue
+            
+            if acting_pokemon.multi_turn_move and acting_pokemon.multi_turn_counter == 0:
+                if acting_pokemon.multi_turn_move.effect == "confuse_self":
+                    set_confusion_self(acting_pokemon, log)
+            
+            if check_confusion(acting_pokemon, log):
+                continue
+            if check_sleep(acting_pokemon, log):
+                continue
+            if check_paralysis(acting_pokemon, log):
+                continue
+            if check_freeze(acting_pokemon, log):
+                continue
+            if acting_pokemon.flinched:
+                acting_pokemon.flinched = False
+                continue
             
             use_move(acting_pokemon, defending_pokemon, log, can_flinch=(i == 0))
 

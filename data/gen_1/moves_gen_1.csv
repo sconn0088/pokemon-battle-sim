@@ -89,7 +89,7 @@ Mist,Ice,0,100,Status,User's stats cannot be changed for a period of time.,mist,
 Night Shade,Ghost,0,100,Physical,Inflicts damage equal to user's level.,level_scale,,100,opponent,,,,,,,,,0
 Pay Day,Normal,40,100,Physical,Money is earned after the battle.,,,,opponent,,,,,,,,,0
 Peck,Flying,35,100,Physical,,,,,opponent,,,,,,,,,0
-Petal Dance,Grass,70,100,Special,User attacks for 3-4 turns but then becomes confused.,confuse_self,,100,opponent,,,,2-4,,3-4,,,0.5
+Petal Dance,Grass,70,100,Special,User attacks for 3-4 turns but then becomes confused.,confuse_self,,100,opponent,,,,2-4,,2-3,,,0.5
 Pin Missile,Bug,14,95,Physical,Hits 2-5 times in one turn.,multi_hit,,100,opponent,,,2-5,,,,,,0
 Poison Gas,Poison,0,55,Status,Poisons opponent.,status,poisoned,100,opponent,,,,,,,,,0
 Poison Powder,Poison,0,75,Status,Poisons opponent.,status,poisoned,100,opponent,,,,,,,,,0
@@ -145,7 +145,7 @@ Tackle,Normal,35,95,Physical,,,,,opponent,,,,,,,,,0
 Tail Whip,Normal,0,100,Status,Lowers opponent's Defense.,lower_stat,,100,opponent,defense,1,,,,,,,0
 Take Down,Normal,90,85,Physical,User receives recoil damage.,recoil,,100,opponent,,,,,,,,,0.25
 Teleport,Psychic,0,100,Status,Allows user to flee wild battles,skip,,,self,,,,,,,,,0
-Thrash,Normal,90,100,Physical,User attacks for 3-4 turns but then becomes confused.,confuse_self,,100,opponent,,,,2-4,,3-4,,,0.5
+Thrash,Normal,90,100,Physical,User attacks for 3-4 turns but then becomes confused.,confuse_self,,100,opponent,,,,2-4,,2-3,,,0.5
 Thunder,Electric,120,70,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,0
 Thunder Punch,Electric,75,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,0
 Thunder Shock,Electric,40,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,0

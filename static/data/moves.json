@@ -1905,7 +1905,7 @@
     "hits": null,
     "duration": "2-4",
     "critical_hit": null,
-    "multi_turn": "3-4",
+    "multi_turn": "2-3",
     "multi_turn_type": null,
     "vulnerable_to": null,
     "effect_value": 0.5
@@ -3081,7 +3081,7 @@
     "hits": null,
     "duration": "2-4",
     "critical_hit": null,
-    "multi_turn": "3-4",
+    "multi_turn": "2-3",
     "multi_turn_type": null,
     "vulnerable_to": null,
     "effect_value": 0.5
