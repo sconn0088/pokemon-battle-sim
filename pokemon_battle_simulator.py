@@ -32,6 +32,10 @@ def use_move(user, target, log, can_flinch=True):
         if user.is_biding:
             user.is_biding = False
     
+    if user.disabled_move == user.current_move:
+        if log: log.add(f"{user.name}'s {user.disabled_move.name} is disabled!")
+        return
+    
     if log: log.add(f"{user.name} used {user.current_move.name}!")
 
     if user.current_move.effect == "transform":
@@ -62,6 +66,7 @@ def use_move(user, target, log, can_flinch=True):
 
     if user.current_move.effect == "conversion":
         conversion(user, target, log)
+        return
     
     if user.current_move.effect == "skip":
         if log: log.add(f"But nothing happened!")
@@ -74,6 +79,10 @@ def use_move(user, target, log, can_flinch=True):
     
     if user.current_move.name == "Dream Eater" and target.status != "asleep":
         if log: log.add(f"{user.name}'s {user.current_move.name} missed!")
+        return
+    
+    if user.current_move.effect == "disable":
+        disable_move(user, target, log)
         return
     
     if user.current_move.effect == "counter":
@@ -340,6 +349,12 @@ def process_end_of_turn_status(pokemon, log):
         damage = max(1, pokemon.hp // 16)
         pokemon.current_hp -= damage
         if log: log.add(f"{pokemon.name} is hurt by its burn and loses {damage} HP!")
+    
+    if pokemon.disabled_turns > 0:
+        pokemon.disabled_turns -= 1
+        if pokemon.disabled_turns == 0:
+            pokemon.disabled_move = None
+            if log: log.add(f"{pokemon.name} is disabled no more!")
 
 ###############       FLINCH       ###############
 def try_inflict_flinch(user, target, log):
@@ -414,6 +429,17 @@ def transform(user, target, log):
 def conversion(user, target, log):
     user.types = [target.types[0]]
     if log: log.add(f"{user.name} converted to the {target.types[0]} type!")
+
+###############      DISABLE       ###############
+def disable_move(user, target, log):
+    if target.disabled_move:
+        if log: log.add("But it failed!")
+        return
+    target.disabled_move = random.choice(target.moves)
+    min_turns, max_turns = map(int, user.current_move.duration.split("-"))
+    num_turns = random.randint(min_turns, max_turns)
+    target.disabled_turns = num_turns
+    if log: log.add(f"{target.name}'s {target.disabled_move.name} was disabled!")
 
 ##################################################
 ###############       BATTLE       ###############
