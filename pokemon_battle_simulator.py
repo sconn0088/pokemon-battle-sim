@@ -60,6 +60,9 @@ def use_move(user, target, log, can_flinch=True):
         if log: log.add(f"{user.name}'s {user.current_move.name} missed!")
         return
 
+    if user.current_move.effect == "conversion":
+        conversion(user, target, log)
+    
     if user.current_move.effect == "skip":
         if log: log.add(f"But nothing happened!")
         return
@@ -406,6 +409,11 @@ def transform(user, target, log):
     user.moves = [copy.deepcopy(move) for move in target.moves]
 
     if log: log.add(f"{user.name} transformed into {target.name}!")
+
+###############     CONVERSION     ###############
+def conversion(user, target, log):
+    user.types = [target.types[0]]
+    if log: log.add(f"{user.name} converted to the {target.types[0]} type!")
 
 ##################################################
 ###############       BATTLE       ###############
