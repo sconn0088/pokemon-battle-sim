@@ -71,6 +71,10 @@ def use_move(user, target, log, can_flinch=True):
     if user.current_move.effect == "skip":
         if log: log.add(f"But nothing happened!")
         return
+    
+    if user.current_move.effect == "clear_stats":
+        haze(user, target, log)
+        return
 
     if user.current_move.effect == "crit_boost" and user.current_move.name == "Focus Energy":
         user.next_crit_boosted = True
@@ -244,6 +248,13 @@ def get_stage_multiplier(stage):
          1: 3/2, 2: 4/2, 3: 5/2, 4: 6/2, 5: 7/2, 6: 8/2
     }
     return stage_multipliers.get(stage, 1.0)
+
+def haze(user, target, log):
+    for stat in user.stat_stages:
+        user.stat_stages[stat] = 0
+    for stat in target.stat_stages:
+        target.stat_stages[stat] = 0
+    if log: log.add("All stats were reset.")
 
 ###############   STATUS CHANGES   ###############
 def try_inflict_status(user, target, log):
