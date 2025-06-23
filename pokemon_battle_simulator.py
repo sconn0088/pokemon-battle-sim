@@ -1,6 +1,6 @@
 from constants import get_type_multiplier, is_immune
 from utils import select_move
-import random
+import random, copy
 
 def use_move(user, target, log, can_flinch=True):
     if user.current_move.multi_turn_type == "charge":
@@ -33,6 +33,10 @@ def use_move(user, target, log, can_flinch=True):
             user.is_biding = False
     
     if log: log.add(f"{user.name} used {user.current_move.name}!")
+
+    if user.current_move.effect == "transform":
+        transform(user, target, log)
+        return
 
     # Immunity check
     if is_immune(user.current_move.type, target.types, user.current_move.category, user.current_move.name):
@@ -375,6 +379,33 @@ def set_confusion_self(user, log):
     user.confused_turns = num_turns
     if log: log.add(f"{user.name} became confused!")
     user.multi_turn_move = None
+
+###############      TRANSFORM     ###############
+def transform(user, target, log):
+    if user.transformed:
+        if log: log.add("But it failed!")
+        return
+    
+    # Set a transform flag
+    user.transformed = True
+    
+    # Copy stats (except current HP)
+    user.attack = target.attack
+    user.defense = target.defense
+    user.special_attack = target.special_attack
+    user.special_defense = target.special_defense
+    user.speed = target.speed
+
+    # Copy stat stages
+    user.stat_stages = target.stat_stages.copy()
+
+    # Copy types
+    user.types = target.types[:]
+
+    # Copy move list
+    user.moves = [copy.deepcopy(move) for move in target.moves]
+
+    if log: log.add(f"{user.name} transformed into {target.name}!")
 
 ##################################################
 ###############       BATTLE       ###############

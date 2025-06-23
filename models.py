@@ -63,6 +63,8 @@ class Pokemon:
         self.moves = moves
         self.current_move = None
 
+        self.transformed = False
+
         self.status = "OK"
 
         self.disabled_move = None
