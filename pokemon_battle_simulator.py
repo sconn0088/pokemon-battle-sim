@@ -35,7 +35,7 @@ def use_move(user, target, log, can_flinch=True):
     if log: log.add(f"{user.name} used {user.current_move.name}!")
 
     # Immunity check
-    if is_immune(user.current_move.type, target.types, user.current_move.name):
+    if is_immune(user.current_move.type, target.types, user.current_move.category, user.current_move.name):
         if log: log.add("It had no effect!")
         return
 

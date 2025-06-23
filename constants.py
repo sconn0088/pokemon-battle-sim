@@ -44,7 +44,9 @@ def get_type_multiplier(move_type, target_types):
         multiplier *= TYPE_EFFECTIVENESS.get((move_type, t), 1.0)
     return multiplier
 
-def is_immune(move_type, target_types, move_name=""):
+def is_immune(move_type, target_types, move_category, move_name=""):
+    if move_category == "Status":
+        return False
     if move_name == "Bide":
         return False
     immunity_rules = {
