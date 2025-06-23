@@ -101,6 +101,10 @@ def use_move(user, target, log, can_flinch=True):
     
     apply_damage(damage, user, target, log)
 
+    if user.current_move.effect == "selfdestruct":
+        user.current_hp = 0
+        return
+
     if user.current_move.effect in ["raise_stat", "lower_stat"]:
         apply_stat_stage_change(user, target, log)
 
@@ -446,6 +450,10 @@ def disable_move(user, target, log):
 ##################################################
 def simulate_battle(player, opponent, log):
     while True:
+        if player.is_fainted() and opponent.is_fainted():
+            log.add(f"Both {player.name} and {opponent.name} fainted!")
+            log.add("It's a tie! No winner")
+            return "No winner"
         if player.is_fainted():
             log.add(f"{player.name} fainted!")
             log.add(f"{opponent.name} wins!")
@@ -525,6 +533,9 @@ def simulate_battle(player, opponent, log):
                 continue
             
             use_move(acting_pokemon, defending_pokemon, log, can_flinch=(i == 0))
+
+            if acting_pokemon.current_move.effect == "selfdestruct":
+                break
 
             if defending_pokemon.is_fainted():
                 log.add(f"{defending_pokemon.name} fainted!")
