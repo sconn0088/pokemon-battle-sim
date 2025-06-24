@@ -105,6 +105,10 @@ def use_move(user, target, log, can_flinch=True):
         disable_move(user, target, log)
         return
     
+    if user.current_move.effect == "rest":
+        rest(user, log)
+        return
+    
     if user.current_move.effect == "counter":
         if user.last_move_received_category == "Physical" and user.last_damage_taken > 0:
             counter_damage = user.last_damage_taken * 2
@@ -432,6 +436,14 @@ def recoil(user, damage, log):
     user.current_hp -= recoil_damage
     if log: log.add(f"{user.name} was hit with recoil!")
     if log: log.add(f"{user.name} took {recoil_damage} damage.")
+
+###############        REST        ###############
+def rest(user, log):
+    user.status = "asleep"
+    user.sleep_turns = int(user.current_move.duration)
+    user.current_hp = user.hp
+    if log: log.add(f"{user.name} went to sleep!")
+    if log: log.add(f"{user.name} recovered all HP!")
 
 ###############    MULTI-ATTACK    ###############
 def multi_hit_attack(user, target, damage, log):
