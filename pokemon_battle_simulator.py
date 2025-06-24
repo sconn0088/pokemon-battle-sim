@@ -41,6 +41,10 @@ def use_move(user, target, log, can_flinch=True):
     if user.current_move.effect == "transform":
         transform(user, target, log)
         return
+    
+    if user.current_move.effect == "mimic":
+        mimic_move(user, target, log)
+        return
 
     # Immunity check
     if is_immune(user.current_move.type, target.types, user.current_move.category, user.current_move.name):
@@ -136,7 +140,7 @@ def use_move(user, target, log, can_flinch=True):
     if user.current_move.effect == "confuse":
         try_inflict_confusion(user, target, log)
     
-    if user.current_move.effect == "absorb":
+    if user.current_move.effect == "drain":
         absorb_health(damage, user, log)
     
     if user.current_move.effect == "confuse_self":
@@ -412,7 +416,7 @@ def try_inflict_flinch(user, target, log):
         target.flinched = True
         if log: log.add(f"{target.name} flinched!")
 
-###############       ABSORB       ###############
+###############       DRAIN        ###############
 def absorb_health(damage, user, log):
     if damage > 0:
         heal = int(damage * user.current_move.effect_value)
@@ -486,6 +490,19 @@ def transform(user, target, log):
 def conversion(user, target, log):
     user.types = [target.types[0]]
     if log: log.add(f"{user.name} converted to the {target.types[0]} type!")
+
+###############       MIMIC        ###############
+def mimic_move(user, target, log):
+    # Find the index of the current move
+    mimic_index = None
+    for i, move in enumerate(user.moves):
+        if move.name == "Mimic":
+            mimic_index = i
+            break
+    if mimic_index is not None:
+        copied_move = copy.deepcopy(random.choice(target.moves))
+        user.moves[mimic_index] = copied_move
+        if log: log.add(f"{user.name} copied {copied_move.name}!")
 
 ###############      DISABLE       ###############
 def disable_move(user, target, log):
