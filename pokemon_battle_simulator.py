@@ -62,6 +62,10 @@ def use_move(user, target, log, can_flinch=True):
     
     if hit_roll > adjusted_accuracy:
         if log: log.add(f"{user.name}'s {user.current_move.name} missed!")
+        if user.current_move.name == "Jump Kick" or user.current_move.name == "High Jump Kick":
+            user.current_hp -= 1
+            if log: log.add(f"{user.name} kept going and crashed!")
+            if log: log.add(f"{user.name} lost 1 HP.")
         return
 
     if user.current_move.effect == "conversion":
@@ -109,6 +113,9 @@ def use_move(user, target, log, can_flinch=True):
     if user.current_move.effect == "selfdestruct":
         user.current_hp = 0
         return
+    
+    if user.current_move.effect == "recoil":
+        recoil(user, damage, log)
 
     if user.current_move.effect in ["raise_stat", "lower_stat"]:
         apply_stat_stage_change(user, target, log)
@@ -401,6 +408,13 @@ def absorb_health(damage, user, log):
         heal = int(damage * user.current_move.effect_value)
         user.current_hp = min(user.hp, user.current_hp + heal)
         if log: log.add(f"{user.name} recovered {heal} HP!")
+
+###############       RECOIL       ###############
+def recoil(user, damage, log):
+    recoil_damage = int(user.current_move.effect_value * damage)
+    user.current_hp -= recoil_damage
+    if log: log.add(f"{user.name} was hit with recoil!")
+    if log: log.add(f"{user.name} took {recoil_damage} damage.")
 
 ###############    MULTI-ATTACK    ###############
 def multi_hit_attack(user, target, damage, log):

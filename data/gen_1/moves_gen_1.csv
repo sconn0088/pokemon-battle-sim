@@ -58,7 +58,7 @@ Gust,Normal,40,100,Physical,,,,,opponent,,,,,,,,,0
 Harden,Normal,0,100,Status,Raises user's Defense.,raise_stat,,100,self,defense,1,,,,,,,0
 Haze,Ice,0,100,Status,Resets all stat changes.,clear_stats,,,both,,,,,,,,,0
 Headbutt,Normal,70,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0
-High Jump Kick,Fighting,85,90,Physical,"If it misses, the user loses 1 HP.",recoil,,,opponent,,,,,,,,,1
+High Jump Kick,Fighting,85,90,Physical,"If it misses, the user loses 1 HP.",,,,opponent,,,,,,,,,1
 Horn Attack,Normal,65,100,Physical,,,,,opponent,,,,,,,,,0
 Horn Drill,Normal,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0
 Hydro Pump,Water,120,80,Special,,,,,opponent,,,,,,,,,0
@@ -67,7 +67,7 @@ Hyper Fang,Normal,80,90,Physical,May cause flinching.,flinch,,10,opponent,,,,,,,
 Hypnosis,Psychic,0,60,Status,Puts opponent to sleep.,status,asleep,100,opponent,,,,2-7,,,,,0
 Ice Beam,Ice,95,100,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,0
 Ice Punch,Ice,75,100,Special,May freeze opponent.,status,frozen,10,opponent,,,,,,,,,0
-Jump Kick,Fighting,70,95,Physical,"If it misses, the user loses 1 HP.",recoil,,,opponent,,,,,,,,,1
+Jump Kick,Fighting,70,95,Physical,"If it misses, the user loses 1 HP.",,,,opponent,,,,,,,,,1
 Karate Chop,Normal,50,100,Physical,High critical hit ratio.,crit_boost,,,opponent,,,,,0.125,,,,0
 Kinesis,Psychic,0,80,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,0
 Leech Life,Bug,20,100,Physical,User recovers half the HP inflicted on opponent.,drain,,,opponent,,,,,,,,,0.5
