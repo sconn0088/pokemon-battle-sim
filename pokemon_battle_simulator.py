@@ -114,6 +114,9 @@ def use_move(user, target, log, can_flinch=True):
             if log: log.add(f"{user.name}'s Counter failed!")
         return
 
+    if user.current_move.effect == "mirror_move":
+        mirror_move(user, target, log)
+    
     damage = calculate_damage(user, target, log)
     
     apply_damage(damage, user, target, log)
@@ -504,6 +507,22 @@ def mimic_move(user, target, log):
         user.moves[mimic_index] = copied_move
         if log: log.add(f"{user.name} copied {copied_move.name}!")
 
+###############    MIRROR MOVE     ###############
+def mirror_move(user, target, log):
+    # Fails if the user attacks first
+    user_speed = user.speed * get_stage_multiplier(user.stat_stages.get("speed", 0))
+    target_speed = target.speed * get_stage_multiplier(target.stat_stages.get("speed", 0))
+    if user_speed > target_speed:
+        if log: log.add("But it failed!")
+        return
+    # Fails if the user was not hit with an attack
+    if not hasattr(user, 'last_move_received') or user.last_move_received is None:
+        if log: log.add("But it failed!")
+        return
+    mirrored = user.last_move_received
+    user.current_move = mirrored
+    if log: log.add(f"{user.name} used {mirrored.name}!")
+
 ###############      DISABLE       ###############
 def disable_move(user, target, log):
     if target.disabled_move:
@@ -603,6 +622,9 @@ def simulate_battle(player, opponent, log):
                 continue
             
             use_move(acting_pokemon, defending_pokemon, log, can_flinch=(i == 0))
+
+            acting_pokemon.last_move_used = acting_pokemon.current_move
+            defending_pokemon.last_move_received = acting_pokemon.current_move
 
             if acting_pokemon.current_move.effect == "selfdestruct" or acting_pokemon.current_move.effect == "ohko":
                 break
