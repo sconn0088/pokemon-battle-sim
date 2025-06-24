@@ -69,7 +69,7 @@ def use_move(user, target, log, can_flinch=True):
         if user.current_move.name == "Jump Kick" or user.current_move.name == "High Jump Kick":
             user.current_hp -= 1
             if log: log.add(f"{user.name} kept going and crashed!")
-            if log: log.add(f"{user.name} lost 1 HP.")
+            if log: log.add(f"{user.name} lost 1 health.")
         return
 
     if user.current_move.effect == "conversion":
@@ -78,6 +78,10 @@ def use_move(user, target, log, can_flinch=True):
     
     if user.current_move.effect == "ohko":
         target.current_hp = 0
+        return
+    
+    if user.current_move.effect == "heal":
+        heal(user, log)
         return
     
     if user.current_move.effect == "skip":
@@ -400,16 +404,16 @@ def process_end_of_turn_status(pokemon, log):
     if pokemon.status == "poisoned":
         damage = max(1, pokemon.hp // 8)
         pokemon.current_hp -= damage
-        if log: log.add(f"{pokemon.name} is hurt by poison and loses {damage} HP!")
+        if log: log.add(f"{pokemon.name} is hurt by poison and loses {damage} health!")
     elif pokemon.status == "badly poisoned":
         damage = max(1, int(pokemon.hp * 0.0625 * pokemon.toxic_counter))
         pokemon.current_hp -= damage
         pokemon.toxic_counter += 1
-        if log: log.add(f"{pokemon.name} is hurt by Toxic and loses {damage} HP!")
+        if log: log.add(f"{pokemon.name} is hurt by Toxic and loses {damage} health!")
     elif pokemon.status == "burned":
         damage = max(1, pokemon.hp // 16)
         pokemon.current_hp -= damage
-        if log: log.add(f"{pokemon.name} is hurt by its burn and loses {damage} HP!")
+        if log: log.add(f"{pokemon.name} is hurt by its burn and loses {damage} health!")
     
     if pokemon.disabled_turns > 0:
         pokemon.disabled_turns -= 1
@@ -428,7 +432,7 @@ def absorb_health(damage, user, log):
     if damage > 0:
         heal = int(damage * user.current_move.effect_value)
         user.current_hp = min(user.hp, user.current_hp + heal)
-        if log: log.add(f"{user.name} recovered {heal} HP!")
+        if log: log.add(f"{user.name} recovered {heal} health!")
 
 ###############       RECOIL       ###############
 def recoil(user, damage, log):
@@ -443,7 +447,16 @@ def rest(user, log):
     user.sleep_turns = int(user.current_move.duration)
     user.current_hp = user.hp
     if log: log.add(f"{user.name} went to sleep!")
-    if log: log.add(f"{user.name} recovered all HP!")
+    if log: log.add(f"{user.name} recovered all health!")
+
+###############       RECOVER      ###############
+def heal(user, log):
+    if user.current_hp == user.hp:
+        if log: log.add("But it failed!")
+        return
+    recover_health = int(user.hp * user.current_move.effect_value)
+    user.current_hp = min(user.hp, user.current_hp + recover_health)
+    if log: log.add(f"{user.name} recovered health!")
 
 ###############    MULTI-ATTACK    ###############
 def multi_hit_attack(user, target, damage, log):
