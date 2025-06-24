@@ -72,6 +72,10 @@ def use_move(user, target, log, can_flinch=True):
         conversion(user, target, log)
         return
     
+    if user.current_move.effect == "ohko":
+        target.current_hp = 0
+        return
+    
     if user.current_move.effect == "skip":
         if log: log.add(f"But nothing happened!")
         return
@@ -577,7 +581,7 @@ def simulate_battle(player, opponent, log):
             
             use_move(acting_pokemon, defending_pokemon, log, can_flinch=(i == 0))
 
-            if acting_pokemon.current_move.effect == "selfdestruct":
+            if acting_pokemon.current_move.effect == "selfdestruct" or acting_pokemon.current_move.effect == "ohko":
                 break
 
             if defending_pokemon.is_fainted():
