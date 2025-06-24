@@ -159,6 +159,12 @@ def calculate_damage(user, target, log):
         else:
             damage = user.level
         return damage
+    elif user.current_move.effect == "super_fang":
+        if target.current_hp == 1:
+            damage = 1
+        else:
+            damage = int(target.current_hp / 2)
+        return damage
     else:
         if user.current_move.category in ["Physical", "Special"]:
             if user.current_move.category == "Physical":
