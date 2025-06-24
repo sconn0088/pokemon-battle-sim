@@ -49,6 +49,8 @@ def is_immune(move_type, target_types, move_category, move_name=""):
         return False
     if move_name == "Bide":
         return False
+    if move_name == "Seismic Toss":
+        return False
     immunity_rules = {
         "Normal": ["Ghost"],
         "Ghost": ["Normal"],

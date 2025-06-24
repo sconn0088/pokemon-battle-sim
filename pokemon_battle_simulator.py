@@ -77,8 +77,12 @@ def use_move(user, target, log, can_flinch=True):
         return
 
     if user.current_move.effect == "crit_boost" and user.current_move.name == "Focus Energy":
-        user.next_crit_boosted = True
-        if log: log.add(f"{user.name} is getting pumped!")
+        if user.next_crit_boosted:
+            user.next_crit_boosted = False
+            if log: log.add("But it failed!")
+        else:
+            user.next_crit_boosted = True
+            if log: log.add(f"{user.name} is getting pumped!")
         return
     
     if user.current_move.name == "Dream Eater" and target.status != "asleep":
@@ -99,9 +103,6 @@ def use_move(user, target, log, can_flinch=True):
         return
 
     damage = calculate_damage(user, target, log)
-
-    if user.current_move.effect == "multi_hit":
-        damage = multi_hit_attack(user, target, damage, log)
     
     apply_damage(damage, user, target, log)
 
@@ -131,48 +132,65 @@ def use_move(user, target, log, can_flinch=True):
         set_multi_turn_confuse_self(user)
 
 def calculate_damage(user, target, log):
-    if user.current_move.category in ["Physical", "Special"]:
-        if user.current_move.category == "Physical":
-            attack_stat = user.attack * get_stage_multiplier(user.stat_stages.get("attack", 0))
-            if user.status == "burned":
-                attack_stat = attack_stat // 2
-                if log: log.add(f"{user.name}'s Attack is halved due to burn!")
-            defense_stat = target.defense * get_stage_multiplier(target.stat_stages.get("defense", 0))
+    if user.current_move.effect == "bide":
+        damage = user.bide_damage * 2
+        return damage
+    elif user.current_move.effect == "fixed_damage":
+        if user.current_move.name == "Dragon Rage":
+            damage = 40
+        elif user.current_move.name == "Sonic Boom":
+            damage = 20
+        return damage
+    elif user.current_move.effect == "level_scale":
+        if user.current_move.name == "Psywave":
+            damage_multiplier = random.randint(100, 150)
+            damage = int((user.level * damage_multiplier) / 100)
         else:
-            attack_stat = user.special_attack * get_stage_multiplier(user.stat_stages.get("special_attack", 0))
-            defense_stat = target.special_defense * get_stage_multiplier(target.stat_stages.get("special_defense", 0))
+            damage = user.level
+        return damage
+    else:
+        if user.current_move.category in ["Physical", "Special"]:
+            if user.current_move.category == "Physical":
+                attack_stat = user.attack * get_stage_multiplier(user.stat_stages.get("attack", 0))
+                if user.status == "burned":
+                    attack_stat = attack_stat // 2
+                    if log: log.add(f"{user.name}'s Attack is halved due to burn!")
+                defense_stat = target.defense * get_stage_multiplier(target.stat_stages.get("defense", 0))
+            else:
+                attack_stat = user.special_attack * get_stage_multiplier(user.stat_stages.get("special_attack", 0))
+                defense_stat = target.special_defense * get_stage_multiplier(target.stat_stages.get("special_defense", 0))
 
-        if target.invulnerable and user.current_move.name not in target.vulnerable_to:
-            if log: log.add(f"{target.name} is unaffected!")
-            return 0
-        
-        # Check for critical hit
-        is_crit = False
-        crit_rate = 1/24
-        if user.current_move.effect == "crit_boost" or user.next_crit_boosted:
-            crit_rate = 1/8
-            user.next_crit_boosted = False
+            if target.invulnerable and user.current_move.name not in target.vulnerable_to:
+                if log: log.add(f"{target.name} is unaffected!")
+                return 0
+            
+            # Check for critical hit
+            is_crit = False
+            crit_rate = 1/24
+            if user.current_move.effect == "crit_boost" or user.next_crit_boosted:
+                crit_rate = 1/8
+                user.next_crit_boosted = False
 
-        if random.random() < crit_rate:
-            is_crit = True
-            if log: log.add("A critical hit!")
-        
-        level_factor = (2 * user.level) / 5 + 2
-        base_damage = (((level_factor * user.current_move.power * (attack_stat / defense_stat)) / 50) + 2)
-        if is_crit:
-            base_damage *= 2
-        type_multiplier = get_type_multiplier(user.current_move.type, target.types)
-        final_damage = int(base_damage * type_multiplier)
-        
-        if user.current_move.effect == "bide":
-            final_damage = user.bide_damage * 2
+            if random.random() < crit_rate:
+                is_crit = True
+                if log: log.add("A critical hit!")
+            
+            level_factor = (2 * user.level) / 5 + 2
+            base_damage = (((level_factor * user.current_move.power * (attack_stat / defense_stat)) / 50) + 2)
+            if is_crit:
+                base_damage *= 2
+            type_multiplier = get_type_multiplier(user.current_move.type, target.types)
+            final_damage = int(base_damage * type_multiplier)
 
-        if log:
-            if type_multiplier > 1:
-                log.add("It's super effective!")
-            elif type_multiplier < 1:
-                log.add("It's not very effective...")
-        return final_damage
+            if user.current_move.effect == "multi_hit":
+                final_damage = multi_hit_attack(user, target, final_damage, log)
+
+            if log:
+                if type_multiplier > 1:
+                    log.add("It's super effective!")
+                elif type_multiplier < 1:
+                    log.add("It's not very effective...")
+            return final_damage
 
 def apply_damage(damage, user, target, log):
     if damage is None:

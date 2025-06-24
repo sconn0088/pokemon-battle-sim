@@ -36,7 +36,7 @@ Double-Edge,Normal,100,100,Physical,User receives recoil damage.,recoil,,100,opp
 Dragon Rage,Dragon,0,100,Special,Always inflicts 40 HP.,fixed_damage,,,opponent,,,,,,,,,40
 Dream Eater,Psychic,100,100,Special,User recovers half the HP inflicted on a sleeping opponent.,drain,,,opponent,,,,,,,,,0.5
 Drill Peck,Flying,80,100,Physical,,,,,opponent,,,,,,,,,0
-Earthquake,Ground,100,100,Physical,Power is doubled if opponent is underground from using Dig.,bonus_against_state,,,opponent,,,,,,,,,0
+Earthquake,Ground,100,100,Physical,Power is doubled if opponent is underground from using Dig.,,,,opponent,,,,,,,,,0
 Egg Bomb,Normal,100,75,Physical,,,,,opponent,,,,,,,,,0
 Ember,Fire,40,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,0
 Explosion,Normal,340,100,Physical,User faints.,selfdestruct,,,opponent,,,,,,,,,0
@@ -97,7 +97,7 @@ Poison Sting,Poison,15,100,Physical,May poison the opponent.,status,poisoned,30,
 Pound,Normal,40,100,Physical,,,,,opponent,,,,,,,,,0
 Psybeam,Psychic,65,100,Special,May confuse opponent.,confuse,,10,opponent,,,,2-4,,,,,0.5
 Psychic,Psychic,90,100,Special,May lower opponent's Special Defense.,lower_stat,,30,opponent,special_defense,1,,,,,,,0
-Psywave,Psychic,0,100,Special,Inflicts damage 100-150% of user's level.,level_scale,,,opponent,,,,,,,,,0
+Psywave,Psychic,0,80,Special,Inflicts damage 100-150% of user's level.,level_scale,,,opponent,,,,,,,,,0
 Quick Attack,Normal,40,100,Physical,User attacks first.,,,,opponent,,,,,,,,,0
 Rage,Normal,20,100,Physical,Raises user's Attack when hit.,rage_mode,,100,opponent,,,,,,,,,0
 Razor Leaf,Grass,55,95,Special,High critical hit ratio.,crit_boost,,100,opponent,,,,,0.125,,,,0
