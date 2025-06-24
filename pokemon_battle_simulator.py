@@ -61,7 +61,7 @@ def use_move(user, target, log, can_flinch=True):
     adjusted_accuracy = user.current_move.accuracy * (accuracy_multiplier / evasiveness_multiplier)
     hit_roll = random.uniform(0, 100)
 
-    if user.current_move.target == "self":
+    if user.current_move.target == "self" or user.current_move.effect == "swift":
         adjusted_accuracy = 100
     
     if hit_roll > adjusted_accuracy:
