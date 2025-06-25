@@ -103,6 +103,9 @@ class Pokemon:
 
         self.is_enraged = False
 
+        self.substitute = False
+        self.substitute_hp = 0
+
     def is_fainted(self):
         return self.current_hp <= 0
 

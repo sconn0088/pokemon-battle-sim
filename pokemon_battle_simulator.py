@@ -103,6 +103,10 @@ def use_move(user, target, log, can_flinch=True):
     if user.current_move.effect == "clear_stats":
         haze(user, target, log)
         return
+    
+    if user.current_move.effect == "substitute":
+        substitute(user, log)
+        return
 
     if user.current_move.effect == "crit_boost" and user.current_move.name == "Focus Energy":
         if user.next_crit_boosted:
@@ -253,6 +257,17 @@ def apply_damage(damage, user, target, log):
     if damage is None:
         damage = 0
     
+    # Redirect if substitute
+    if target.substitute:
+        target.substitute_hp -= damage
+        if damage > 0:
+            if log: log.add(f"The substitute took {damage} damage!")
+        if target.substitute_hp <= 0:
+            target.substitute = False
+            target.substitute_hp = 0
+            if log: log.add(f"{target.name}'s substitute broke!")
+        return
+    
     # Special case: Earthquake hitting Dig
     if target.invulnerable and user.current_move.name == "Earthquake":
         damage *= 2
@@ -355,6 +370,11 @@ def haze(user, target, log):
 
 ###############   STATUS CHANGES   ###############
 def try_inflict_status(user, target, log):
+    # Check for substitute
+    if target.substitute:
+        if log: log.add("But it failed due to the substitute!")
+        return
+    
     # Already afflicted
     if target.status != "OK":
         if user.current_move.chance < 100:
@@ -402,6 +422,11 @@ def try_inflict_status(user, target, log):
         if log: log.add(f"{target.name} was {status}!")
 
 def try_inflict_confusion(user, target, log):
+    # Check for substitute
+    if target.substitute:
+        if log: log.add("But it failed due to the substitute!")
+        return
+    
     if target.is_confused:
         if log: log.add(f"{target.name} is already confused!")
         return
@@ -500,6 +525,11 @@ def process_end_of_turn_status(pokemon, log):
 
 ###############     LEECH SEED     ###############
 def leech_seed(user, target, log):
+    # Check for substitute
+    if target.substitute:
+        if log: log.add("But it failed due to the substitute!")
+        return
+    
     if "Grass" in target.types:
         if log: log.add(f"{target.name} is immune to Leech Seed!")
         return
@@ -656,6 +686,20 @@ def screen_defense(user, log):
     elif user.current_move.name == "Reflect":
         user.reflect_turns = 5
         if log: log.add("Damage from physical attacks is reduced!")
+
+###############     SUBSTITUTE     ###############
+def substitute(user, log):
+    if user.substitute:
+        if log: log.add(f"{user.name} already has a substitute!")
+        return
+    cost = user.hp // 4
+    if user.current_hp <= cost:
+        if log: log.add(f"{user.name} doesn't have enough health to make a substitute!")
+        return
+    user.current_hp -= cost
+    user.substitute = True
+    user.substitute_hp = cost
+    if log: log.add(f"{user.name} created a substitute!")
 
 ##################################################
 ###############       BATTLE       ###############
