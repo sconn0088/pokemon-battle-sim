@@ -132,6 +132,10 @@ def use_move(user, target, log, can_flinch=True):
 
     if user.current_move.effect == "mirror_move":
         mirror_move(user, target, log)
+
+    if user.current_move.effect == "screen":
+        screen_defense(user, log)
+        return
     
     damage = calculate_damage(user, target, log)
     
@@ -219,6 +223,10 @@ def calculate_damage(user, target, log):
             base_damage = (((level_factor * user.current_move.power * (attack_stat / defense_stat)) / 50) + 2)
             if is_crit:
                 base_damage *= 2
+            if target.light_screen_turns > 0 and user.current_move.category == "Special":
+                base_damage = int(base_damage // 2)
+            if target.reflect_turns > 0 and user.current_move.category == "Physical":
+                base_damage = int(base_damage // 2) 
             type_multiplier = get_type_multiplier(user.current_move.type, target.types)
             final_damage = int(base_damage * type_multiplier)
 
@@ -463,6 +471,16 @@ def process_end_of_turn_status(pokemon, log):
         pokemon.mist_turns -= 1
         if pokemon.mist_turns == 0:
             if log: log.add("The mist faded away...")
+    
+    if pokemon.light_screen_turns > 0:
+        pokemon.light_screen_turns -= 1
+        if pokemon.light_screen_turns == 0:
+            if log: log.add("Light Screen faded away...")
+    
+    if pokemon.reflect_turns > 0:
+        pokemon.reflect_turns -= 1
+        if pokemon.reflect_turns == 0:
+            if log: log.add("Reflect faded away...")
 
 ###############     LEECH SEED     ###############
 def leech_seed(user, target, log):
@@ -610,6 +628,18 @@ def disable_move(user, target, log):
     num_turns = random.randint(min_turns, max_turns)
     target.disabled_turns = num_turns
     if log: log.add(f"{target.name}'s {target.disabled_move.name} was disabled!")
+
+###############       SCREEN       ###############
+def screen_defense(user, log):
+    if user.light_screen_turns > 0 or user.reflect_turns > 0:
+        if log: log.add("But it failed!")
+        return
+    if user.current_move.name == "Light Screen":
+        user.light_screen_turns = 5
+        if log: log.add("Damage from special attacks is reduced!")
+    elif user.current_move.name == "Reflect":
+        user.reflect_turns = 5
+        if log: log.add("Damage from physical attacks is reduced!")
 
 ##################################################
 ###############       BATTLE       ###############
