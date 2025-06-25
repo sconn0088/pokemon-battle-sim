@@ -145,6 +145,32 @@ def get_all_pokemon_route():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+def simulate_many_battles(player_data, opponent_data, num_trials=1000):
+    from utils import create_pokemon_from_data
+    import models as m
+
+    player_wins = 0
+    opponent_wins = 0
+    sample_log = ""
+
+    for i in range(num_trials):
+        player = create_pokemon_from_data(player_data)
+        opponent = create_pokemon_from_data(opponent_data)
+        log = m.BattleLog()
+        result = simulate_battle(player, opponent, log)
+        if i == 0:
+            sample_log = log.get_log_text()
+        if result == player.name:
+            player_wins += 1
+        elif result == opponent.name:
+            opponent_wins += 1
+
+    return {
+        "player_percent": round((player_wins / num_trials) * 100, 1),
+        "opponent_percent": round((opponent_wins / num_trials) * 100, 1),
+        "log": sample_log
+    }
+
 @app.route("/api/battle", methods=["POST"])
 def battle():
     data = request.get_json()
@@ -156,29 +182,11 @@ def battle():
         return jsonify({"error": "Invalid request data"}), 400
 
     try:
-        # Parse Pokémon data
-        #player_pokemon = create_pokemon_from_data(player_data)
-        #opponent_pokemon = create_pokemon_from_data(opponent_data)
-        try:
-            player_pokemon = create_pokemon_from_data(player_data)
-            opponent_pokemon = create_pokemon_from_data(opponent_data)
-        except Exception as e:
-            return jsonify({"error": f"Pokémon creation error: {str(e)}"}), 500
-
-        # Initialize battle log and run simulation
-        #log = m.BattleLog()
-        #result = simulate_battle(player_pokemon, opponent_pokemon, log)
-        #log_text = log.get_log_text()
-        try:
-            log = m.BattleLog()
-            result = simulate_battle(player_pokemon, opponent_pokemon, log)
-            log_text = log.get_log_text()
-        except Exception as e:
-            return jsonify({"error": f"Battle simulation error: {str(e)}"}), 500
+        result_data = simulate_many_battles(player_data, opponent_data, num_trials=1000)
 
         return jsonify({
-            "result": result,
-            "battle_log": log_text
+            "result": f"{player_data['name']} wins {result_data['player_percent']}% of the time!",
+            "battle_log": result_data["log"]
         })
     except Exception as e:
         return jsonify({"error": str(e)}), 500
