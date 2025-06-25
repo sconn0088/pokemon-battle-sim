@@ -11928,9 +11928,124 @@
       "speed": 55
     },
     "learnset": {
-      "level_up": [],
-      "tm": [],
-      "hm": []
+      "level_up": [
+        {
+          "name": "Barrage",
+          "level": 1
+        },
+        {
+          "name": "Hypnosis",
+          "level": 1
+        },
+        {
+          "name": "Reflect",
+          "level": 25
+        },
+        {
+          "name": "Leech Seed",
+          "level": 28
+        },
+        {
+          "name": "Stomp",
+          "level": 28
+        },
+        {
+          "name": "Stun Spore",
+          "level": 32
+        },
+        {
+          "name": "Poison Powder",
+          "level": 37
+        },
+        {
+          "name": "Solar Beam",
+          "level": 42
+        },
+        {
+          "name": "Sleep Powder",
+          "level": 48
+        },
+        {
+          "name": "Barrage",
+          "level": 1
+        },
+        {
+          "name": "Hypnosis",
+          "level": 1
+        },
+        {
+          "name": "Reflect",
+          "level": 25
+        },
+        {
+          "name": "Leech Seed",
+          "level": 28
+        },
+        {
+          "name": "Stomp",
+          "level": 28
+        },
+        {
+          "name": "Stun Spore",
+          "level": 32
+        },
+        {
+          "name": "Poison Powder",
+          "level": 37
+        },
+        {
+          "name": "Solar Beam",
+          "level": 42
+        },
+        {
+          "name": "Sleep Powder",
+          "level": 48
+        }
+      ],
+      "tm": [
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Selfdestruct",
+        "Egg Bomb",
+        "Rest",
+        "Psywave",
+        "Explosion",
+        "Substitute",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rage",
+        "Mega Drain",
+        "Solar Beam",
+        "Psychic",
+        "Teleport",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Selfdestruct",
+        "Egg Bomb",
+        "Rest",
+        "Psywave",
+        "Explosion",
+        "Substitute"
+      ],
+      "hm": [
+        "Strength",
+        "Strength"
+      ]
     }
   },
   "Cubone": {
