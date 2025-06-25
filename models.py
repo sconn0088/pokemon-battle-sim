@@ -67,6 +67,9 @@ class Pokemon:
 
         self.status = "OK"
 
+        self.is_seeded = False # loses health
+        self.seeding_opponent = None # gains health
+
         self.disabled_move = None
         self.disabled_turns = 0
 

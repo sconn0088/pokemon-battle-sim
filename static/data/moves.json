@@ -1748,7 +1748,7 @@
     "power": 0,
     "accuracy": 100,
     "category": "Status",
-    "description": "Copies the opponent's last move.",
+    "description": "Copies the opponent's move at random.",
     "effect": "mimic",
     "status": null,
     "chance": 100,

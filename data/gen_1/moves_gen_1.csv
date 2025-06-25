@@ -82,7 +82,7 @@ Mega Drain,Grass,40,100,Special,User recovers half the HP inflicted on opponent.
 Mega Kick,Normal,120,75,Physical,,,,,opponent,,,,,,,,,0
 Mega Punch,Normal,80,85,Physical,,,,,opponent,,,,,,,,,0
 Metronome,Normal,0,100,Status,User performs almost any move in the game at random.,metronome,,100,self,,,,,,,,,0
-Mimic,Normal,0,100,Status,Copies the opponent's last move.,mimic,,100,opponent,,,,,,,,,0
+Mimic,Normal,0,100,Status,Copies the opponent's move at random.,mimic,,100,opponent,,,,,,,,,0
 Minimize,Normal,0,100,Status,Sharply raises user's Evasiveness.,raise_stat,,100,self,evasiveness,1,,,,,,,0
 Mirror Move,Flying,0,100,Status,User performs the opponent's last move.,mirror_move,,100,opponent,,,,,,,,,0
 Mist,Ice,0,100,Status,User's stats cannot be changed for a period of time.,mist,,100,self,,,,,,,,,0

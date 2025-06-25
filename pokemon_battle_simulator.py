@@ -80,6 +80,10 @@ def use_move(user, target, log, can_flinch=True):
         target.current_hp = 0
         return
     
+    if user.current_move.effect == "leech_seed":
+        leech_seed(user, target, log)
+        return
+    
     if user.current_move.effect == "heal":
         heal(user, log)
         return
@@ -420,11 +424,30 @@ def process_end_of_turn_status(pokemon, log):
         pokemon.current_hp -= damage
         if log: log.add(f"{pokemon.name} is hurt by its burn and loses {damage} health!")
     
+    if pokemon.is_seeded and pokemon.seeding_opponent and not pokemon.is_fainted():
+        leech_damage = max(1, pokemon.hp // 16)
+        pokemon.current_hp -= leech_damage
+        # Heal opponent, unless fainted
+        opponent = pokemon.seeding_opponent
+        if not opponent.is_fainted():
+            opponent.current_hp = min(opponent.hp, opponent.current_hp + leech_damage)
+            if log: log.add(f"{pokemon.name} is sapped by Leech Seed and loses {leech_damage} health!")
+            if log: log.add(f"{opponent.name} recovered {leech_damage} health from Leech Seed!")
+    
     if pokemon.disabled_turns > 0:
         pokemon.disabled_turns -= 1
         if pokemon.disabled_turns == 0:
             pokemon.disabled_move = None
             if log: log.add(f"{pokemon.name} is disabled no more!")
+
+###############     LEECH SEED     ###############
+def leech_seed(user, target, log):
+    if "Grass" in target.types:
+        if log: log.add(f"{target.name} is immune to Leech Seed!")
+        return
+    target.is_seeded = True
+    target.seeding_opponent = user
+    if log: log.add(f"{target.name} was seeded!")
 
 ###############       FLINCH       ###############
 def try_inflict_flinch(user, target, log):
