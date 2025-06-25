@@ -67,6 +67,8 @@ class Pokemon:
 
         self.status = "OK"
 
+        self.mist_turns = 0
+
         self.is_seeded = False # loses health
         self.seeding_opponent = None # gains health
 
@@ -95,6 +97,9 @@ class Pokemon:
 
         self.is_biding = False
         self.bide_damage = 0
+
+        self.light_screen_turns = 0
+        self.reflect_turns = 0
 
     def is_fainted(self):
         return self.current_hp <= 0

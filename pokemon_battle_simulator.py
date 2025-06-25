@@ -84,6 +84,10 @@ def use_move(user, target, log, can_flinch=True):
         leech_seed(user, target, log)
         return
     
+    if user.current_move.effect == "mist":
+        mist(user, log)
+        return
+    
     if user.current_move.effect == "heal":
         heal(user, log)
         return
@@ -286,6 +290,10 @@ def apply_stat_stage_change(user, target, log):
             if log: log.add(f"{user.name}'s {stat_name} rose!")
         else:
             current_stage = target.stat_stages[stat_name]
+            # Check if target covered by Mist
+            if target.mist_turns > 0:
+                if log: log.add(f"{target.name} is protected by Mist!")
+                return
             # Check stat limits
             if user.current_move.effect == "lower_state" and current_stage <= -6:
                 if log: log.add(f"{target.name}'s {stat_name} won't go lower!")
@@ -302,6 +310,13 @@ def get_stage_multiplier(stage):
          1: 3/2, 2: 4/2, 3: 5/2, 4: 6/2, 5: 7/2, 6: 8/2
     }
     return stage_multipliers.get(stage, 1.0)
+
+def mist(user, log):
+    if user.mist_turns > 0:
+        if log: log.add("But it failed!")
+        return
+    user.mist_turns = 5
+    if log: log.add(f"{user.name} was shrouded in mist...")
 
 def haze(user, target, log):
     user.is_seeded = False
@@ -443,6 +458,11 @@ def process_end_of_turn_status(pokemon, log):
         if pokemon.disabled_turns == 0:
             pokemon.disabled_move = None
             if log: log.add(f"{pokemon.name} is disabled no more!")
+    
+    if pokemon.mist_turns > 0:
+        pokemon.mist_turns -= 1
+        if pokemon.mist_turns == 0:
+            if log: log.add("The mist faded away...")
 
 ###############     LEECH SEED     ###############
 def leech_seed(user, target, log):
