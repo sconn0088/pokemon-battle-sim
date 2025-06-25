@@ -794,6 +794,7 @@ def simulate_battle(player, opponent, log):
                 if acting_pokemon.multi_turn_counter == 0:
                     if acting_pokemon.multi_turn_move.effect == "confuse_self":
                         set_confusion_self(acting_pokemon, log)
+                        continue
                     if acting_pokemon.multi_turn_move.effect == "bide":
                         acting_pokemon.current_move = acting_pokemon.multi_turn_move
                         acting_pokemon.multi_turn_move = None
