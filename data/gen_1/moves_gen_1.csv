@@ -153,7 +153,7 @@ Thunder Wave,Electric,0,100,Status,Paralyzes opponent.,status,paralyzed,100,oppo
 Thunderbolt,Electric,95,100,Special,May paralyze opponent.,status,paralyzed,10,opponent,,,,,,,,,0
 Toxic,Poison,0,85,Status,Badly poisons opponent.,status,badly poisoned,100,opponent,,,,,,,,,0.0625
 Transform,Normal,0,0,Status,User takes on the form and attacks of the opponent.,transform,,100,opponent,,,,,,,,,0
-Tri Attack,Normal,80,100,Physical,"May paralyze, burn or freeze opponent.",tri_attack,,20,opponent,,,,,,,,,0
+Tri Attack,Normal,80,100,Physical,"May paralyze, burn or freeze opponent.",status,,20,opponent,,,,,,,,,0
 Twineedle,Bug,25,100,Physical,Hits twice in one turn. May poison opponent.,multi_hit,poisoned,20,opponent,,,2,,,,,,0
 Vine Whip,Grass,35,100,Special,,,,,opponent,,,,,,,,,0
 Vise Grip,Normal,55,100,Physical,,,,,opponent,,,,,,,,,0

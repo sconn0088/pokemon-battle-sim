@@ -3240,7 +3240,7 @@
     "accuracy": 100,
     "category": "Physical",
     "description": "May paralyze, burn or freeze opponent.",
-    "effect": "tri_attack",
+    "effect": "status",
     "status": null,
     "chance": 20,
     "target": "opponent",

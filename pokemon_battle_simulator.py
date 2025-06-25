@@ -317,8 +317,13 @@ def try_inflict_status(user, target, log):
 
     # Apply status based on chance
     if random.randint(1, 100) <= user.current_move.chance:
+        # Special case: Tri Attack
+        if user.current_move.name == "Tri Attack":
+            status = random.choice(["burned", "paralyzed", "frozen"])
+        else:
+            status = user.current_move.status # e.g., "burned", "paralyzed"
+        
         # Type-based immunities
-        status = user.current_move.status  # e.g., "burned", "paralyzed"
         if status == "burned" and "Fire" in target.types:
             if log: log.add(f"{target.name} is immune to burn!")
             return
