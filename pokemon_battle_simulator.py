@@ -304,6 +304,10 @@ def get_stage_multiplier(stage):
     return stage_multipliers.get(stage, 1.0)
 
 def haze(user, target, log):
+    user.is_seeded = False
+    user.seeding_opponent = None
+    target.is_seeded = False
+    target.seeding_opponent = None
     for stat in user.stat_stages:
         user.stat_stages[stat] = 0
     for stat in target.stat_stages:
