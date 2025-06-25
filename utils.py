@@ -41,3 +41,8 @@ def select_move(pokemon):
         return
     move = random.choice(pokemon.moves)
     pokemon.current_move = move
+
+# Moves Metronome should NOT pick
+METRONOME_BLACKLIST = [
+    "Metronome", "Mirror Move"
+]

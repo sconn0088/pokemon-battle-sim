@@ -26,7 +26,7 @@ class Move:
     stages: Optional[int] = 0
     hits: Optional[str] = None
     duration: Optional[str] = None
-    critical_rate: Optional[float] = 1/24
+    critical_hit: Optional[float] = 1/24
     multi_turn: Optional[str] = None
     multi_turn_type: Optional[str] = None
     vulnerable_to: Optional[str] = None

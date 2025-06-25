@@ -1,8 +1,13 @@
 from constants import get_type_multiplier, is_immune
-from utils import select_move
+from utils import select_move, METRONOME_BLACKLIST
+from data import ALL_MOVES
 import random, copy
 
-def use_move(user, target, log, can_flinch=True):
+def use_move(user, target, log, can_flinch=True, is_metronome=False):
+    if user.current_move.effect == "metronome" and not is_metronome:
+        metronome(user, target, log)
+        return
+    
     if user.current_move.multi_turn_type == "charge":
         user.must_charge = True
         user.multi_turn_move = user.current_move
@@ -647,6 +652,20 @@ def mimic_move(user, target, log):
         copied_move = copy.deepcopy(random.choice(target.moves))
         user.moves[mimic_index] = copied_move
         if log: log.add(f"{user.name} copied {copied_move.name}!")
+
+###############     METRONOME      ###############
+def metronome(user, target, log):
+    legal_moves = [move for move in ALL_MOVES if move.name not in METRONOME_BLACKLIST]
+    if not legal_moves:
+        if log: log.add("But it failed!")
+        return
+    
+    chosen_move = copy.deepcopy(random.choice(legal_moves))
+    user.current_move = chosen_move
+    if log: log.add(f"{user.name} used Metronome!")
+
+    # Recurse back into use_move to handle the chosen move
+    use_move(user, target, log, is_metronome=True)
 
 ###############    MIRROR MOVE     ###############
 def mirror_move(user, target, log):
