@@ -101,6 +101,8 @@ class Pokemon:
         self.light_screen_turns = 0
         self.reflect_turns = 0
 
+        self.is_enraged = False
+
     def is_fainted(self):
         return self.current_hp <= 0
 

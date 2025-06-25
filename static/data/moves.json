@@ -926,7 +926,7 @@
   "Fissure": {
     "name": "Fissure",
     "type": "Ground",
-    "power": 1,
+    "power": 0,
     "accuracy": 30,
     "category": "Physical",
     "description": "One-Hit-KO, if it hits.",
@@ -1136,7 +1136,7 @@
   "Guillotine": {
     "name": "Guillotine",
     "type": "Normal",
-    "power": 1,
+    "power": 0,
     "accuracy": 30,
     "category": "Physical",
     "description": "One-Hit-KO, if it hits.",
@@ -1283,7 +1283,7 @@
   "Horn Drill": {
     "name": "Horn Drill",
     "type": "Normal",
-    "power": 1,
+    "power": 0,
     "accuracy": 30,
     "category": "Physical",
     "description": "One-Hit-KO, if it hits.",

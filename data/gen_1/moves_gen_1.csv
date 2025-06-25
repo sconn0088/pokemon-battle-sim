@@ -43,7 +43,7 @@ Explosion,Normal,340,100,Physical,User faints.,selfdestruct,,,opponent,,,,,,,,,0
 Fire Blast,Fire,120,85,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,0
 Fire Punch,Fire,75,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,0
 Fire Spin,Fire,15,70,Special,"Traps opponent, damaging them for 4-5 turns.",multi_hit,,,opponent,,,2-5,,,,,,0
-Fissure,Ground,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0
+Fissure,Ground,0,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0
 Flamethrower,Fire,95,100,Special,May burn opponent.,status,burned,10,opponent,,,,,,,,,0
 Flash,Normal,0,70,Status,Lowers opponent's Accuracy.,lower_stat,,100,opponent,accuracy,1,,,,,,,0
 Fly,Flying,70,95,Physical,"Flies up on first turn, attacks on second turn.",charge,,,opponent,,,,,,2,invulnerable,"Thunder,Swift",0
@@ -53,14 +53,14 @@ Fury Swipes,Normal,18,80,Physical,Hits 2-5 times in one turn.,multi_hit,,,oppone
 Glare,Normal,0,75,Status,Paralyzes opponent.,status,paralyzed,100,opponent,,,,,,,,,0
 Growl,Normal,0,100,Status,Lowers opponent's Attack.,lower_stat,,100,opponent,attack,1,,,,,,,0
 Growth,Normal,0,100,Status,Raises user's Attack and Special Attack.,raise_stat,,100,self,special_attack,1,,,,,,,0
-Guillotine,Normal,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0
+Guillotine,Normal,0,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0
 Gust,Normal,40,100,Physical,,,,,opponent,,,,,,,,,0
 Harden,Normal,0,100,Status,Raises user's Defense.,raise_stat,,100,self,defense,1,,,,,,,0
 Haze,Ice,0,100,Status,Resets all stat changes.,clear_stats,,,both,,,,,,,,,0
 Headbutt,Normal,70,100,Physical,May cause flinching.,flinch,,30,opponent,,,,,,,,,0
 High Jump Kick,Fighting,85,90,Physical,"If it misses, the user loses 1 HP.",,,,opponent,,,,,,,,,1
 Horn Attack,Normal,65,100,Physical,,,,,opponent,,,,,,,,,0
-Horn Drill,Normal,1,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0
+Horn Drill,Normal,0,30,Physical,"One-Hit-KO, if it hits.",ohko,,,opponent,,,,,,,,,0
 Hydro Pump,Water,120,80,Special,,,,,opponent,,,,,,,,,0
 Hyper Beam,Normal,150,90,Physical,User must recharge next turn.,charge,,100,opponent,,,,,,2,recharge,,0
 Hyper Fang,Normal,80,90,Physical,May cause flinching.,flinch,,10,opponent,,,,,,,,,0

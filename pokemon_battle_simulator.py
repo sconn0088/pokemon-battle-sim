@@ -70,6 +70,10 @@ def use_move(user, target, log, can_flinch=True):
             user.current_hp -= 1
             if log: log.add(f"{user.name} kept going and crashed!")
             if log: log.add(f"{user.name} lost 1 health.")
+        if user.current_move.effect == "rage_mode":
+            user.is_enraged = False
+            user.multi_turn_move = None
+            user.stat_stages["attack"] = 0
         return
 
     if user.current_move.effect == "conversion":
@@ -136,6 +140,11 @@ def use_move(user, target, log, can_flinch=True):
     if user.current_move.effect == "screen":
         screen_defense(user, log)
         return
+    
+    if user.current_move.effect == "rage_mode":
+        if not user.is_enraged:
+            user.is_enraged = True
+            user.multi_turn_move = user.current_move
     
     damage = calculate_damage(user, target, log)
     
@@ -264,6 +273,13 @@ def apply_damage(damage, user, target, log):
     
     user.bide_damage = 0
 
+    # Special case: Rage
+    if damage > 0:
+        if target.is_enraged:
+            if target.stat_stages["attack"] < 6:
+                target.stat_stages["attack"] += 1
+                if log: log.add(f"{target.name}'s rage is building!")
+
 def determine_turn_order(combatant_1, combatant_2):
     turn_order = [(combatant_2, combatant_1), (combatant_1, combatant_2)]
 
@@ -303,7 +319,7 @@ def apply_stat_stage_change(user, target, log):
                 if log: log.add(f"{target.name} is protected by Mist!")
                 return
             # Check stat limits
-            if user.current_move.effect == "lower_state" and current_stage <= -6:
+            if user.current_move.effect == "lower_stat" and current_stage <= -6:
                 if log: log.add(f"{target.name}'s {stat_name} won't go lower!")
                 return
             # Check chance of effect
@@ -727,6 +743,9 @@ def simulate_battle(player, opponent, log):
             if acting_pokemon.flinched:
                 acting_pokemon.flinched = False
                 continue
+            
+            if acting_pokemon.is_enraged:
+                acting_pokemon.current_move = acting_pokemon.multi_turn_move
             
             use_move(acting_pokemon, defending_pokemon, log, can_flinch=(i == 0))
 
