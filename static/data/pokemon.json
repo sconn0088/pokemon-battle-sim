@@ -1728,7 +1728,7 @@
       ]
     }
   },
-  "Pideotto": {
+  "Pidgeotto": {
     "types": [
       "Normal",
       "Flying"
@@ -1742,9 +1742,98 @@
       "speed": 71
     },
     "learnset": {
-      "level_up": [],
-      "tm": [],
-      "hm": []
+      "level_up": [
+        {
+          "name": "Gust",
+          "level": 1
+        },
+        {
+          "name": "Sand Attack",
+          "level": 5
+        },
+        {
+          "name": "Quick Attack",
+          "level": 12
+        },
+        {
+          "name": "Whirlwind",
+          "level": 21
+        },
+        {
+          "name": "Wing Attack",
+          "level": 31
+        },
+        {
+          "name": "Agility",
+          "level": 40
+        },
+        {
+          "name": "Mirror Move",
+          "level": 49
+        },
+        {
+          "name": "Gust",
+          "level": 1
+        },
+        {
+          "name": "Sand Attack",
+          "level": 5
+        },
+        {
+          "name": "Quick Attack",
+          "level": 12
+        },
+        {
+          "name": "Whirlwind",
+          "level": 21
+        },
+        {
+          "name": "Wing Attack",
+          "level": 31
+        },
+        {
+          "name": "Agility",
+          "level": 40
+        },
+        {
+          "name": "Mirror Move",
+          "level": 49
+        }
+      ],
+      "tm": [
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Substitute",
+        "Razor Wind",
+        "Whirlwind",
+        "Toxic",
+        "Take Down",
+        "Double-Edge",
+        "Rage",
+        "Mimic",
+        "Double Team",
+        "Reflect",
+        "Bide",
+        "Swift",
+        "Sky Attack",
+        "Rest",
+        "Substitute"
+      ],
+      "hm": [
+        "Fly",
+        "Fly"
+      ]
     }
   },
   "Pidgeot": {

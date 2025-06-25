@@ -758,42 +758,45 @@ def simulate_battle(player, opponent, log):
                 acting_pokemon.must_recharge = False
                 continue
             
-            if acting_pokemon.multi_turn_move and acting_pokemon.multi_turn_counter > 0:
-                acting_pokemon.multi_turn_counter -= 1
-                move_to_use = acting_pokemon.multi_turn_move
+            if acting_pokemon.multi_turn_move:
+                if acting_pokemon.multi_turn_counter > 0:
+                    acting_pokemon.multi_turn_counter -= 1
+                    
+                    move_to_use = acting_pokemon.multi_turn_move
 
-                if move_to_use.multi_turn_type == "charge":
-                    if log: log.add(f"{acting_pokemon.name} used {move_to_use.name}!")
-                    acting_pokemon.multi_turn_move = None
-                    damage = calculate_damage(acting_pokemon, defending_pokemon, log)
-                    apply_damage(damage, acting_pokemon, defending_pokemon, log)
-                    continue
+                    if move_to_use.multi_turn_type == "charge":
+                        if log: log.add(f"{acting_pokemon.name} used {move_to_use.name}!")
+                        acting_pokemon.multi_turn_move = None
+                        damage = calculate_damage(acting_pokemon, defending_pokemon, log)
+                        apply_damage(damage, acting_pokemon, defending_pokemon, log)
+                        continue
 
-                if move_to_use.multi_turn_type == "invulnerable":
-                    acting_pokemon.invulnerable = False
-                    acting_pokemon.vulnerable_to = []
-                    if log: log.add(f"{acting_pokemon.name} used {move_to_use.name}!")
-                    acting_pokemon.multi_turn_move = None
-                    damage = calculate_damage(acting_pokemon, defending_pokemon, log)
-                    apply_damage(damage, acting_pokemon, defending_pokemon, log)
-                    continue
+                    if move_to_use.multi_turn_type == "invulnerable":
+                        acting_pokemon.invulnerable = False
+                        acting_pokemon.vulnerable_to = []
+                        if log: log.add(f"{acting_pokemon.name} used {move_to_use.name}!")
+                        acting_pokemon.multi_turn_move = None
+                        damage = calculate_damage(acting_pokemon, defending_pokemon, log)
+                        apply_damage(damage, acting_pokemon, defending_pokemon, log)
+                        continue
 
-                if move_to_use.effect == "confuse_self":
-                    if log: log.add(f"{acting_pokemon.name}'s attack continues!")
-                    damage = calculate_damage(acting_pokemon, defending_pokemon, log)
-                    apply_damage(damage, acting_pokemon, defending_pokemon, log)
-                    continue
+                    if move_to_use.effect == "confuse_self":
+                        if log: log.add(f"{acting_pokemon.name}'s attack continues!")
+                        damage = calculate_damage(acting_pokemon, defending_pokemon, log)
+                        apply_damage(damage, acting_pokemon, defending_pokemon, log)
+                        continue
 
-                if move_to_use.effect == "bide":
-                    if log: log.add(f"{acting_pokemon.name} is biding its time...")
-                    continue
+                    if move_to_use.effect == "bide":
+                        if log: log.add(f"{acting_pokemon.name} is biding its time...")
+                        continue
             
-            if acting_pokemon.multi_turn_move and acting_pokemon.multi_turn_counter == 0:
-                if acting_pokemon.multi_turn_move.effect == "confuse_self":
-                    set_confusion_self(acting_pokemon, log)
-                if acting_pokemon.multi_turn_move.effect == "bide":
-                    acting_pokemon.current_move = acting_pokemon.multi_turn_move
-                    acting_pokemon.multi_turn_move = None
+            if acting_pokemon.multi_turn_move:
+                if acting_pokemon.multi_turn_counter == 0:
+                    if acting_pokemon.multi_turn_move.effect == "confuse_self":
+                        set_confusion_self(acting_pokemon, log)
+                    if acting_pokemon.multi_turn_move.effect == "bide":
+                        acting_pokemon.current_move = acting_pokemon.multi_turn_move
+                        acting_pokemon.multi_turn_move = None
             
             if check_confusion(acting_pokemon, log):
                 continue
