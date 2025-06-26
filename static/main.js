@@ -117,6 +117,13 @@ async function updateMoves(role) {
     const tm = document.getElementById(`${role}-tm-toggle`).checked;
     console.log(`Updating moves for ${name} at level ${level}, TM toggle = ${tm}`);
     await fetchMoves(name, level, tm, `${role}-move-options`);
+
+    // Update image
+    const imageElement = document.getElementById(`${role}-image`);
+    if (imageElement) {
+      imageElement.src = `/static/images/${name}.jpg`;
+      imageElement.alt = name;
+    }
 }
 
 document.getElementById("battle-form").addEventListener("submit", async (e) => {
