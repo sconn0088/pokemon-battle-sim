@@ -1,12 +1,23 @@
-
 body {
   font-family: Arial, sans-serif;
   padding: 2rem;
   background-color: #f0f8ff;
 }
+
 h1 {
   color: #ff0000;
 }
+
+#battle-form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#battle-form {
+  flex: 3;
+}
+
 .pokemon-form {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -83,4 +94,13 @@ small {
   height: auto;
   display: block;
   margin-top: 10px;
+}
+
+#stat-display-panel {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.stat-chart-container {
+  margin-bottom: 30px;
 }

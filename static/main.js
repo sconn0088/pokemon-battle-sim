@@ -111,6 +111,53 @@ function populateSelect(selectId, names) {
     });
 }
 
+function drawStatsChart(role, baseStats, level) {
+  const statNames = ["HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed"];
+  const calculatedStats = [
+    calculateHP(baseStats.hp, level),
+    calculateOtherStat(baseStats.attack, level),
+    calculateOtherStat(baseStats.defense, level),
+    calculateOtherStat(baseStats.special_attack, level),
+    calculateOtherStat(baseStats.special_defense, level),
+    calculateOtherStat(baseStats.speed, level),
+  ];
+
+  const ctxId = `${role}-stats`;
+  const container = document.getElementById(ctxId);
+  container.innerHTML = `<canvas id="${ctxId}-canvas"></canvas>`;
+  const ctx = document.getElementById(`${ctxId}-canvas`);
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: statNames,
+      datasets: [{
+        label: `${role} stats at level ${level}`,
+        data: calculatedStats,
+        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 400
+        }
+      }
+    }
+  });
+}
+
+function calculateHP(base, level) {
+  return Math.floor(((2 * base * level) / 100) + level + 10);
+}
+
+function calculateOtherStat(base, level) {
+  return Math.floor(((2 * base * level) / 100) + 5);
+}
+
+
 async function updateMoves(role) {
     const name = document.getElementById(`${role}-name`).value;
     const level = parseInt(document.getElementById(`${role}-level`).value) || 1;
@@ -124,6 +171,10 @@ async function updateMoves(role) {
       imageElement.src = `/static/images/${name}.jpg`;
       imageElement.alt = name;
     }
+
+    // Update stats
+    const pokemon = allPokemonData[name];
+    drawStatsChart(role, pokemon.base_stats, level)
 }
 
 document.getElementById("battle-form").addEventListener("submit", async (e) => {
