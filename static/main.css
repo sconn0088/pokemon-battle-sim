@@ -8,26 +8,14 @@ h1 {
   color: #ff0000;
 }
 
-#battle-form-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-#battle-form {
-  flex: 3;
-}
-
 .pokemon-form {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 1rem;
   background: white;
-  max-width: 600px;
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
   margin-bottom: 30px;
+  display: grid;
+  line-height: 1.6;
 }
 .form-section {
   margin-bottom: 1rem;
@@ -81,26 +69,19 @@ small {
   color: #666;
 }
 
-.form-left {
-  flex: 2;
-}
-
-.form-right {
-  flex: 1;
-}
-
 .pokemon-image {
   width: 150px;
   height: auto;
   display: block;
-  margin-top: 10px;
-}
-
-#stat-display-panel {
-  flex: 2;
-  padding-left: 20px;
+  margin: auto;
 }
 
 .stat-chart-container {
-  margin-bottom: 30px;
+  height: 200px;
+}
+
+@media screen and (min-width: 800px) {
+  .pokemon-form {
+    grid-template-columns: 1fr 1fr;
+  }
 }

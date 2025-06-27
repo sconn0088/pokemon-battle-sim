@@ -9,10 +9,9 @@
 </head>
 <body>
   <h1>Pokémon Battle Simulator</h1>
-  <div id="battle-form-wrapper">
     <form id="battle-form">
       <div class="pokemon-form">
-        <div class="form-left">
+        <div class="pokemon-info">
           <h2>Player Pokémon</h2>
           <div class="form-section">
             <label for="player-name">Pokémon:</label>
@@ -46,13 +45,14 @@
             </div>
           </div>
         </div>
-        <div class="form-right">
+        <div class="stat-display-panel">
           <img id="player-image" class="pokemon-image" src="" alt="Player Pokemon" />
+          <div id="player-stats" class="stat-chart-container"></div>
         </div>
       </div>
 
       <div class="pokemon-form">
-        <div class="form-left">
+        <div class="pokemon-info">
           <h2>Opponent Pokémon</h2>
           <div class="form-section">
             <label for="opponent-name">Pokémon:</label>
@@ -86,19 +86,14 @@
             </div>
           </div>
         </div>
-        <div class="form-right">
+        <div class="stat-display-panel">
           <img id="opponent-image" class="pokemon-image" src="" alt="Opponent Pokemon" />
+          <div id="opponent-stats" class="stat-chart-container"></div>
         </div>
       </div>
 
       <button id="battle-button" type="submit">Battle</button>
     </form>
-
-    <div id="stat-display-panel">
-      <div id="player-stats" class="stat-chart-container"></div>
-      <div id="opponent-stats" class="stat-chart-container"></div>
-    </div>
-  </div>
 
   <div id="result"></div>
   <a id="download-log" class="download-button" style="display: none;">Download Battle Log</button>
