@@ -63,41 +63,75 @@ function fetchMoves(name, level, allowTM, moveContainerId) {
   renderMoveOptions(moveContainerId, fullMoves);
 }
 
-function renderMoveOptions(containerId, moves) {
-    const container = document.getElementById(containerId);
-    container.innerHTML = "";
+function renderMoveDropdowns(role, moves) {
+  for (let i = 1; i <= 4; i++) {
+    const select = document.getElementById(`${role}-move-${i}`);
+    if (!select) continue;
 
-    const info = document.createElement("p");
-    info.textContent = "Choose up to 4 moves:";
-    container.appendChild(info);
+    // Preserve selected value if possible
+    const previousValue = select.value;
+    select.innerHTML = "";
 
-    moves.forEach((move, index) => {
-    const wrapper = document.createElement("div");
-    wrapper.className = "move";
+    const defaultOption = document.createElement("option");
+    defaultOption.value = "";
+    defaultOption.textContent = "-- Select Move --";
+    select.appendChild(defaultOption);
 
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.id = `${containerId}-move-${index}`;
-    checkbox.name = `${containerId}-move`;
-    checkbox.value = move.name;
-
-    const label = document.createElement("label");
-    label.htmlFor = checkbox.id;
-    label.textContent = move.name;
-    label.title = `Type: ${move.type}\nPower: ${move.power}\nAccuracy: ${move.accuracy}\nDescription: ${move.description}`;
-
-    checkbox.addEventListener("change", () => {
-        const checkedCount = container.querySelectorAll("input[type=checkbox]:checked").length;
-        const allCheckboxes = container.querySelectorAll("input[type=checkbox]");
-        allCheckboxes.forEach(cb => {
-        if (!cb.checked) cb.disabled = checkedCount >= 4;
-        });
+    moves.forEach(move => {
+      const option = document.createElement("option");
+      option.value = move.name;
+      option.textContent = move.name;
+      option.title = `Type: ${move.type}\nPower: ${move.power}\nAccuracy: ${move.accuracy}\n${move.description}`;
+      select.appendChild(option);
     });
 
-    wrapper.appendChild(checkbox);
-    wrapper.appendChild(label);
-    container.appendChild(wrapper);
+    // Restore previously selected move if still available
+    if (Array.from(select.options).some(opt => opt.value === previousValue)) {
+      select.value = previousValue;
+    }
+
+    select.addEventListener("change", () => {
+      updateDropdownExclusions(role);
     });
+  }
+
+  updateDropdownExclusions(role);
+}
+
+function updateDropdownExclusions(role) {
+  const selected = new Set();
+
+  for (let i = 1; i <= 4; i++) {
+    const val = document.getElementById(`${role}-move-${i}`)?.value;
+    if (val) selected.add(val);
+  }
+
+  for (let i = 1; i <= 4; i++) {
+    const select = document.getElementById(`${role}-move-${i}`);
+    if (!select) continue;
+
+    const current = select.value;
+
+    Array.from(select.options).forEach(option => {
+      if (option.value && option.value !== current) {
+        option.disabled = selected.has(option.value);
+      } else {
+        option.disabled = false;
+      }
+    });
+  }
+}
+
+function updateDropdownOptions(dropdowns) {
+  const selectedMoves = dropdowns.map(drop => drop.value).filter(Boolean);
+
+  dropdowns.forEach(drop => {
+    const currentValue = drop.value;
+    Array.from(drop.options).forEach(option => {
+      if (option.value === "") return;
+      option.disabled = selectedMoves.includes(option.value) && option.value !== currentValue;
+    });
+  });
 }
 
 function populateSelect(selectId, names) {
@@ -157,13 +191,42 @@ function calculateOtherStat(base, level) {
   return Math.floor(((2 * base * level) / 100) + 5);
 }
 
+function getLegalMoves(name, level, allowTM) {
+  const pokemon = allPokemonData[name];
+  const legalMoves = new Set();
+  const numericLevel = parseInt(level) || 1;
+
+  if (pokemon.learnset && Array.isArray(pokemon.learnset.level_up)) {
+    for (const move of pokemon.learnset.level_up) {
+      if (numericLevel >= move.level) {
+        legalMoves.add(move.name);
+      }
+    }
+  }
+
+  if (allowTM && pokemon.learnset) {
+    if (Array.isArray(pokemon.learnset.tm)) {
+      pokemon.learnset.tm.forEach(move => legalMoves.add(move));
+    }
+    if (Array.isArray(pokemon.learnset.hm)) {
+      pokemon.learnset.hm.forEach(move => legalMoves.add(move));
+    }
+  }
+
+  return Array.from(legalMoves)
+    .map(name => allMovesData[name])
+    .filter(Boolean)
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
 
 async function updateMoves(role) {
     const name = document.getElementById(`${role}-name`).value;
     const level = parseInt(document.getElementById(`${role}-level`).value) || 1;
     const tm = document.getElementById(`${role}-tm-toggle`).checked;
     console.log(`Updating moves for ${name} at level ${level}, TM toggle = ${tm}`);
-    await fetchMoves(name, level, tm, `${role}-move-options`);
+    const moves = getLegalMoves(name, level, tm);
+    renderMoveDropdowns(role, moves);
+
 
     // Update image
     const imageElement = document.getElementById(`${role}-image`);
@@ -181,21 +244,26 @@ document.getElementById("battle-form").addEventListener("submit", async (e) => {
   e.preventDefault();
 
   const getData = (role) => {
-    const name = document.getElementById(`${role}-name`).value;
-    const level = parseInt(document.getElementById(`${role}-level`).value);
-    const selectedMoveNames = Array.from(document.querySelectorAll(`#${role}-move-options input:checked`)).map(cb => cb.value);
-    const fullMoves = selectedMoveNames.map(moveName => allMovesData[moveName]);
+  const name = document.getElementById(`${role}-name`).value;
+  const level = parseInt(document.getElementById(`${role}-level`).value);
+  const pokemonInfo = allPokemonData[name];
 
-    const pokemonInfo = allPokemonData[name];
+  const selectedMoveNames = [];
+  for (let i = 1; i <= 4; i++) {
+    const val = document.getElementById(`${role}-move-${i}`)?.value;
+    if (val) selectedMoveNames.push(val);
+  }
 
-    return {
-      name,
-      level,
-      types: pokemonInfo.types,
-      base_stats: pokemonInfo.base_stats,
-      moves: fullMoves
-    };
+  const fullMoves = selectedMoveNames.map(name => allMovesData[name]);
+
+  return {
+    name,
+    level,
+    types: pokemonInfo.types,
+    base_stats: pokemonInfo.base_stats,
+    moves: fullMoves
   };
+};
 
   const player = getData("player");
   const opponent = getData("opponent");
