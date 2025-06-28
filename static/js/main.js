@@ -229,14 +229,27 @@ async function updateMoves(role) {
 
 
     // Update image
+    function normalizeName(name) {
+      return name
+        .toLowerCase()
+        .replace("♀", "f")
+        .replace("♂", "m")
+        .replace(/[^a-z0-9]/g, "-") // replaces spaces, apostrophes, periods, etc.
+        .replace(/-+/g, "-"); // collapses multiple hyphens
+    }
+
     const imageElement = document.getElementById(`${role}-image`);
     if (imageElement) {
-      imageElement.src = `/static/images/${name}.jpg`;
+      imageElement.src = `static/images/${normalizeName(name)}.jpg`;
       imageElement.alt = name;
     }
 
     // Update stats
     const pokemon = allPokemonData[name];
+    if (!pokemon || !pokemon.base_stats) {
+      console.error(`Missing stats for Pokémon: ${name}`);
+      return;
+    }
     drawStatsChart(role, pokemon.base_stats, level)
 }
 
