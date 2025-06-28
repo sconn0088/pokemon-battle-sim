@@ -1,18 +1,17 @@
-from flask import Flask, jsonify, request, abort, send_from_directory
+from flask import Flask, jsonify, request, abort, send_from_directory, render_template
+from flask_cors import CORS
 import models as m
 from pokemon_battle_simulator import simulate_battle
 from utils import create_pokemon_from_data
 import sqlite3
+import os
 
-app = Flask(__name__)
-
-with app.app_context():
-    m.create_database()
-    m.load_data_from_csv()
+app = Flask(__name__, static_folder="static", template_folder="templates")
+CORS(app)
 
 @app.route("/")
 def index():
-    return send_from_directory("static", "index.html")
+    return render_template("index.html")
 
 @app.route("/pokemon/<name>", methods=["GET"])
 def get_pokemon(name):
@@ -146,9 +145,6 @@ def get_all_pokemon_route():
         return jsonify({"error": str(e)}), 500
 
 def simulate_many_battles(player_data, opponent_data, num_trials=1000):
-    from utils import create_pokemon_from_data
-    import models as m
-
     player_wins = 0
     opponent_wins = 0
     sample_log = ""
